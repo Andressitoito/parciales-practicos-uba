@@ -35,8 +35,11 @@ const QuizComponent = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
 
   useEffect(() => {
-    // Barajar preguntas cuando el componente se monta
-    const shuffled = shuffleArray(questionsData.questions);
+    // Barajar preguntas y respuestas cuando el componente se monta
+    const shuffled = shuffleArray(questionsData.questions.map(question => ({
+      ...question,
+      answers: shuffleArray(question.answers)
+    })));
     setShuffledQuestions(shuffled);
   }, []);
 
@@ -80,22 +83,26 @@ const QuizComponent = () => {
     setSelectedAnswers({});
     setScore(0);
     setSubmitted(false);
-    // Barajar preguntas nuevamente
-    const shuffled = shuffleArray(questionsData.questions);
+    // Barajar preguntas y respuestas nuevamente
+    const shuffled = shuffleArray(questionsData.questions.map(question => ({
+      ...question,
+      answers: shuffleArray(question.answers)
+    })));
     setShuffledQuestions(shuffled);
   };
+
+  const allQuestionsAnswered = Object.keys(selectedAnswers).length === shuffledQuestions.length;
 
   return (
     <div className="max-w-md mx-auto my-8 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md">
       {shuffledQuestions.map((question, index) => (
         <div key={index} className="mb-6">
-          <h2 className="text-lg font-semibold mb-2">Pregunta {index + 1}</h2>
-          <h3 className="mb-2">{question.question}</h3>
+          <h2 className="text-lg font-semibold mb-2 text-green-500">{question.question}</h2>
           <ul className="list-disc ml-6 space-y-1">
             {question.answers.map((answer, answerIndex) => (
               <li
                 key={answerIndex}
-                className={`${submitted && answer === question.correctAnswer ? 'text-green-500' : selectedAnswers[index] === answer ? 'text-blue-500' : ''}`}
+                className={`${submitted && answer === question.correctAnswer ? 'text-green-500 italic' : selectedAnswers[index] === answer ? 'text-blue-500 italic' : 'italic'}`}
                 onClick={() => handleAnswerClick(index, answer)}
                 style={{ cursor: !submitted ? 'pointer' : 'default' }}
               >
@@ -107,7 +114,7 @@ const QuizComponent = () => {
       ))}
       {submitted && (
         <div className="mt-6">
-          <p className="text-lg font-semibold mb-2">Tu puntaje: {score}</p>
+          <p className={`text-lg font-semibold mb-10  ${score > 4 ? 'text-green-500' : "text-red-500"} `}>Calificacion: {score}/10.00</p>
           <button className="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none" onClick={restartQuiz}>
             Reiniciar Examen
           </button>
@@ -115,7 +122,7 @@ const QuizComponent = () => {
       )}
       {!submitted && (
         <div className="mt-6">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none" onClick={handleSubmit}>
+          <button className={`px-4 py-2 text-white rounded-md focus:outline-none ${!allQuestionsAnswered ? "bg-gray-500" : "bg-green-500"}`} onClick={handleSubmit} disabled={!allQuestionsAnswered}>
             Terminar Examen
           </button>
         </div>
