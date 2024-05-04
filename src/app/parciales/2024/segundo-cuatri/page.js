@@ -24,40 +24,43 @@ const QuizComponent = () => {
           "Kraken"
         ],
         correctAnswer: "Uniswap"
-      }
+      },
+      // Agregar más preguntas aquí
     ],
   };
 
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
-  const [shuffledAnswers, setShuffledAnswers] = useState([]);
-  const [answeredQuestions, setAnsweredQuestions] = useState(0); // Estado para contar las preguntas respondidas
+  const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
 
   useEffect(() => {
-    // Shuffle answers for each question when component mounts
-    const shuffled = questionsData.questions.map(question => ({
+    // Barajar preguntas y respuestas cuando el componente se monta
+    const shuffled = shuffleArray(questionsData.questions.map(question => ({
       ...question,
-      answers: question.answers.sort(() => Math.random() - 0.5)
-    }));
-    setShuffledAnswers(shuffled);
+      answers: shuffleArray(question.answers)
+    })));
+    setShuffledQuestions(shuffled);
   }, []);
 
-  useEffect(() => {
-    // Actualizar el contador de preguntas respondidas
-    const answered = Object.values(selectedAnswers).filter(answer => answer !== undefined && answer !== null && answer !== '').length;
-    setAnsweredQuestions(answered);
-  }, [selectedAnswers]);
+  const shuffleArray = array => {
+    // Algoritmo de Fisher-Yates para barajar el array
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
 
   const calculateScore = () => {
     let newScore = 0;
-    for (let i = 0; i < shuffledAnswers.length; i++) {
-      const correctAnswer = shuffledAnswers[i].correctAnswer;
+    for (let i = 0; i < shuffledQuestions.length; i++) {
+      const correctAnswer = shuffledQuestions[i].correctAnswer;
       if (selectedAnswers[i] === correctAnswer) {
         newScore++;
       }
     }
-    return (newScore / shuffledAnswers.length * 10).toFixed(2); // Calcular puntaje en formato de nota con 2 decimales
+    return (newScore / shuffledQuestions.length * 10).toFixed(2); // Calcular puntaje en formato de nota con 2 decimales
   };
 
   const handleAnswerClick = (questionIndex, answer) => {
@@ -70,7 +73,7 @@ const QuizComponent = () => {
   };
 
   const handleSubmit = () => {
-    if (!submitted && answeredQuestions === shuffledAnswers.length) { // Solo se permite el envío si todas las preguntas han sido respondidas
+    if (!submitted) {
       setScore(calculateScore());
       setSubmitted(true);
     }
@@ -80,26 +83,26 @@ const QuizComponent = () => {
     setSelectedAnswers({});
     setScore(0);
     setSubmitted(false);
-    setAnsweredQuestions(0);
-    // Reshuffle answers for each question
-    const shuffled = questionsData.questions.map(question => ({
+    // Barajar preguntas y respuestas nuevamente
+    const shuffled = shuffleArray(questionsData.questions.map(question => ({
       ...question,
-      answers: question.answers.sort(() => Math.random() - 0.5)
-    }));
-    setShuffledAnswers(shuffled);
+      answers: shuffleArray(question.answers)
+    })));
+    setShuffledQuestions(shuffled);
   };
+
+  const allQuestionsAnswered = Object.keys(selectedAnswers).length === shuffledQuestions.length;
 
   return (
     <div className="max-w-md mx-auto my-8 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md">
-      {shuffledAnswers.map((question, index) => (
+      {shuffledQuestions.map((question, index) => (
         <div key={index} className="mb-6">
-          <h2 className="text-lg font-semibold mb-2">Pregunta {index + 1}</h2>
-          <h3 className="mb-2">{question.question}</h3>
+          <h2 className="text-lg font-semibold mb-2 text-green-500">{question.question}</h2>
           <ul className="list-disc ml-6 space-y-1">
             {question.answers.map((answer, answerIndex) => (
               <li
                 key={answerIndex}
-                className={`${submitted && answer === question.correctAnswer ? 'text-green-500' : selectedAnswers[index] === answer ? 'text-blue-500' : ''}`}
+                className={`${submitted && answer === question.correctAnswer ? 'text-green-500 italic' : selectedAnswers[index] === answer ? 'text-blue-500 italic' : 'italic'}`}
                 onClick={() => handleAnswerClick(index, answer)}
                 style={{ cursor: !submitted ? 'pointer' : 'default' }}
               >
@@ -111,7 +114,7 @@ const QuizComponent = () => {
       ))}
       {submitted && (
         <div className="mt-6">
-          <p className="text-lg font-semibold mb-2">Calificacion: {score}/10.00</p>
+          <p className={`text-lg font-semibold mb-10  ${score > 4 ? 'text-green-500' : "text-red-500"} `}>Calificacion: {score}/10.00</p>
           <button className="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none" onClick={restartQuiz}>
             Reiniciar Examen
           </button>
@@ -119,7 +122,7 @@ const QuizComponent = () => {
       )}
       {!submitted && (
         <div className="mt-6">
-          <button className={`px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none ${answeredQuestions !== shuffledAnswers.length && 'opacity-50 cursor-not-allowed'}`} onClick={handleSubmit} disabled={answeredQuestions !== shuffledAnswers.length}>
+          <button className={`px-4 py-2 text-white rounded-md focus:outline-none ${!allQuestionsAnswered ? "bg-gray-500" : "bg-green-500"}`} onClick={handleSubmit} disabled={!allQuestionsAnswered}>
             Terminar Examen
           </button>
         </div>
