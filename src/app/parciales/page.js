@@ -1,15 +1,14 @@
-import React from 'react';
 import Link from 'next/link';
 
 export default function Parciales() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen">
-        <h2 className="text-white text-5xl mb-8 font-bold">Parciales</h2>
+      <h2 className="text-white text-3xl mb-4">Parciales</h2>
+      <div className="flex flex-col items-center">
         <div className="w-48 mb-4">
-          <Link href="/parciales/2024">
+          <Link href="/parciales/2022">
             <div className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition duration-300 text-center">
-              2024
+              2022
             </div>
           </Link>
         </div>
@@ -21,9 +20,9 @@ export default function Parciales() {
           </Link>
         </div>
         <div className="w-48 mb-4">
-          <Link href="/parciales/2022">
+          <Link href="/parciales/2024">
             <div className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition duration-300 text-center">
-              2022
+              2024
             </div>
           </Link>
         </div>
