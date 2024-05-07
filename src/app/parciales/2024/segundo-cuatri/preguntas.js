@@ -1,4 +1,4 @@
-const questionsData = {
+export const questionsData = {
  questions: [
   {
    question: "Según Luis A. Romero, durante el gobierno de Carlos Menem, la bonanza inicial ocultó por un tiempo los aspectos más duros de la gran transformación.",
@@ -229,4 +229,4 @@ const questionsData = {
    correctAnswer: "F. Las opciones correctas son la B y la C."
   }
  ]
-};
+}
