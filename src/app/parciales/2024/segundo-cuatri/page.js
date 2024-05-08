@@ -68,10 +68,38 @@ const QuizComponent = () => {
     setShuffledQuestions(shuffled);
   };
 
+  const handleData = async () => {
+    try {
+      const response = await fetch('/api/database/get_database_data'); // Envía una solicitud al backend
+      if (response.ok) {
+        const data = await response.json(); // Obtén los datos de la respuesta
+        console.log('Datos obtenidos:', data);
+      } else {
+        console.error('Error al obtener datos:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error al realizar la solicitud:', error);
+    }
+  }
+
   const allQuestionsAnswered = Object.keys(selectedAnswers).length === shuffledQuestions.length;
 
   return (
-    <div className=" mx-auto my-8 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md md:w-3/4 lg:w-2/3 xl:w-2/3">
+    <div className=" mx-auto py-8 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3">
+
+      <div className="mt-6 text-center">
+        <p className={`text-5xl font-bold mb-10 ${score > 4 ? 'text-green-500' : 'text-red-500'}`}>mostrar datos</p>
+        <button className="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none mb-10" onClick={handleData}>
+          Mostrar datos
+
+
+
+
+        </button>
+      </div>
+
+
+
       {submitted && (
         <div className="mt-6 text-center">
           <p className={`text-5xl font-bold mb-10 ${score > 4 ? 'text-green-500' : 'text-red-500'}`}>{score}/10.00</p>
@@ -98,7 +126,7 @@ const QuizComponent = () => {
         </div>
       ))}
       {!submitted && (
-        <div className="mt-6">
+        <div className="mt-6 text-center">
           <button className={`px-4 py-2 text-white rounded-md focus:outline-none ${!allQuestionsAnswered ? "bg-gray-500" : "bg-green-500"}`} onClick={handleSubmit} disabled={!allQuestionsAnswered}>
             Terminar Examen
           </button>
