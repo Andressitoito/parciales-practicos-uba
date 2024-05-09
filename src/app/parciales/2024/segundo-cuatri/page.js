@@ -48,12 +48,33 @@ const QuizComponent = () => {
     }
   };
 
-  const handleSubmit = () => {
+  const updateCounterMongo = async () => {
+    try {
+      const response = await fetch('/api/database/actualizar_data_materia', {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Examenes totales:', data);
+      } else {
+        console.error('Error al obtener datos:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error al realizar la solicitud:', error);
+    }
+  }
+
+
+  const handleSubmit = async () => {
     if (!submitted) {
       setScore(calculateScore());
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+    updateCounterMongo()
   };
 
   const restartQuiz = () => {
@@ -69,10 +90,11 @@ const QuizComponent = () => {
   };
 
   const handleData = async () => {
+    // updateCounterMongo()
     try {
-      const response = await fetch('/api/database/get_database_data'); // Envía una solicitud al backend
+      const response = await fetch('/api/database/get_database_data');
       if (response.ok) {
-        const data = await response.json(); // Obtén los datos de la respuesta
+        const data = await response.json();
         console.log('Datos obtenidos:', data);
       } else {
         console.error('Error al obtener datos:', response.statusText);
@@ -91,10 +113,6 @@ const QuizComponent = () => {
         <p className={`text-5xl font-bold mb-10 ${score > 4 ? 'text-green-500' : 'text-red-500'}`}>mostrar datos</p>
         <button className="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none mb-10" onClick={handleData}>
           Mostrar datos
-
-
-
-
         </button>
       </div>
 
