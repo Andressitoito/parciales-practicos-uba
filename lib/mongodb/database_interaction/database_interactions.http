@@ -1,0 +1,14 @@
+### CREATE COUNTER MONGO
+POST http://localhost:3000/api/database/crear_nuevo_contador HTTP/1.1
+Content-Type: application/json
+
+{
+"email": "admin@admin.com",
+"password": "12345678"
+}
+
+### GET DATA MONGO
+GET http://localhost:3000/api/database/get_database_data HTTP/1.1
+Content-Type: application/json
+
+

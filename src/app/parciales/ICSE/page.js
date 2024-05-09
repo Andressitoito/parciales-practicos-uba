@@ -16,7 +16,7 @@ export default function Parciales({ params }) {
 					</Link>
 				</div>
 				<div className="w-48 mb-4">
-					<Link href="/parciales/2024/segundo-cuatri">
+					<Link href="/parciales/ICSE/segundo-cuatri">
 						<div className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition duration-300 text-center">
 							2do cuatri
 						</div>

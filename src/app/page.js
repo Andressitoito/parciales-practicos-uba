@@ -10,9 +10,9 @@ export default function Parciales() {
     <h2 className="text-white text-5xl mb-8 font-bold">Practica Examenes ICSE</h2>
     {years.map(year => (
      <div key={year} className="w-48 mb-4">
-      <Link href={`/parciales/${year}`}>
+      <Link href={`/parciales/ICSE`}>
        <div className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition duration-300 text-center">
-        {year}
+        ICSE
        </div>
       </Link>
      </div>
