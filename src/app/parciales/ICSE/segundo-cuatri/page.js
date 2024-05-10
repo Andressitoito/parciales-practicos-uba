@@ -4,11 +4,23 @@ import ScrollToTopButton from "@/components/scrollToTop/scrollToTop";
 import { questionsData } from "./preguntas";
 import React, { useState, useEffect } from "react";
 
+import { useRouter } from 'next/router';
+
 const QuizComponent = () => {
  const [selectedAnswers, setSelectedAnswers] = useState({});
  const [submitted, setSubmitted] = useState(false);
  const [score, setScore] = useState(0);
  const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
+
+
+ const router = useRouter();
+ const { informationquestionsData } = router.query;
+
+ if (!informationquestionsData) {
+   return <div>Cargando...</div>;
+ }
+
+
 
  useEffect(() => {
   // Barajar preguntas y respuestas cuando el componente se monta
