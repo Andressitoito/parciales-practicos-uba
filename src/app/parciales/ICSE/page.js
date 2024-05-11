@@ -1,49 +1,15 @@
-"use client"
-import ListaBotones from "@/components/listaBotones/listaBotones";
+"use client";
 import ToggleButton from "@/components/toggleButton/toggleButton";
 import Link from "next/link";
-
-import { useRouter } from 'next/navigation';
-
-
-const questionsData = [
-	{
-		year: 2023,
-		name: "2023/1",
-			text: "Texto 1 - Este es un texto grande...",
-			questions: [
-					{
-							question: "Pregunta 1",
-							answers: ["Respuesta 1", "Respuesta 2", "Respuesta 3"],
-							correctAnswer: "Respuesta 1"
-					},
-					// Agrega más preguntas según sea necesario
-			]
-	},
-	{
-		year: 2023,
-			name: "2023/2",
-			text: "Texto 2 - Este es otro texto grande...",
-			questions: [
-					{
-							question: "Pregunta 1",
-							answers: ["Respuesta 1", "Respuesta 2", "Respuesta 3"],
-							correctAnswer: "Respuesta 2"
-					},
-					// Agrega más preguntas según sea necesario
-			]
-	},
-	// Agrega más objetos para los otros textos
-];
-
+import { allQuestionsData } from "./parciales";
+import useStore from "../../../../store/store";
 
 export default function Parciales() {
-
-
-	const router = useRouter();
+	const setQuestionsData = useStore((state) => state.setQuestionsData);
 
 	const handleButtonClick = (name) => {
-		router.push(`/parciales/ICSE/segundo-cuatri`, { questionsData: questionsData.find(item => item.name === name) });
+		const questionData = allQuestionsData.find((item) => item.name === name);
+		setQuestionsData(questionData);
 	};
 
 	return (
@@ -77,21 +43,23 @@ export default function Parciales() {
 				</div>
 			</div>
 
-
 			<div>
-				{questionsData.map((item) => (
+				{allQuestionsData.map((item) => (
 					<div key={item.name} className="mb-4">
-						<button
-							onClick={() => handleButtonClick(item.name)}
+						<Link
 							className="cursor-pointer bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition duration-300 text-center"
+							href={
+								{
+									pathname: '/parciales/ICSE/segundo-cuatri',
+								}
+							}
+							onClick={() => handleButtonClick(item.name)}
 						>
-							{item.year} {item.name}
-						</button>
+							{item.name}
+						</Link>
 					</div>
 				))}
 			</div>
-
-
 
 			<ToggleButton />
 		</>

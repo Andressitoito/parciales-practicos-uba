@@ -1,10 +1,9 @@
 "use client";
 
 import ScrollToTopButton from "@/components/scrollToTop/scrollToTop";
-import { questionsData } from "./preguntas";
+// import { questionsData } from "./preguntas";
 import React, { useState, useEffect } from "react";
-
-import { useRouter } from 'next/router';
+import useStore from "../../../../../store/store";
 
 const QuizComponent = () => {
  const [selectedAnswers, setSelectedAnswers] = useState({});
@@ -12,16 +11,13 @@ const QuizComponent = () => {
  const [score, setScore] = useState(0);
  const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
 
+ console.log("////////////////////////////////// ")
 
- const router = useRouter();
- const { informationquestionsData } = router.query;
+	const questionsData = useStore((state) => state.questionsData);
 
- if (!informationquestionsData) {
-   return <div>Cargando...</div>;
- }
+ console.log(questionsData)
 
-
-
+ // Use questionsData here
  useEffect(() => {
   // Barajar preguntas y respuestas cuando el componente se monta
   const shuffled = shuffleArray(
@@ -124,7 +120,7 @@ const QuizComponent = () => {
 
  return (
   <div className=" mx-auto py-8 pb-10 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3">
-   <ScrollToTopButton/>
+   <ScrollToTopButton />
    <div className="mt-6 text-center">
     <p
      className={`text-5xl font-bold mb-10 ${score > 4 ? "text-green-500" : "text-red-500"
@@ -192,9 +188,10 @@ const QuizComponent = () => {
      </button>
     </div>
    )}
-       <div style={{ marginBottom: "50px" }}></div>
+   <div style={{ marginBottom: "50px" }}></div>
   </div>
  );
 };
 
 export default QuizComponent;
+
