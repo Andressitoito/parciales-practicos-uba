@@ -36,7 +36,7 @@ export default function Parciales() {
 						1er cuatri
 					</div>
 
-					{openIndex === 1 && <div className="p-4 mt-2">proximamente...</div>}
+					{openIndex === 1 && <div className="p-4 mt-2">...</div>}
 				</div>
 				{/* ///////////////////////////////////////////*/}
 				{/* PRIMER CUATRIMESTRE FIN */}
