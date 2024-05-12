@@ -10,6 +10,7 @@ export default function Parciales() {
 	const handleButtonClick = (name) => {
 		const questionData = allQuestionsData.find((item) => item.name === name);
 		setQuestionsData(questionData);
+		localStorage.setItem('name', name);
 	};
 
 	const [openIndex, setOpenIndex] = useState(null);
@@ -27,7 +28,7 @@ export default function Parciales() {
 			<h2 className="text-white text-3xl mb-4 text-center mt-20">Parciales</h2>
 
 			<div className="flex flex-col items-center">
-				
+
 				{/* PRIMER CUATRIMESTRE INICIO */}
 				{/* ///////////////////////////////////////////*/}
 				<div className="w-48 mb-4" onClick={() => toggleDiv(1)}>

@@ -2,7 +2,9 @@
 
 import ScrollToTopButton from "@/components/scrollToTop/scrollToTop";
 import React, { useState, useEffect } from "react";
+import useCounterStore from "../../../../../store/countersData.js";
 import useStore from "../../../../../store/store";
+import { allQuestionsData } from "../parciales.js";
 
 const QuizComponent = () => {
  const [selectedAnswers, setSelectedAnswers] = useState({});
@@ -10,7 +12,48 @@ const QuizComponent = () => {
  const [score, setScore] = useState(0);
  const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
 
-	const questionsData = useStore((state) => state.questionsData);
+ const { setCountersData } = useCounterStore();
+
+ const { questionsData, setQuestionsData } = useStore();
+
+ const updateNavbarData = async () => {
+  try {
+   const response = await fetch("/api/database/get_database_data");
+   if (response.ok) {
+    const data = await response.json();
+    setCountersData(data.documents);
+   } else {
+    console.error("Error al obtener datos:", response.statusText);
+   }
+  } catch (error) {
+   console.error("Error al realizar la solicitud:", error);
+  }
+ }
+
+ if (!questionsData || !questionsData.questions) {
+  // Check if questionsData is null, undefined, or questions is null
+  const name = localStorage.getItem("name");
+  if (name == null) {
+   router.push("/parciales/ICSE/");
+   return;
+  }
+
+  const foundQuestionData = allQuestionsData.find((item) => item.name === name);
+  if (foundQuestionData) {
+   setQuestionsData(foundQuestionData);
+   updateNavbarDataAsync();
+  } else {
+   console.error("Question data not found for the name:", name);
+  }
+ }
+
+ async function updateNavbarDataAsync() {
+  try {
+   await updateNavbarData();
+  } catch (error) {
+   console.error("Error updating navbar data:", error);
+  }
+ }
 
  // Use questionsData here
  useEffect(() => {
@@ -55,7 +98,6 @@ const QuizComponent = () => {
 
  const updateCounterMongo = async () => {
   try {
-
    const data = {
     score,
     materia: "ICSE"
@@ -86,6 +128,7 @@ const QuizComponent = () => {
    window.scrollTo({ top: 0, behavior: "smooth" });
   }
   updateCounterMongo();
+  updateCounterNavbar()
  };
 
  const restartQuiz = () => {
@@ -102,16 +145,12 @@ const QuizComponent = () => {
   setShuffledQuestions(shuffled);
  };
 
+
+
  const handleData = async () => {
-  updateCounterMongo()
   try {
-   const response = await fetch("/api/database/get_database_data");
-   if (response.ok) {
-    const data = await response.json();
-    console.log("Datos obtenidos:", data);
-   } else {
-    console.error("Error al obtener datos:", response.statusText);
-   }
+   await updateCounterMongo()
+   await updateNavbarData()
   } catch (error) {
    console.error("Error al realizar la solicitud:", error);
   }

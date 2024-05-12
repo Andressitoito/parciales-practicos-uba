@@ -2,8 +2,32 @@
 "use client";
 
 import Link from "next/link";
+import useCounterStore from "../../store/countersData.js";
+import { useEffect, useState } from "react";
 
 export default function Parciales() {
+	const { countersData, setCountersData } = useCounterStore();
+	const [fetchedData, setFetchedData] = useState(false); // Track whether data has been fetched
+
+	const fetchData = async () => {
+		try {
+			const res = await fetch("/api/database/get_database_data");
+			const data = await res.json();
+			setCountersData(data.documents);
+			setFetchedData(true); // Set fetchedData to true after data is fetched
+		} catch (error) {
+			console.error("Error fetching data:", error);
+		}
+	};
+
+	useEffect(() => {
+		if (!fetchedData) {
+			fetchData();
+		}
+	}, [fetchedData]); // Only re-run effect if fetchedData changes
+
+	console.log("countersData ", countersData);
+
 	const years = [2024];
 	return (
 		<>
