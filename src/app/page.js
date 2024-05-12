@@ -32,8 +32,8 @@ export default function Parciales() {
 	return (
 		<>
 			<div className="flex flex-col items-center justify-center h-screen">
-				<h2 className="text-white text-5xl mb-8 font-bold">
-					Practica Examenes ICSE
+				<h2 className="text-gray-300 italic text-3xl md:text-5xl mb-4 md:mb-8 font-bold text-center">
+					Prácticas<br className="hidden md:inline" />Fáciles<br className="hidden md:inline" /> Exámenes<br className="hidden md:inline" /> ICSE
 				</h2>
 				{years.map((year) => (
 					<div key={year + 1} className="w-48 mb-4">
@@ -45,6 +45,7 @@ export default function Parciales() {
 					</div>
 				))}
 			</div>
+
 		</>
 	);
 }
