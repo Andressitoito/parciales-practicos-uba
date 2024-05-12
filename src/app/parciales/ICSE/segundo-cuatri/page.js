@@ -1,7 +1,6 @@
 "use client";
 
 import ScrollToTopButton from "@/components/scrollToTop/scrollToTop";
-// import { questionsData } from "./preguntas";
 import React, { useState, useEffect } from "react";
 import useStore from "../../../../../store/store";
 
@@ -11,11 +10,7 @@ const QuizComponent = () => {
  const [score, setScore] = useState(0);
  const [shuffledQuestions, setShuffledQuestions] = useState([]); // Estado para almacenar preguntas en orden aleatorio
 
- console.log("////////////////////////////////// ")
-
 	const questionsData = useStore((state) => state.questionsData);
-
- console.log(questionsData)
 
  // Use questionsData here
  useEffect(() => {
@@ -60,8 +55,15 @@ const QuizComponent = () => {
 
  const updateCounterMongo = async () => {
   try {
+
+   const data = {
+    score,
+    materia: "ICSE"
+   }
+
    const response = await fetch("/api/database/actualizar_data_materia", {
     method: "POST",
+    body: JSON.stringify(data),
     headers: {
      "Content-Type": "application/json",
     },
@@ -101,7 +103,7 @@ const QuizComponent = () => {
  };
 
  const handleData = async () => {
-  // updateCounterMongo()
+  updateCounterMongo()
   try {
    const response = await fetch("/api/database/get_database_data");
    if (response.ok) {

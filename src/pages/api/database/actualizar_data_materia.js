@@ -3,12 +3,14 @@ import { actualizar_materia_database } from "../../../../lib/mongodb/database_in
 async function handler(req, res) {
 	if (req.method === "POST") {
 		let totalExamsTaken;
-
 		try {
-			totalExamsTaken = await actualizar_materia_database();
-		} catch (error) {
-			console.log("error ", error);
+			const { score, materia } = req.body;
 
+			console.log(score, materia)
+
+			totalExamsTaken = await actualizar_materia_database(score, materia);
+			console.log("totalExamsTaken ", totalExamsTaken)
+		} catch (error) {
 			return res.status(500).json({
 				status: 500,
 				message: "Something went wrong in the server connection",
@@ -16,9 +18,9 @@ async function handler(req, res) {
 			});
 		}
 
-		res.status(200).json({
-			status: 200,
-			message: "Get total exams taken successfully",
+		res.status(201).json({
+			status: 201,
+			message: "Get exam data",
 			totalExamsTaken,
 		});
 	}
