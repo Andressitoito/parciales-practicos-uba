@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import useCounterStore from "../../../../../store/countersData.js";
 import useStore from "../../../../../store/store";
 import { allQuestionsData } from "../parciales.js";
+import { useRouter } from "next/navigation.js";
 
 const QuizComponent = () => {
   const [selectedAnswers, setSelectedAnswers] = useState({});
@@ -14,6 +15,8 @@ const QuizComponent = () => {
 
   const { setCountersData } = useCounterStore();
   const { questionsData, setQuestionsData } = useStore();
+
+  const router = useRouter();
 
   const updateNavbarData = async () => {
     try {
@@ -29,30 +32,13 @@ const QuizComponent = () => {
     }
   };
 
-  if (!questionsData || !questionsData.questions) {
-    // Check if questionsData is null, undefined, or questions is null
-    const name = localStorage.getItem("name");
-    if (name == null) {
-      router.push("/");
-      return;
-    }
-  
-    const foundQuestionData = allQuestionsData.find((item) => item.name === name);
-    if (foundQuestionData) {
-      setQuestionsData(foundQuestionData);
-      updateNavbarDataAsync();
-    } else {
-      console.error("Question data not found for the name:", name);
-    }
-  }
-  
-  async function updateNavbarDataAsync() {
+  const updateNavbarDataAsync = async () => {
     try {
       await updateNavbarData();
     } catch (error) {
       console.error("Error updating navbar data:", error);
     }
-  }
+  };
 
   const shuffleArray = (array) => {
     // Fisher-Yates shuffle algorithm
@@ -130,6 +116,30 @@ const QuizComponent = () => {
   };
 
   useEffect(() => {
+    const fetchData = async () => {
+      const name = localStorage.getItem("name");
+      if (!questionsData || !questionsData.questions) {
+        if (name == null) {
+          router.push("/");
+          return; // Return to prevent further execution
+        }
+
+        const foundQuestionData = allQuestionsData.find((item) => item.name === name);
+        if (foundQuestionData) {
+          setQuestionsData(foundQuestionData);
+          await updateNavbarDataAsync();
+        } else {
+          console.error("Question data not found for the name:", name);
+        }
+      }
+    };
+
+    fetchData(); // Call fetchData directly in useEffect
+
+    // Ensure dependencies are included
+  }, [questionsData, setQuestionsData, router, updateNavbarDataAsync, setCountersData]);
+
+  useEffect(() => {
     if (questionsData && questionsData.questions) {
       const shuffled = shuffleArray([...questionsData.questions]);
       shuffled.forEach(question => {
@@ -151,10 +161,22 @@ const QuizComponent = () => {
     }
   };
 
+  const answeredQuestionsCount = Object.keys(selectedAnswers).length;
+  const totalQuestionsCount = shuffledQuestions.length;
 
   return (
-    <div className=" mx-auto py-8 pb-10 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3">
+    <div className=" mx-auto py-8 pb-10 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3 relative">
       <ScrollToTopButton />
+
+      <div className="fixed top-12 left-0 right-0 mx-auto w-24 h-7 bg-gray-600 rounded-lg">
+        <div
+          className={`h-full rounded-lg ${answeredQuestionsCount === totalQuestionsCount ? 'bg-green-600' : 'bg-blue-800'}`}
+          style={{ width: `${(answeredQuestionsCount / totalQuestionsCount) * 100}%`, outline: '2px solid gray' }}
+        ></div>
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center text-white text-sm">
+          {`${((answeredQuestionsCount / totalQuestionsCount) * 100).toFixed(0)}%`}
+        </div>
+      </div>
 
 
       {/* <div className="mt-6 text-center">
