@@ -29,6 +29,31 @@ const QuizComponent = () => {
     }
   };
 
+  if (!questionsData || !questionsData.questions) {
+    // Check if questionsData is null, undefined, or questions is null
+    const name = localStorage.getItem("name");
+    if (name == null) {
+      router.push("/");
+      return;
+    }
+  
+    const foundQuestionData = allQuestionsData.find((item) => item.name === name);
+    if (foundQuestionData) {
+      setQuestionsData(foundQuestionData);
+      updateNavbarDataAsync();
+    } else {
+      console.error("Question data not found for the name:", name);
+    }
+  }
+  
+  async function updateNavbarDataAsync() {
+    try {
+      await updateNavbarData();
+    } catch (error) {
+      console.error("Error updating navbar data:", error);
+    }
+  }
+
   const shuffleArray = (array) => {
     // Fisher-Yates shuffle algorithm
     for (let i = array.length - 1; i > 0; i--) {
