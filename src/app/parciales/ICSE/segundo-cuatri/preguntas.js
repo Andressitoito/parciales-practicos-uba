@@ -1,4 +1,7 @@
-export const questionsData = {
+export const questionsData =
+
+{
+ name: "2023 - 1",
  questions: [
   {
    question: "Según Luis A. Romero, durante el gobierno de Carlos Menem, la bonanza inicial ocultó por un tiempo los aspectos más duros de la gran transformación.",
@@ -167,10 +170,10 @@ export const questionsData = {
     "D. Hasta ese momento, había predominado la idea de que solo la ONU podía intervenir si se violaban los derechos humanos de los ciudadanos de un país.",
     "E. Las opciones correctas son la A y la B.",
     "F. Las opciones correctas son la B y la D.",
-    "G. Las opciones correctas son la C y la D.",
+    "G. Las opciones correctas son la C y la A.",
     "H. Las opciones correctas son la A, la B y la C."
    ],
-   correctAnswer: "H. Las opciones correctas son la A, la B y la C."
+   correctAnswer: "G. Las opciones correctas son la C y la A."
   },
   {
    question: "Encabezada por Fernando de la Rúa, la coalición llamada Alianza por el Trabajo, la Justicia y la Educación, llegó al gobierno con una amplia confianza social, pero también con varios desafíos de difícil solución. Luis A. Romero afirma que esto se produjo, entre otras razones, porque:",
@@ -212,7 +215,7 @@ export const questionsData = {
     "G. Las opciones correctas son la C y la D.",
     "H. Las opciones correctas son la A, la C y la D."
    ],
-   correctAnswer: "H. Las opciones correctas son la A, la C y la D."
+   correctAnswer: "D. En el siglo XXI, esto se vincula con la tecnología y tiene resultados más precisos en materia de dominación."
   },
   {
    question: "Sebastián Linares argumenta que el sorteo de cargos públicos honra de un modo equivalente, aunque distinto, el principio de igual dignidad política a la hora de participar en los asuntos públicos. Esto sería así porque:",
@@ -230,3 +233,254 @@ export const questionsData = {
   }
  ]
 }
+
+
+
+const newQuestionsData = {
+ name: "2023 - 2",
+ questions: [
+  {
+   question: "Según Romero, con la renuncia del presidente de la Rúa terminó el breve interludio de un gobierno no peronista en el ciclo del segundo peronismo. Esto fue así porque:",
+   answers: [
+    "A. Los datos duros de la economía ya indicaban en 1999 que, salvo algún cambio importante en las condiciones externas, el derrumbe fiscal era imposible de evitar.",
+    "B. La dolarización de la economía que propuso de la Rúa no pudo ser aprobada en el Congreso a pesar de tener mayoría en ambas cámaras.",
+    "C. En los dos años de gobierno de la Alianza los datos sólo cambiaron para peor, en particular con la nueva política de Estados Unidos y el FMI.",
+    "D. El final pudo haber sido diferente en su forma y su profundidad, pero eso no fue responsabilidad del gobierno de de la Rúa ya que éste hizo todo lo posible para salvar el gobierno que encabezaba.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la A y la C.",
+    "G. Las opciones correctas son la A y la D.",
+    "H. Las opciones correctas son la B y la D."
+   ],
+   correctAnswer: "F. Las opciones correctas son la A y la C."
+  },
+  {
+   question: "Según Luis A. Romero, el nuevo gobierno de Fernando de la Rúa que asumía en 1999 recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
+   answers: [
+    "A. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
+    "B. Es verdadero, porque al comienzo de la gestión de la Alianza, el enorme ingreso de divisas provenientes de las exportaciones de soja, que ya había comenzado con el gobierno anterior, permitió mejorar los ya excelentes índices macroeconómicos.",
+    "C. Es falso, porque si bien las cuentas públicas estaban en orden gracias a las políticas de achicamiento del Estado, aun persistía una alta inflación heredada del gobierno menemista.",
+    "D. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada."
+   ],
+   correctAnswer: "D. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada."
+  },
+  {
+   question: "Sebastián Linares afirma que James Fishkin ha argumentado que, cuando el sorteo involucra a un número amplio de personas, tiene la virtud de asegurar la representación descriptiva de la población.",
+   answers: [
+    "A. Es falso, porque Fishkin rechaza el sorteo en todas sus formas.",
+    "B. Es falso, porque ningún sistema basado en rasgos descriptivos puede ser democrático.",
+    "C. Es falso, porque el sorteo también puede discriminar a determinados grupos minoritarios, ya que son menos para sortearse.",
+    "D. Es verdadero, porque el sorteo de una asamblea hace posible que los rasgos descriptivos que identifican a las personas de una población estén presentes, en igual proporción, dentro de la muestra seleccionada por azar."
+   ],
+   correctAnswer: "D. Es verdadero, porque el sorteo de una asamblea hace posible que los rasgos descriptivos que identifican a las personas de una población estén presentes, en igual proporción, dentro de la muestra seleccionada por azar."
+  },
+  {
+   question: "Según Romero, el Gobierno de Menem se caracterizó por el apoyo importante que obtuvo de los presidentes estadounidenses de entonces.",
+   answers: [
+    "A. Es falso, porque Menem hizo una política independiente pero un tanto aislacionista, con excepción del Mercosur.",
+    "B. Es falso, porque a ningún gobierno norteamericano le interesó demasiado Argentina, ni antes de Menem ni después.",
+    "C. Es verdadero por Barack Obama, que ayudó al gobierno de Menem cada vez que éste lo requirió.",
+    "D. Es verdadero, porque Menem respaldó todas las posiciones internacionales de Estados Unidos y acompañó a sus campañas militares enviando tropas al Golfo Pérsico y a la ex Yugoslavia."
+   ],
+   correctAnswer: "D. Es verdadero, porque Menem respaldó todas las posiciones internacionales de Estados Unidos y acompañó a sus campañas militares enviando tropas al Golfo Pérsico y a la ex Yugoslavia."
+  },
+  {
+   question: "Según señala Julio Montero, la adopción de la Declaración Universal de los Derechos Humanos (DD. HH.) fue un evento que impactó sobre el orden mundial en forma determinante.",
+   answers: [
+    "A. Es verdadero, porque fue el primer paso de un largo proceso que dio fuerza legal a los DD. HH. y estableció mecanismos concretos de monitoreo y supervisión a través de las fronteras.",
+    "B. Es falso, porque las Naciones Unidas, excepto en lo discursivo o simbólico, nunca tuvieron peso político real en el mundo.",
+    "C. Es verdadero, porque dio poder militar a los DD. HH., creando una fuerza de elite para su cuidado.",
+    "D. Es falso, porque más de la mitad de los países del mundo coincidieron en no aceptar esa idea de los DD. HH. por ser notoriamente prooccidental y liberal."
+   ],
+   correctAnswer: "A. Es verdadero, porque fue el primer paso de un largo proceso que dio fuerza legal a los DD. HH. y estableció mecanismos concretos de monitoreo y supervisión a través de las fronteras."
+  },
+  {
+   question: "Según Romero, cuando el anunciado final de su mandato colocaba al presidente Menem en una incómoda situación por no poder ser re reelecto, una nueva crisis internacional desequilibró el edificio económico e inició una larga recesión.",
+   answers: [
+    "A. Es falso, porque la crisis y derrumbe de la Unión Soviética en julio de 1997 afectó al mundo socialista y no llegó a Argentina.",
+    "B. Es verdadero, porque la devaluación de Tailandia en julio de 1997 dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros.",
+    "C. Es verdadero, porque la devaluación de la moneda brasileña obligó a la devaluación del peso.",
+    "D. Es falso, porque Menem logró su segunda reelección en 1999 de la mano del éxito de la convertibilidad."
+   ],
+   correctAnswer: "B. Es verdadero, porque la devaluación de Tailandia en julio de 1997 dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
+  },
+  {
+   question: "Según Edgar Straehle, gracias a la accesibilidad y fácil usabilidad de Internet, la figura que creó Alvin Toffler y bautizó con el nombre 'prosumidor' se volvió central en la actualidad.",
+   answers: [
+    "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción.",
+    "B. Es falso, porque la posesión de un espacio infinito o, mejor dicho, no limitado por la escasez del mundo físico, disminuye la figura de la elección individual.",
+    "C. Es falso porque Internet solo fomentó la concentración de las herramientas de producción en una pequeña serie de empresas multinacionales.",
+    "D. Es verdadero porque Internet es solo una serie de algoritmos que aumentan nuestra tendencia al consumo."
+   ],
+   correctAnswer: "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción."
+  },
+  {
+   question: "Según Diego Bernardini, el cambio social vinculado a la nueva longevidad, no solo se da en términos cuantitativos, sino que también es cualitativo. Nuevos roles definen esta nueva longevidad y ayudan a comprender la envergadura de su influencia. Esto se ve en que:",
+   answers: [
+    "A. Son una fuerza social que influye en las decisiones, como en el brexit y en la elección de 2016 en Estados Unidos, en los que se hicieron sentir y con fuerza, ya que sus votos condicionaron de manera determinante el resultado de esas elecciones.",
+    "B. Los mayores votan, consumen, producen y brindan servicios.",
+    "C. Se ha generado una guerra entre los mayores y las nuevas generaciones que quieren ocupar sus lugares en la producción.",
+    "D. Ser una persona mayor es ser parte de un grupo en el que día a día se construye fortaleza en base a la unidad y la homogeneidad.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la B y la D.",
+    "G. Las opciones correctas son la C y la D.",
+    "H. Las opciones correctas son la A, la C y la D."
+   ],
+   correctAnswer: "E. Las opciones correctas son la A y la B."
+  },
+  {
+   question: "Según Romero la sanción de las leyes de emergencia y de reforma le dieron a Menem importantes atribuciones que manejó discrecionalmente. Esto se vio en que:",
+   answers: [
+    "A. “El jefe\", como empezó a llamárselo, concedía a sus fieles protección e impunidad.",
+    "B. “El jefe\", como empezó a llamárselo, repartía dádivas, subsidios y planes a todos aquellos que se le acercaban.",
+    "C. “El jefe\", como empezó a llamárselo, distribuía con generosidad los frutos de un tráfico de influencias practicado sin disimulo.",
+    "D. “El jefe\", como empezó a llamárselo, tenía carisma y recursos para repartir y los trató de usar infructuosamente, para que el peronismo apoyara sus nuevas ideas y políticas, cosa que no ocurrió.",
+    "E. Las opciones correctas son la A y la C.",
+    "F. Las opciones correctas son la B y la C.",
+    "G. Las opciones correctas son la C y la D.",
+    "H. Las opciones correctas son la A, la C y la D."
+   ],
+   correctAnswer: "E. Las opciones correctas son la A y la C."
+  },
+  {
+   question: "Paula Bertino afirma que en el concepto de democracia delegativa no hay incorporación política de los sectores populares, excepto en lo discursivo. Esto es así porque:",
+   answers: [
+    "A. La democracia delegativa es un régimen político autoritario.",
+    "B. Los canales de diálogo entre el gobierno y la ciudadanía se abren solo durante las elecciones, para luego cerrarse hasta la siguiente elección.",
+    "C. Los votantes se expresan a través de los medios de comunicación cuya característica principal es el uso del discurso y la palabra.",
+    "D. Los votantes esperan una salvación de la crisis de la mano de un líder que se considera extraordinario e insustituible.",
+    "E. Las opciones correctas son la A y B.",
+    "F. Las opciones correctas son la B y C.",
+    "G. Las opciones correctas son la B y D.",
+    "H. Las opciones correctas son la B, C y D."
+   ],
+   correctAnswer: "H. Las opciones correctas son la B, C y D."
+  },
+  {
+   question: "Según Tomás Straka, al gobierno de Hugo Chávez lo favoreció el boom de los precios petroleros, que pasaron de unos 14 dólares el barril a más de 100 en 2010. Esto generó que:",
+   answers: [
+    "A. Chávez obtuviera mucho prestigio nacional e internacional por plantear como pivote de sus políticas económicas un control de cambios muy laxo y flexible.",
+    "B. Chávez obtuviera mucho prestigio nacional e internacional por combinar su liderazgo populista con políticas del gasto público muy rigurosas y eficientes.",
+    "C. Ese enorme volumen de petrodólares le permitiera al Estado hacerse más mago que nunca, y a Chávez volverse un gran líder proveedor, lo que explica su rápida elevación a los altares populares.",
+    "D. La expansión del gasto público fuera proporcional al aumento de la renta a través de múltiples subsidios, ayudas y otras formas de políticas asistenciales que se conocieron como “misiones”",
+    "E. Las opciones correctas son la A y D.",
+    "F. Las opciones correctas son la B y C.",
+    "G. Las opciones correctas son la C y D.",
+    "H. Las opciones correctas son la A, B y D."
+   ],
+   correctAnswer: "G. Las opciones correctas son la C y D."
+  },
+  {
+   question: "Según Romero, durante el gobierno de Menem, la estabilidad lograda con la convertibilidad potenció el primer proyecto reformista, retomado por el ministro Domingo Cavallo, un economista de formación ortodoxa y con fuerte vocación política. Esto se vio en que:",
+   answers: [
+    "A. Durante ocho años, Menem y Cavallo se potenciaron recíprocamente, combinando claridad en el rumbo con intuición política.",
+    "B. Durante diez años, Menem y Cavallo se potenciaron recíprocamente, combinando claridad en el rumbo con intuición política.",
+    "C. Durante cuatro años, Menem y Cavallo disputaron políticamente, complicando la aplicación del plan económico.",
+    "D. Durante cuatro años, Menem y Cavallo se potenciaron recíprocamente, combinando claridad en el rumbo con intuición política.",
+    "E. Las opciones correctas son la A, B y C.",
+    "F. Las opciones correctas son la A, B y D.",
+    "G. Las opciones correctas son la B, C y D.",
+    "H. Las opciones correctas son la A, B, C y D."
+   ],
+   correctAnswer: "D. Durante cuatro años, Menem y Cavallo se potenciaron recíprocamente, combinando claridad en el rumbo con intuición política."
+  },
+  {
+   question: "Paola Bautista de Alemán define tres conceptos que ayudarán a una mejor lectura del fenómeno de los gobiernos autoritarios y su eficiencia en la administración. Estos son:",
+   answers: [
+    "A. Eficacia autoritaria, gestión pública y racionalidad burocrática.",
+    "B. Desempeño, crisis y capacidad estatal.",
+    "C. Lógica autoritaria, crisis y coacción.",
+    "D. Burocracia, hegemonía y Estados opacos.",
+    "E. Las opciones correctas son la A y B.",
+    "F. Las opciones correctas son la A y C.",
+    "G. Las opciones correctas son la A y D.",
+    "H. Las opciones correctas son la B y D."
+   ],
+   correctAnswer: "H. Las opciones correctas son la A y B."
+  },
+  {
+   question: "Según Romero, como en 1983, el peronismo llegó a la elección de 1999 sin líder y fue derrotado. Esto fue así porque:",
+   answers: [
+    "A. El despertar de la civilidad se manifestó en la política. Fue una nueva 'primavera' ciudadana.",
+    "B. A la protesta social, se agregó el debate público sobre la injusticia social, la corrupción, el abuso de poder y la impunidad.",
+    "C. El peronismo nunca pudo recuperarse de la muerte de su líder Juan Domingo Perón.",
+    "D. Las Fuerzas Armadas, tradicionalmente antiperonistas, fueron fundamentales para evitar un nuevo triunfo peronista.",
+    "E. Las opciones correctas son la A y B.",
+    "F. Las opciones correctas son la A y C.",
+    "G. Las opciones correctas son la A y D.",
+    "H. Las opciones correctas son la B y D."
+   ],
+   correctAnswer: "F. Las opciones correctas son la A y C."
+  },
+  {
+   question: "Según Sebastián Linares, las asambleas de ciudadanos sorteados se caracterizan por:",
+   answers: [
+    "A. Tomar decisiones en un gran menú de temas ya que la asamblea es soberana.",
+    "B. Servir de fuente de consulta para los representantes o para la ciudadanía.",
+    "C. Estar llamadas a ocupar un lugar permanente en el sistema político democrático.",
+    "D. Ser resortes consultivos que pueden complementar el proceso de toma de decisiones.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la A y la C.",
+    "G. Las opciones correctas son la B y la D.",
+    "H. Las opciones correctas son la A, la C y la D."
+   ],
+   correctAnswer: "F. Las opciones correctas son la A y la C."
+  },
+  {
+   question: "Según Romero, en 2002 la Asamblea Legislativa designó como nuevo presidente –ahora para concluir el mandato de de la Rúa– a Eduardo Duhalde, el candidato presidencial derrotado en 1999, cuyo Gobierno:",
+   answers: [
+    "A. Tenía una importante base en su provincia (Buenos Aires), y logró el apoyo de los gobernadores y de la UCR de Alfonsín.",
+    "B. Tuvo la característica de que el Congreso resultó el ancla más sólida del nuevo gobierno.",
+    "C. Fue apoyado por los distintos grupos movilizados con fuerza, de modo que la legitimidad del nuevo presidente era muy sólida.",
+    "D. Fue derrocado por el peronismo, que se mantuvo firme y homogéneo exigiendo la renuncia de Duhalde por su falta de legitimidad electoral.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la A y la C.",
+    "G. Las opciones correctas son la A, la B y la C.",
+    "H. Las opciones correctas son la A, la B y la D."
+   ],
+   correctAnswer: "G. Las opciones correctas son la A, la B y la C."
+  },
+  {
+   question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
+   answers: [
+    "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
+    "B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
+    "C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
+    "D. No existen partidos políticos consolidados.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la B y la C.",
+    "G. Las opciones correctas son la B y la D.",
+    "H. Las opciones correctas son la A, la B y la D."
+   ],
+   correctAnswer: "F. Las opciones correctas son la B y la C."
+  },
+  {
+   question: "Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
+   answers: [
+    "A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
+    "B. Imagina qué dirían Heidegger, Hegel o Nietzsche acerca de los cambios producidos en la sociedad contemporánea.",
+    "C. Imagina qué dirían Marx, Engels y Weber acerca de los cambios producidos en la sociedad contemporánea.",
+    "D. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX a partir de la existencia de Internet como acelerador del proceso de digitalización global.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la B y la C.",
+    "G. Las opciones correctas son la C y la D.",
+    "H. Las opciones correctas son la A, la B y la D."
+   ],
+   correctAnswer: "H. Las opciones correctas son la A, la B y la D."
+  },
+  {
+   question: "Según Armando Chaguaceda y Eloy Viera, en Cuba el poder ha sostenido durante décadas un sistema en el que se ponderan algunos derechos humanos por sobre otros. Esto se ven en que:",
+   answers: [
+    "A. El embargo estadounidense contra Cuba ha sido utilizado como excusa por el gobierno cubano para sistematizar una teoría heredada de la Guerra Fría que es contraria a la universalidad e indivisibilidad de los derechos.",
+    "B. Los avances en derechos sociales como la salud y la educación han sido utilizados por el Partido Comunista para justificar la represión y la limitación de los derechos civiles y políticos.",
+    "C. Según la organización defensora de los derechos humanos Freedom House, Cuba es un país con un promedio de libertad aceptable –pero no alto– para las Américas, y muy similar a la media mundial.",
+    "D. El poder cubano aceptó con resignación, pero sin ganas, el aumento del escrutinio público motivado por el mayor acceso a la internet.",
+    "E. Las opciones correctas son la A y la B.",
+    "F. Las opciones correctas son la B y la C.",
+    "G. Las opciones correctas son la C y la D.",
+    "H. Las opciones correctas son la A y la D."
+   ],
+   correctAnswer: "H. Las opciones correctas son la A y la D."
+  }
+ ]
+};
+
