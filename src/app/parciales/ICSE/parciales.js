@@ -191,6 +191,7 @@ export const allQuestionsData =
      ],
      correctAnswer: "G. Las opciones correctas son la B, la C."
     },
+   
     {
      question: "Según Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto -el llamado 'Pacto de Olivos' - las condiciones para una reforma constitucional. Esto fue así, porque:",
      answers: [
@@ -397,7 +398,7 @@ export const allQuestionsData =
       "G. Las opciones correctas son la A y D.",
       "H. Las opciones correctas son la B y D."
      ],
-     correctAnswer: "H. Las opciones correctas son la A y B."
+     correctAnswer: "B. Desempeño, crisis y capacidad estatal."
     },
     {
      question: "Según Romero, como en 1983, el peronismo llegó a la elección de 1999 sin líder y fue derrotado. Esto fue así porque:",
@@ -487,3 +488,24 @@ export const allQuestionsData =
   }
 
  ]
+
+
+
+ /* 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */

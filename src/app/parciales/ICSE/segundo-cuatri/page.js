@@ -52,13 +52,14 @@ const QuizComponent = () => {
   const calculateScore = () => {
     let newScore = 0;
     for (let i = 0; i < Object.keys(selectedAnswers).length; i++) {
-      const correctAnswer = questionsData.questions[i].correctAnswer;
-      if (selectedAnswers[i] === correctAnswer) {
+      const questionIndex = Object.keys(selectedAnswers)[i];
+      const correctAnswer = questionsData.questions[questionIndex].correctAnswer;
+      if (selectedAnswers[questionIndex] === correctAnswer) {
         newScore++;
       }
     }
     return ((newScore / Object.keys(selectedAnswers).length) * 10).toFixed(2);
-  };
+};
 
   const handleAnswerClick = (questionIndex, answer) => {
     if (!submitted) {
