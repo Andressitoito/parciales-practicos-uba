@@ -2,10 +2,15 @@
 import Link from "next/link";
 import { allQuestionsData } from "./parciales";
 import useStore from "../../../../store/store";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import useCounterStore from "../../../../store/countersData.js";
+
 
 export default function Parciales() {
 	const setQuestionsData = useStore((state) => state.setQuestionsData);
+	const { countersData, setCountersData } = useCounterStore();
+	const [openIndex, setOpenIndex] = useState(null);
+	const [fetchedData, setFetchedData] = useState(false);
 
 	const handleButtonClick = (name) => {
 		const questionData = allQuestionsData.find((item) => item.name === name);
@@ -13,7 +18,30 @@ export default function Parciales() {
 		localStorage.setItem('name', name);
 	};
 
-	const [openIndex, setOpenIndex] = useState(null);
+	console.log("countersData ", countersData);
+
+	const fetchData = async () => {
+		try {
+			const res = await fetch("/api/database/get_database_data");
+			const data = await res.json();
+			setCountersData(data.documents);
+			setFetchedData(true); 
+		} catch (error) {
+			console.error("Error fetching data:", error);
+		}
+	};
+
+	useEffect(() => {
+		if (!fetchedData) {
+			fetchData();
+		}
+	}, [fetchedData]);
+
+	useEffect(() => {
+		if (!countersData) {
+			fetchData();
+		}
+	}, [countersData]); 
 
 	const toggleDiv = (index) => {
 		if (openIndex === index) {
