@@ -49,26 +49,57 @@ const QuizComponent = () => {
     return array;
   };
 
-  const calculateScore = () => {
-    let newScore = 0;
-    for (let i = 0; i < Object.keys(selectedAnswers).length; i++) {
-      const questionIndex = Object.keys(selectedAnswers)[i];
-      const correctAnswer = questionsData.questions[questionIndex].correctAnswer;
-      if (selectedAnswers[questionIndex] === correctAnswer) {
-        newScore++;
-      }
-    }
-    return ((newScore / Object.keys(selectedAnswers).length) * 10).toFixed(2);
-};
 
-  const handleAnswerClick = (questionIndex, answer) => {
+  useEffect(() => {
+    if (questionsData && questionsData.questions) {
+      const shuffled = shuffleArray([...questionsData.questions]);
+      shuffled.forEach(question => {
+        question.answers = shuffleArray([...question.answers]);
+      });
+      setShuffledQuestions(shuffled);
+    }
+  }, [questionsData]);
+
+  const calculateScore = (selectedAnswers) => {
+    let newScore = 0;
+
+    // Obtener el nombre de la materia del almacenamiento local
+    const name = localStorage.getItem("name");
+
+    // Encontrar el conjunto de preguntas y respuestas correctas del usuario
+    const questionsData = allQuestionsData.find(item => item.name === name);
+
+    if (questionsData) {
+      // Iterar sobre las preguntas del usuario y comparar con las preguntas y respuestas correctas
+      Object.keys(selectedAnswers).forEach(question => {
+        const userAnswer = selectedAnswers[question];
+        const correctAnswer = questionsData.questions.find(q => q.question === question).correctAnswer;
+        if (userAnswer === correctAnswer) {
+          newScore++; // Incrementar el puntaje si la respuesta es correcta
+        }
+      });
+    } else {
+      console.error("No se encontraron datos de preguntas para el nombre:", name);
+    }
+
+    // Calcular el puntaje final
+    return ((newScore / Object.keys(selectedAnswers).length) * 10).toFixed(2);
+  };
+
+
+  const handleAnswerClick = (question, answer) => {
     if (!submitted) {
-      setSelectedAnswers((prevState) => ({
-        ...prevState,
-        [questionIndex]: answer,
-      }));
+      setSelectedAnswers((prevState) => {
+        const updatedAnswers = {
+          ...prevState,
+          [question.question]: answer,
+        };
+        return updatedAnswers;
+      });
     }
   };
+
+
 
   const updateCounterMongo = async () => {
     try {
@@ -97,7 +128,7 @@ const QuizComponent = () => {
 
   const handleSubmit = async () => {
     if (!submitted) {
-      setScore(calculateScore());
+      setScore(calculateScore(selectedAnswers));
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
       await updateCounterMongo();
@@ -153,6 +184,10 @@ const QuizComponent = () => {
   const allQuestionsAnswered = Object.keys(selectedAnswers).length === shuffledQuestions.length;
 
 
+  const answeredQuestionsCount = Object.keys(selectedAnswers).length;
+  const totalQuestionsCount = shuffledQuestions.length;
+
+
   const handleData = async () => {
     try {
       await updateCounterMongo()
@@ -162,8 +197,6 @@ const QuizComponent = () => {
     }
   };
 
-  const answeredQuestionsCount = Object.keys(selectedAnswers).length;
-  const totalQuestionsCount = shuffledQuestions.length;
 
   return (
     <div className=" mx-auto py-8 pb-10 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3 relative">
@@ -223,11 +256,11 @@ const QuizComponent = () => {
                 key={answerIndex}
                 className={`${submitted && answer === question.correctAnswer
                   ? "text-green-500 italic"
-                  : selectedAnswers[index] === answer
+                  : selectedAnswers[question.question] === answer
                     ? "text-blue-300 italic"
                     : "italic"
                   }`}
-                onClick={() => handleAnswerClick(index, answer)}
+                onClick={() => handleAnswerClick(question, answer)}
                 style={{ cursor: !submitted ? "pointer" : "default" }}
               >
                 {answer}
@@ -236,6 +269,7 @@ const QuizComponent = () => {
           </ul>
         </div>
       ))}
+
       {!submitted && (
         <div className="mt-6 text-center">
           <button
