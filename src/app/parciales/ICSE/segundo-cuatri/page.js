@@ -101,7 +101,7 @@ const QuizComponent = () => {
 
 
 
-  const updateCounterMongo = async () => {
+  const updateCounterMongo = async (score) => {
     try {
       const data = {
         score,
@@ -131,7 +131,7 @@ const QuizComponent = () => {
       setScore(calculateScore(selectedAnswers));
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
-      await updateCounterMongo();
+      await updateCounterMongo(score);
       await updateNavbarData();
     }
   };
