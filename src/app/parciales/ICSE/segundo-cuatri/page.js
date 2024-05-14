@@ -131,7 +131,9 @@ const QuizComponent = () => {
       setScore(calculateScore(selectedAnswers));
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
-      await updateCounterMongo(score);
+      const mongoScore = calculateScore(selectedAnswers) 
+
+      await updateCounterMongo(mongoScore);
       await updateNavbarData();
     }
   };

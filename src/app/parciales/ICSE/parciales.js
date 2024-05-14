@@ -412,7 +412,7 @@ export const allQuestionsData =
             "G. Las opciones correctas son la A y D.",
             "H. Las opciones correctas son la B y D."
           ],
-          correctAnswer: "F. Las opciones correctas son la A y C."
+          correctAnswer: "E. Las opciones correctas son la A y C."
         },
         {
           question: "Según Sebastián Linares, las asambleas de ciudadanos sorteados se caracterizan por:",
