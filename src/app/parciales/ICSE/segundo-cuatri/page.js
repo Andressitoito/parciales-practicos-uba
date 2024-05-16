@@ -16,6 +16,9 @@ const QuizComponent = () => {
   const { setCountersData } = useCounterStore();
   const { questionsData, setQuestionsData } = useStore();
 
+  const [time, setTime] = useState(0);
+  const [isRunning, setIsRunning] = useState(true);
+
   const router = useRouter();
 
   const updateNavbarData = async () => {
@@ -128,10 +131,11 @@ const QuizComponent = () => {
 
   const handleSubmit = async () => {
     if (!submitted) {
+      setIsRunning(false)
       setScore(calculateScore(selectedAnswers));
       setSubmitted(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
-      const mongoScore = calculateScore(selectedAnswers) 
+      const mongoScore = calculateScore(selectedAnswers)
 
       await updateCounterMongo(mongoScore);
       await updateNavbarData();
@@ -199,6 +203,36 @@ const QuizComponent = () => {
     }
   };
 
+  /////////////////////////////////////
+  // TIMER
+  /////////////////////////////////////
+
+
+  // Función para iniciar el temporizador cuando el componente se monta
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (isRunning) {
+        setTime(prevTime => prevTime + 1); // Incrementa el tiempo cada segundo
+      }
+    }, 1000);
+
+    return () => clearInterval(timer); // Detiene el temporizador cuando el componente se desmonta
+  }, [isRunning]);
+
+  // Función para detener el temporizador cuando se hace submit
+  useEffect(() => {
+    if (!isRunning) {
+      clearInterval();
+    }
+  }, [isRunning]);
+
+  // Función para formatear el tiempo en minutos y segundos
+  const formatTime = () => {
+    const minutes = Math.floor(time / 60);
+    const seconds = time % 60;
+    return `${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+  };
+
 
   return (
     <div className=" mx-auto py-8 pb-10 p-6 bg-gray-800 text-gray-400 rounded-md shadow-md lg:w-2/3 xl:w-2/3 relative">
@@ -209,8 +243,8 @@ const QuizComponent = () => {
           className={`h-full rounded-lg ${answeredQuestionsCount === totalQuestionsCount ? 'bg-green-600' : 'bg-blue-800'}`}
           style={{ width: `${(answeredQuestionsCount / totalQuestionsCount) * 100}%`, outline: '2px solid gray' }}
         ></div>
-        <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center text-white text-sm">
-          {`${((answeredQuestionsCount / totalQuestionsCount) * 100).toFixed(0)}%`}
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-around items-center text-white text-sm">
+           {`${((answeredQuestionsCount / totalQuestionsCount) * 100).toFixed(0)}%`} {formatTime()}
         </div>
       </div>
 
@@ -247,6 +281,8 @@ const QuizComponent = () => {
           </button>
         </div>
       )}
+
+
       {shuffledQuestions.map((question, index) => (
         <div key={index} className="mb-6">
           <h2 className="text-lg font-bold mb-2 text-blue-500 px-2 rounded-md">
@@ -256,21 +292,32 @@ const QuizComponent = () => {
             {question.answers.map((answer, answerIndex) => (
               <li
                 key={answerIndex}
-                className={`${submitted && answer === question.correctAnswer
-                  ? "text-green-500 italic"
+                className={`${submitted
+                  ? answer === question.correctAnswer
+                    ? "px-1 rounded text-green-600 font-bold"
+                    : selectedAnswers[question.question] === answer
+                      ? "px-1 rounded text-red-700 font-bold"
+                      : "font-normal"
                   : selectedAnswers[question.question] === answer
-                    ? "text-blue-300 italic"
+                    ? "text-blue-300 italic font-bold"
                     : "italic"
                   }`}
                 onClick={() => handleAnswerClick(question, answer)}
                 style={{ cursor: !submitted ? "pointer" : "default" }}
               >
+                {submitted && answer === question.correctAnswer && selectedAnswers[question.question] === answer && (
+                  <span className="text-sm text-red-500 pr-1">&#128077; </span>
+                )}
                 {answer}
+                {submitted && answer === question.correctAnswer && selectedAnswers[question.question] === answer && (
+                  <span className="text-sm text-red-500"> &#128077;</span>
+                )}
               </li>
             ))}
           </ul>
         </div>
       ))}
+
 
       {!submitted && (
         <div className="mt-6 text-center">

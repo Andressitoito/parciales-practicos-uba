@@ -191,7 +191,6 @@ export const allQuestionsData =
           ],
           correctAnswer: "G. Las opciones correctas son la B, la C."
         },
-
         {
           question: "Según Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto -el llamado 'Pacto de Olivos' - las condiciones para una reforma constitucional. Esto fue así, porque:",
           answers: [
