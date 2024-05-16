@@ -18,8 +18,6 @@ export default function Parciales() {
 		localStorage.setItem('name', name);
 	};
 
-	console.log("countersData ", countersData);
-
 	const fetchData = async () => {
 		try {
 			const res = await fetch("/api/database/get_database_data");

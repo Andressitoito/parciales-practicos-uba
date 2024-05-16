@@ -145,7 +145,9 @@ const QuizComponent = () => {
   const restartQuiz = () => {
     setSelectedAnswers({});
     setScore(0);
+    setTime(0)
     setSubmitted(false);
+    setIsRunning(true)
     const shuffled = shuffleArray([...questionsData.questions]);
     shuffled.forEach(question => {
       question.answers = shuffleArray([...question.answers]);

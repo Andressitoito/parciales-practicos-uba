@@ -242,20 +242,6 @@ export const allQuestionsData =
       name: "PARTE B",
       questions: [
         {
-          question: "Según Romero, con la renuncia del presidente de la Rúa terminó el breve interludio de un gobierno no peronista en el ciclo del segundo peronismo. Esto fue así porque:",
-          answers: [
-            "A. Los datos duros de la economía ya indicaban en 1999 que, salvo algún cambio importante en las condiciones externas, el derrumbe fiscal era imposible de evitar.",
-            "B. La dolarización de la economía que propuso de la Rúa no pudo ser aprobada en el Congreso a pesar de tener mayoría en ambas cámaras.",
-            "C. En los dos años de gobierno de la Alianza los datos sólo cambiaron para peor, en particular con la nueva política de Estados Unidos y el FMI.",
-            "D. El final pudo haber sido diferente en su forma y su profundidad, pero eso no fue responsabilidad del gobierno de de la Rúa ya que éste hizo todo lo posible para salvar el gobierno que encabezaba.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la A y la C.",
-            "G. Las opciones correctas son la A y la D.",
-            "H. Las opciones correctas son la B y la D."
-          ],
-          correctAnswer: "F. Las opciones correctas son la A y la C."
-        },
-        {
           question: "Según Luis A. Romero, el nuevo gobierno de Fernando de la Rúa que asumía en 1999 recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
           answers: [
             "A. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
@@ -411,7 +397,7 @@ export const allQuestionsData =
             "G. Las opciones correctas son la A y D.",
             "H. Las opciones correctas son la B y D."
           ],
-          correctAnswer: "E. Las opciones correctas son la A y C."
+          correctAnswer: "E. Las opciones correctas son la A y B."
         },
         {
           question: "Según Sebastián Linares, las asambleas de ciudadanos sorteados se caracterizan por:",
