@@ -6,46 +6,6 @@ export const allQuestionsData =
       name: "PARTE A",
       questions: [
         {
-          question: "Según Luis A. Romero, durante el gobierno de Carlos Menem, la bonanza inicial ocultó por un tiempo los aspectos más duros de la gran transformación.",
-          answers: [
-            "A. Es falso, porque la convertibilidad fue exitosa y no tuvo contraindicaciones hasta el año 1999, en que Menem abandonó el poder.",
-            "B. Es falso, porque la Argentina venía de un duro escenario anterior y todo lo que pasó posteriormente pareció mucho más aceptable.",
-            "C. Es verdadero, porque la inflación no paró de crecer por la disimulada emisión monetaria.",
-            "D. Es verdadero, porque los efectos del ajuste estatal se disimularon al principio, por las importantes indemnizaciones pagadas, pero explotaron a partir de 1995."
-          ],
-          correctAnswer: "D. Es verdadero, porque los efectos del ajuste estatal se disimularon al principio, por las importantes indemnizaciones pagadas, pero explotaron a partir de 1995."
-        },
-        {
-          question: "En el video sobre la política del futuro, Julia Pomares afirma que los líderes políticos cada vez privilegian más las identidades globales, pero, al mismo tiempo, enfrentan problemas que son cada vez más locales.",
-          answers: [
-            "A. Es falso, porque los líderes políticos van adaptando sus identidades a las demandas electorales que reciben de sus electores.",
-            "B. Es falso, porque los países hoy son muy grandes para encarar los problemas pequeños, pero muy pequeños para los problemas grandes.",
-            "C. Es verdadero, porque estamos en un mundo donde hay muchos gobiernos municipales que pueden resolver los grandes problemas globales.",
-            "D. Es verdadero, porque vivimos un tiempo histórico donde se observa la vuelta a Estados-nación de tipo absolutistas."
-          ],
-          correctAnswer: "B. Es falso, porque los países hoy son muy grandes para encarar los problemas pequeños, pero muy pequeños para los problemas grandes."
-        },
-        {
-          question: "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa.",
-          answers: [
-            "A. Es falso, porque el gobierno de De la Rúa tenía una sólida relación con Menem y Duhalde, producto de continuar con la convertibilidad.",
-            "B. Es falso, porque las elecciones de octubre se convirtieron en un masivo plebiscito a favor del gobierno de De la Rúa.",
-            "C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso después de las elecciones.",
-            "D. Es verdadero, porque el sector del peronismo liderado por Néstor Kirchner quería llegar al poder lo antes posible."
-          ],
-          correctAnswer: "C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso después de las elecciones."
-        },
-        {
-          question: "Según Diego Pimentel, el filósofo surcoreano Han sostiene que la relación de los humanos con las cosas ha sido transferida a una nueva relación con la información.",
-          answers: [
-            "A. Es falso, porque la información solo es un conjunto de datos que las personas usan para tomar decisiones.",
-            "B. Es falso, porque ese vínculo con la información es una característica del ser humano en cualquier tiempo y espacio.",
-            "C. Es verdadero, porque vivir en la información es actualmente la idea de vivir al ritmo de la información constante.",
-            "D. Es verdadero, porque nuestra nueva obsesión no son ya las cosas, sino el dinero y el prestigio social."
-          ],
-          correctAnswer: "C. Es verdadero, porque vivir en la información es actualmente la idea de vivir al ritmo de la información constante."
-        },
-        {
           question: "Según afirma Paula Bertino, a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis y éstas han sido exclusivamente políticas.",
           answers: [
             "A. Es falso, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis económicas y sociales.",
@@ -186,10 +146,10 @@ export const allQuestionsData =
             "D. La grieta ideológica con la oposición imposibilitaba la eficiente gestión del gobierno al impedir la concreción de acuerdos.",
             "E. Las opciones correctas son la A y la B.",
             "F. Las opciones correctas son la A y la D.",
-            "G. Las opciones correctas son la B, la C.",
+            "G. Las opciones correctas son la B y la C.",
             "H. Las opciones correctas son la A, la B y la D."
           ],
-          correctAnswer: "G. Las opciones correctas son la B, la C."
+          correctAnswer: "G. Las opciones correctas la B y la C."
         },
         {
           question: "Según Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto -el llamado 'Pacto de Olivos' - las condiciones para una reforma constitucional. Esto fue así, porque:",
@@ -232,6 +192,76 @@ export const allQuestionsData =
             "H. Las opciones correctas son la A, la C y la D."
           ],
           correctAnswer: "F. Las opciones correctas son la B y la C."
+        },
+        {
+          question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
+          answers: [
+            "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
+            "B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
+            "C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
+            "D. No existen partidos políticos consolidados.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la B y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          correctAnswer: "F. Las opciones correctas son la B y la C."
+        },
+        {
+          question: "Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
+          answers: [
+            "A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
+            "B. Imagina qué dirían Heidegger, Hegel o Nietzsche acerca de los cambios producidos en la sociedad contemporánea.",
+            "C. Imagina qué dirían Marx, Engels y Weber acerca de los cambios producidos en la sociedad contemporánea.",
+            "D. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX a partir de la existencia de Internet como acelerador del proceso de digitalización global.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          correctAnswer: "H. Las opciones correctas son la A, la B y la D."
+        },
+        {
+          question: "Según Armando Chaguaceda y Eloy Viera, en Cuba el poder ha sostenido durante décadas un sistema en el que se ponderan algunos derechos humanos por sobre otros. Esto se ven en que:",
+          answers: [
+            "A. El embargo estadounidense contra Cuba ha sido utilizado como excusa por el gobierno cubano para sistematizar una teoría heredada de la Guerra Fría que es contraria a la universalidad e indivisibilidad de los derechos.",
+            "B. Los avances en derechos sociales como la salud y la educación han sido utilizados por el Partido Comunista para justificar la represión y la limitación de los derechos civiles y políticos.",
+            "C. Según la organización defensora de los derechos humanos Freedom House, Cuba es un país con un promedio de libertad aceptable –pero no alto– para las Américas, y muy similar a la media mundial.",
+            "D. El poder cubano aceptó con resignación, pero sin ganas, el aumento del escrutinio público motivado por el mayor acceso a la internet.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A y la D."
+          ],
+          correctAnswer: "H. Las opciones correctas son la A y la D."
+        },
+        {
+          question: "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa. Eso fue así porque:",
+          answers: [
+            "A. El sector del peronismo liderado por Menem era mayoritario y querían que el ex presidente volviera al poder.",
+            "B. La masiva derrota electoral del oficialismo radical le hizo perder las mayorías que tenía en ambas cámaras (senadores y diputados).",
+            "C. Los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso, después de las elecciones.",
+            "D. El sector del peronismo liderado por Duhalde quería terminar de inmediato con la convertibilidad.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la D.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la C y la D."
+        },
+        {
+          question: "Según Bernardini, la longevidad ya no es un problema de individuos sino que se transforma en un problema de organizaciones. Esto es así porque:",
+          answers: [
+            "A. Las empresas ya no pueden planificar la vida laboral de las personas con un esquema de jubilación a los 65 años.",
+            "B. La expectativa de vida está en 83 años, y cada vez más, personas productivas tienen 10 o 20 años de jubilados.",
+            "C. No hay políticas públicas que planifiquen la vida laboral de las personas.",
+            "D. Los recursos son cada vez más escasos y las posibilidades de financiar el sistema son cada vez menores.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la B."
         }
       ]
     },
@@ -414,6 +444,46 @@ export const allQuestionsData =
           correctAnswer: "F. Las opciones correctas son la A y la C."
         },
         {
+          question: "Según Luis A. Romero, durante el gobierno de Carlos Menem, la bonanza inicial ocultó por un tiempo los aspectos más duros de la gran transformación.",
+          answers: [
+            "A. Es falso, porque la convertibilidad fue exitosa y no tuvo contraindicaciones hasta el año 1999, en que Menem abandonó el poder.",
+            "B. Es falso, porque la Argentina venía de un duro escenario anterior y todo lo que pasó posteriormente pareció mucho más aceptable.",
+            "C. Es verdadero, porque la inflación no paró de crecer por la disimulada emisión monetaria.",
+            "D. Es verdadero, porque los efectos del ajuste estatal se disimularon al principio, por las importantes indemnizaciones pagadas, pero explotaron a partir de 1995."
+          ],
+          correctAnswer: "D. Es verdadero, porque los efectos del ajuste estatal se disimularon al principio, por las importantes indemnizaciones pagadas, pero explotaron a partir de 1995."
+        },
+        {
+          question: "En el video sobre la política del futuro, Julia Pomares afirma que los líderes políticos cada vez privilegian más las identidades globales, pero, al mismo tiempo, enfrentan problemas que son cada vez más locales.",
+          answers: [
+            "A. Es falso, porque los líderes políticos van adaptando sus identidades a las demandas electorales que reciben de sus electores.",
+            "B. Es falso, porque los países hoy son muy grandes para encarar los problemas pequeños, pero muy pequeños para los problemas grandes.",
+            "C. Es verdadero, porque estamos en un mundo donde hay muchos gobiernos municipales que pueden resolver los grandes problemas globales.",
+            "D. Es verdadero, porque vivimos un tiempo histórico donde se observa la vuelta a Estados-nación de tipo absolutistas."
+          ],
+          correctAnswer: "B. Es falso, porque los países hoy son muy grandes para encarar los problemas pequeños, pero muy pequeños para los problemas grandes."
+        },
+        {
+          question: "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa.",
+          answers: [
+            "A. Es falso, porque el gobierno de De la Rúa tenía una sólida relación con Menem y Duhalde, producto de continuar con la convertibilidad.",
+            "B. Es falso, porque las elecciones de octubre se convirtieron en un masivo plebiscito a favor del gobierno de De la Rúa.",
+            "C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso después de las elecciones.",
+            "D. Es verdadero, porque el sector del peronismo liderado por Néstor Kirchner quería llegar al poder lo antes posible."
+          ],
+          correctAnswer: "C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso después de las elecciones."
+        },
+        {
+          question: "Según Diego Pimentel, el filósofo surcoreano Han sostiene que la relación de los humanos con las cosas ha sido transferida a una nueva relación con la información.",
+          answers: [
+            "A. Es falso, porque la información solo es un conjunto de datos que las personas usan para tomar decisiones.",
+            "B. Es falso, porque ese vínculo con la información es una característica del ser humano en cualquier tiempo y espacio.",
+            "C. Es verdadero, porque vivir en la información es actualmente la idea de vivir al ritmo de la información constante.",
+            "D. Es verdadero, porque nuestra nueva obsesión no son ya las cosas, sino el dinero y el prestigio social."
+          ],
+          correctAnswer: "C. Es verdadero, porque vivir en la información es actualmente la idea de vivir al ritmo de la información constante."
+        },
+        {
           question: "Según Romero, en 2002 la Asamblea Legislativa designó como nuevo presidente –ahora para concluir el mandato de de la Rúa– a Eduardo Duhalde, el candidato presidencial derrotado en 1999, cuyo Gobierno:",
           answers: [
             "A. Tenía una importante base en su provincia (Buenos Aires), y logró el apoyo de los gobernadores y de la UCR de Alfonsín.",
@@ -427,48 +497,6 @@ export const allQuestionsData =
           ],
           correctAnswer: "G. Las opciones correctas son la A, la B y la C."
         },
-        {
-          question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
-          answers: [
-            "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
-            "B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
-            "C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
-            "D. No existen partidos políticos consolidados.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la B y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          correctAnswer: "F. Las opciones correctas son la B y la C."
-        },
-        {
-          question: "Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
-          answers: [
-            "A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
-            "B. Imagina qué dirían Heidegger, Hegel o Nietzsche acerca de los cambios producidos en la sociedad contemporánea.",
-            "C. Imagina qué dirían Marx, Engels y Weber acerca de los cambios producidos en la sociedad contemporánea.",
-            "D. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX a partir de la existencia de Internet como acelerador del proceso de digitalización global.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          correctAnswer: "H. Las opciones correctas son la A, la B y la D."
-        },
-        {
-          question: "Según Armando Chaguaceda y Eloy Viera, en Cuba el poder ha sostenido durante décadas un sistema en el que se ponderan algunos derechos humanos por sobre otros. Esto se ven en que:",
-          answers: [
-            "A. El embargo estadounidense contra Cuba ha sido utilizado como excusa por el gobierno cubano para sistematizar una teoría heredada de la Guerra Fría que es contraria a la universalidad e indivisibilidad de los derechos.",
-            "B. Los avances en derechos sociales como la salud y la educación han sido utilizados por el Partido Comunista para justificar la represión y la limitación de los derechos civiles y políticos.",
-            "C. Según la organización defensora de los derechos humanos Freedom House, Cuba es un país con un promedio de libertad aceptable –pero no alto– para las Américas, y muy similar a la media mundial.",
-            "D. El poder cubano aceptó con resignación, pero sin ganas, el aumento del escrutinio público motivado por el mayor acceso a la internet.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A y la D."
-          ],
-          correctAnswer: "H. Las opciones correctas son la A y la D."
-        }
       ]
     },
 
@@ -595,9 +623,9 @@ export const allQuestionsData =
             "E. Las opciones correctas son la A y la B.",
             "F. Las opciones correctas son la B y la C.",
             "G. Las opciones correctas son la Ay la D.",
-            "H. Las opciones correctas son la A, la By la D."
+            "H. Las opciones correctas son la A, la B y la D."
           ],
-          "correctAnswer": "H. Las opciones correctas son la A, la By la D."
+          "correctAnswer": "H. Las opciones correctas son la A, la B y la D."
         },
         {
           question: "Según Romero, con la crisis del 2001 el doble cuestionamiento de la autoridad política y de la moneda impulsó el despliegue de la crisis social y política. Esto produjo que:",
@@ -642,36 +670,73 @@ export const allQuestionsData =
           "correctAnswer": "F. Las opciones correctas son la B y la C."
         },
         {
-          question: "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa. Eso fue así porque:",
+          question: "Según Romero, en el gobierno de Eduardo Duhalde la mejora en la economía facilitó la salida política, que tuvo sus complicaciones. Esto fue así porque:",
           answers: [
-            "A. El sector del peronismo liderado por Menem era mayoritario y querían que el ex presidente volviera al poder.",
-            "B. La masiva derrota electoral del oficialismo radical le hizo perder las mayorías que tenía en ambas cámaras (senadores y diputados).",
-            "C. Los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso, después de las elecciones.",
-            "D. El sector del peronismo liderado por Duhalde quería terminar de inmediato con la convertibilidad.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la D.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A, la C y la D."
-          ],
-          "correctAnswer": "G. Las opciones correctas son la C y la D."
-        },
-        {
-          question: "Según Bernardini, la longevidad ya no es un problema de individuos sino que se transforma en un problema de organizaciones. Esto es así porque:",
-          answers: [
-            "A. Las empresas ya no pueden planificar la vida laboral de las personas con un esquema de jubilación a los 65 años.",
-            "B. La expectativa de vida está en 83 años, y cada vez más, personas productivas tienen 10 o 20 años de jubilados.",
-            "C. No hay políticas públicas que planifiquen la vida laboral de las personas.",
-            "D. Los recursos son cada vez más escasos y las posibilidades de financiar el sistema son cada vez menores.",
+            "A. Duhalde poseía una clara legitimidad electoral y también de fondos en su caja, pero le faltaba carisma.",
+            "B. Los gobernadores creían que Duhalde aspiraba a hacerse elegir presidente y retaceaban su apoyo.",
+            "C. En la sociedad movilizada predominaba un ánimo contra los políticos que hacía dudar del éxito de una convocatoria electoral.",
+            "D. La muerte de dos dirigentes de los movimientos sociales a manos de oficiales de la Policía Bonaerense lo decidieron a renovar su mandato y a fortalecer su candidatura, utilizando un discurso que apelaba al orden.",
             "E. Las opciones correctas son la A y la B.",
             "F. Las opciones correctas son la B y la C.",
             "G. Las opciones correctas son la C y la D.",
             "H. Las opciones correctas son la A, la C y la D."
           ],
-          "correctAnswer": "E. Las opciones correctas son la A y la B."
-        }
+          correctAnswer: "F. Las opciones correctas son la B y la C."
+        },
+        {
+          question: "Según señala Julio Montero, los derechos humanos (DDHH) son derechos universales, por eso todas las sociedades deben respetarlos siempre y en todas partes.",
+          answers: [
+            "A. Es verdadero, porque los derechos más fundamentales de las personas siempre están ligados a los deseos de las mayorías.",
+            "B. Es falso, porque esta regla no se aplica a quienes violan los derechos de los demás.",
+            "C. Es verdadero, porque según la Declaración Universal, los DDHH son derechos que todas las personas tenemos y deben respetarse siempre sin importar el régimen político, las tradiciones culturales o disposición étnica que exista en una sociedad determinada.",
+            "D. Es falso, porque los DDHH no son inderogables, y las personas pueden enajenarlos o perderlos, dependiendo de las circunstancias y solo por razones muy valederas."
+          ],
+          correctAnswer: "C. Es verdadero, porque según la Declaración Universal, los DDHH son derechos que todas las personas tenemos y deben respetarse siempre sin importar el régimen político, las tradiciones culturales o disposición étnica que exista en una sociedad determinada."
+        },
+        {
+          question: "Según el video con la entrevista a Miguel Ángel Quintana Paz, la mejor palabra que define la actualidad, donde existe una propuesta cultural muy diferente a la civilización en la cual vivimos, es lo “woke”. Esto es así porque:",
+          answers: [
+            "A. Woke es un anglicismo que viene de la tradición católica inglesa ligada a la inquisición de tiempos medievales.",
+            "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino.",
+            "C. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el populismo.",
+            "D. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el conservadurismo social.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          correctAnswer: "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino."
+        },
+        {
+          question: "Según Sebastián Linares el sorteo de cargos públicos, en principio, resulta plenamente congruente con el valor de la igualdad de trato, puesto que concede a todos una igual probabilidad de obtener un cargo público; sin embargo, a la vez, podría tener contraindicaciones. Por ejemplo:",
+          answers: [
+            "A. La ausencia de libertad de elección es un problema si queremos adjudicarle a los sorteados la autoridad final, puesto que no queremos vivir bajo leyes sobre las que no hemos podido manifestar nuestra libertad de elección.",
+            "B. Podría lesionar el valor de la libertad de elegir cuando el número de cargos sorteados es muy numeroso.",
+            "C. Podría lesionar el valor de la libertad de elegir cuando el número de cargos sorteados es reducido.",
+            "D. La ausencia de libertad de elección es una objeción suficiente para rechazar el sorteo de cargos como esquemas mixtos o complementarios de gobierno y de elecciones hechas en forma tradicional.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          correctAnswer: "F. Las opciones correctas son la A y la C."
+        },
+        {
+          question: "Según Tomás Straka, en su época de oro, el chavismo manifestó la vocación venezolana de ser una potencia regional, y más o menos emular a Bolívar. Esto se vio en que:",
+          answers: [
+            "A. La bancarrota venezolana es parecida a las españolas del siglo XVII, así como el oro y la plata americana se dilapidaron en una política imperial fracasada, los petrodólares venezolanos se deshicieron más o menos en lo mismo.",
+            "B. Caracas ayudó a los movimientos de izquierda hasta que tomaron el poder en casi todo el mundo, pero sin forjar luego alianzas políticas o comerciales con ellos.",
+            "C. Según algunos cálculos, solo otorgando facilidades para obtener petróleo, Venezuela dejó de ganar unos cincuenta mil millones de dólares entre 2000 y 2017.",
+            "D. A diferencia de lo ocurrido en la década de 1970, esta vez había la intención ideológica de hacer un eje alternativo a Brasil y México.",
+            "E. Las opciones correctas son la A y la C.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          correctAnswer: "E. Las opciones correctas son la A y la C."
+        },
       ]
-    }
-
+    },
   ]
 
 
