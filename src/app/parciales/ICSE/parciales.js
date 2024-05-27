@@ -667,20 +667,6 @@ export const allQuestionsData =
             "G. Las opciones correctas son la C y la D.",
             "H. Las opciones correctas son la A, la C y la D."
           ],
-          "correctAnswer": "F. Las opciones correctas son la B y la C."
-        },
-        {
-          question: "Según Romero, en el gobierno de Eduardo Duhalde la mejora en la economía facilitó la salida política, que tuvo sus complicaciones. Esto fue así porque:",
-          answers: [
-            "A. Duhalde poseía una clara legitimidad electoral y también de fondos en su caja, pero le faltaba carisma.",
-            "B. Los gobernadores creían que Duhalde aspiraba a hacerse elegir presidente y retaceaban su apoyo.",
-            "C. En la sociedad movilizada predominaba un ánimo contra los políticos que hacía dudar del éxito de una convocatoria electoral.",
-            "D. La muerte de dos dirigentes de los movimientos sociales a manos de oficiales de la Policía Bonaerense lo decidieron a renovar su mandato y a fortalecer su candidatura, utilizando un discurso que apelaba al orden.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A, la C y la D."
-          ],
           correctAnswer: "F. Las opciones correctas son la B y la C."
         },
         {
