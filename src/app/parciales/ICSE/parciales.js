@@ -194,20 +194,6 @@ export const allQuestionsData =
           correctAnswer: "F. Las opciones correctas son la B y la C."
         },
         {
-          question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
-          answers: [
-            "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
-            "B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
-            "C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
-            "D. No existen partidos políticos consolidados.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la B y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          correctAnswer: "F. Las opciones correctas son la B y la C."
-        },
-        {
           question: "Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
           answers: [
             "A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
@@ -320,16 +306,6 @@ export const allQuestionsData =
             "D. Es falso, porque Menem logró su segunda reelección en 1999 de la mano del éxito de la convertibilidad."
           ],
           correctAnswer: "B. Es verdadero, porque la devaluación de Tailandia en julio de 1997 dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
-        },
-        {
-          question: "Según Edgar Straehle, gracias a la accesibilidad y fácil usabilidad de Internet, la figura que creó Alvin Toffler y bautizó con el nombre 'prosumidor' se volvió central en la actualidad.",
-          answers: [
-            "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción.",
-            "B. Es falso, porque la posesión de un espacio infinito o, mejor dicho, no limitado por la escasez del mundo físico, disminuye la figura de la elección individual.",
-            "C. Es falso porque Internet solo fomentó la concentración de las herramientas de producción en una pequeña serie de empresas multinacionales.",
-            "D. Es verdadero porque Internet es solo una serie de algoritmos que aumentan nuestra tendencia al consumo."
-          ],
-          correctAnswer: "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción."
         },
         {
           question: "Según Diego Bernardini, el cambio social vinculado a la nueva longevidad, no solo se da en términos cuantitativos, sino que también es cualitativo. Nuevos roles definen esta nueva longevidad y ayudan a comprender la envergadura de su influencia. Esto se ve en que:",
@@ -904,20 +880,6 @@ export const allQuestionsData =
           correctAnswer: "F. Las opciones correctas son la B y la C."
         },
         {
-          question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
-          answers: [
-            "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
-            "B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
-            "C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
-            "D. No existen partidos políticos consolidados.",
-            "E. Las opciones correctas son la A y la B.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la B y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          correctAnswer: "F. Las opciones correctas son la B y la C."
-        },
-        {
           question: "Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
           answers: [
             "A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
@@ -1025,16 +987,6 @@ export const allQuestionsData =
             "D. Es falso, porque Menem logró su segunda reelección en 1999 de la mano del éxito de la convertibilidad."
           ],
           correctAnswer: "B. Es verdadero, porque la devaluación de Tailandia en julio de 1997 dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
-        },
-        {
-          question: "Según Edgar Straehle, gracias a la accesibilidad y fácil usabilidad de Internet, la figura que creó Alvin Toffler y bautizó con el nombre 'prosumidor' se volvió central en la actualidad.",
-          answers: [
-            "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción.",
-            "B. Es falso, porque la posesión de un espacio infinito o, mejor dicho, no limitado por la escasez del mundo físico, disminuye la figura de la elección individual.",
-            "C. Es falso porque Internet solo fomentó la concentración de las herramientas de producción en una pequeña serie de empresas multinacionales.",
-            "D. Es verdadero porque Internet es solo una serie de algoritmos que aumentan nuestra tendencia al consumo."
-          ],
-          correctAnswer: "A. Es verdadero, porque se sostiene en la democratización de las herramientas de producción."
         },
         {
           question: "Según Diego Bernardini, el cambio social vinculado a la nueva longevidad, no solo se da en términos cuantitativos, sino que también es cualitativo. Nuevos roles definen esta nueva longevidad y ayudan a comprender la envergadura de su influencia. Esto se ve en que:",
