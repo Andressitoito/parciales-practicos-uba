@@ -149,7 +149,7 @@ export const allQuestionsData =
             "G. Las opciones correctas son la B y la C.",
             "H. Las opciones correctas son la A, la B y la D."
           ],
-          correctAnswer: "G. Las opciones correctas la B y la C."
+          correctAnswer: "G. Las opciones correctas son la B y la C."
         },
         {
           question: "Según Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto -el llamado 'Pacto de Olivos' - las condiciones para una reforma constitucional. Esto fue así, porque:",
@@ -835,7 +835,7 @@ export const allQuestionsData =
             "G. Las opciones correctas son la B y la C.",
             "H. Las opciones correctas son la A, la B y la D."
           ],
-          correctAnswer: "G. Las opciones correctas la B y la C."
+          correctAnswer: "G. Las opciones correctas son la B y la C."
         },
         {
           question: "Según Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto -el llamado 'Pacto de Olivos' - las condiciones para una reforma constitucional. Esto fue así, porque:",
