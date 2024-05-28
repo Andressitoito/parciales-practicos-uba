@@ -929,7 +929,7 @@ export const allQuestionsData =
     // TODO A B C D
     {
       year: 2023,
-      name: "TODO A B Y C",
+      name: "A B C D",
       questions: [
 
         // PARTE A
