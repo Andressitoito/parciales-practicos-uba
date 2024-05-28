@@ -1,6 +1,6 @@
 export const allQuestionsData =
   [
-    // PARTE 1
+    // PARTE A
     {
       year: 2023,
       name: "PARTE A",
@@ -252,7 +252,7 @@ export const allQuestionsData =
       ]
     },
 
-    // PARTE 2
+    // PARTE B
     {
       year: 2023,
       name: "PARTE B",
@@ -476,7 +476,7 @@ export const allQuestionsData =
       ]
     },
 
-    // PARTE 3
+    // PARTE C
     {
       year: 2023,
       name: "PARTE C",
@@ -686,11 +686,253 @@ export const allQuestionsData =
       ]
     },
 
-    // TODO A B Y C
+    // PARTE D
+    {
+      year: 2023,
+      name: "PARTE D",
+      questions: [
+        {
+          "question": "La crisis fiscal en Argentina reactivó la protesta social, que renació a mediados de 2000 y creció sostenidamente, hasta culminar en los sucesos de diciembre de 2001. Romero afirma que esto ocurrió porque:",
+          "answers": [
+            "A. El gobierno, huérfano del respaldo del FMI -pese a los desesperados intentos de Cavallo- comenzó a recortar todo tipo de gastos, lo que agudizó las reacciones.",
+            "B. La sequía y la crisis China redujeron los ingresos por las exportaciones agrícolas.",
+            "C. El peronismo trató de auxiliar, leal e infructuosamente, al gobierno radical para que pudiera sobrevivir a la crisis, pero de la Rúa lo rechazó.",
+            "D. Los gobernadores peronistas se organizaron para defender su parte de unos recursos fiscales que se reducían aceleradamente.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A, y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la A, y la D."
+        },
+        {
+          "question": "Según Julio Montero la idea de los derechos humanos fue una invención de los filósofos liberales asociados con el Humanismo y la Ilustración. Esto fue así porque:",
+          "answers": [
+            "A. Ya en el siglo XVII, una época dominada por déspotas y monarcas absolutos, el pensador inglés John Locke argumentó que todos los individuos gozamos de una serie de derechos “naturales”.",
+            "B. De acuerdo con Locke, estos derechos dependían de su reconocimiento legal por parte de los Estados que recién se organizaban.",
+            "C. De acuerdo con Locke, estos derechos no podían ser descubiertos mediante la mera reflexión racional, y no eran tan importantes para que nadie pudiera violarlos.",
+            "D. Una de las grandes contribuciones de Kant a la filosofía moral y política fue darle forma al principio de dignidad de la persona sobre el que se asientan todas las sociedades libres.",
+            "E. Las opciones correctas son la A y la D.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Según el video con la entrevista a Miguel Ángel Quintana Paz, la mejor palabra que define la actualidad, donde existe una propuesta cultural muy diferente a la civilización en la cual vivimos, es lo “woke”. Esto es así porque:",
+          "answers": [
+            "A. Woke es un anglicismo que viene de la tradición católica inglesa ligada a la inquisición de tiempos medievales.",
+            "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino.",
+            "C. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el populismo.",
+            "D. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el conservadurismo social.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino."
+        },
+        {
+          "question": "Según Tomás Straka, en su época de oro, el chavismo manifestó la vocación venezolana de ser una potencia regional, y más o menos emular a Bolívar. Esto se vio en que:",
+          "answers": [
+            "A. La bancarrota venezolana es parecida a las españolas del siglo XVII, así como el oro y la plata americana se dilapidaron en una política imperial fracasada, los petrodólares venezolanos se deshicieron más o menos en lo mismo.",
+            "B. Caracas ayudó a los movimientos de izquierda hasta que tomaron el poder en casi todo el mundo, pero sin forjar luego alianzas políticas o comerciales con ellos.",
+            "C. Según algunos cálculos, solo otorgando facilidades para obtener petróleo, Venezuela dejó de ganar unos cincuenta mil millones de dólares entre 2000 y 2017.",
+            "D. A diferencia de lo ocurrido en la década de 1970, esta vez había la intención ideológica de hacer un eje alternativo a Brasil y México.",
+            "E. Las opciones correctas son la A y la C.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "Pese a que la Constitución era categórica al rechazarlo, Menem intentó jugar la carta de volver a presentarse a las elecciones presidenciales, es decir, obtener una segunda reelección.",
+          "answers": [
+            "A. Es verdadero, lo hizo para tratar de conservar el poder hasta el final, y lanzó de modo informal su candidatura, distribuyendo millones de camisetas, globos y carteles que decían simplemente \"Menem 99”.",
+            "B. Es falso porque, en su primer gobierno, Carlos Saúl Menem se concentró, sobre todo, en las cuestiones de la administración, sabiendo que no había ninguna posibilidad de ser reelecto porque la Constitución era clara al respecto.",
+            "C. Es verdadero porque, para eso, se generó una fuerte alianza entre Menem y el entonces gobernador de la Provincia de Buenos Aires, Eduardo Duhalde, para bloquear el posible triunfo de la oposición.",
+            "D. Es falso, porque Menem apoyó con decisión la candidatura de Duhalde, su socio principal en los 10 años de gobierno que finalizaban en 1999."
+          ],
+          "correctAnswer": "A. Es verdadero, lo hizo para tratar de conservar el poder hasta el final, y lanzó de modo informal su candidatura, distribuyendo millones de camisetas, globos y carteles que decían simplemente \"Menem 99”."
+        },
+        {
+          "question": "Según señala Julio Montero, los derechos humanos tienen muchos defensores y entre sus objetivos prioritarios están los de globalizar valores occidentales que todos los pueblos comparten.",
+          "answers": [
+            "A. Es falso, porque los derechos humanos no impiden que las personas vivan sus vidas según las convenciones fijadas por su cultura o su religión, si así lo deciden.",
+            "B. Es verdadero, porque occidente es la cuna y el lugar privilegiado donde los derechos humanos son aplicados.",
+            "C. Es falso, porque lejos de colaborar con el pluralismo, los derechos humanos generan un marco para que las diferentes culturas sean ignoradas en función de ciertos valores que se consideran universales.",
+            "D. Es verdadero, porque en los países que no son occidentales no se respetan los derechos humanos del mismo modo y hay tradiciones que es necesario cambiar y hasta combatir."
+          ],
+          "correctAnswer": "A. Es falso, porque los derechos humanos no impiden que las personas vivan sus vidas según las convenciones fijadas por su cultura o su religión, si así lo deciden."
+        },
+        {
+          "question": "Según afirma Diego Bernardini, hoy está claro que ser una persona mayor implica pertenecer a un grupo que se exime de cualquier posibilidad de caracterización porque la norma es la diversidad.",
+          "answers": [
+            "A. Es falso, porque el devenir del tiempo es algo que solo se explica desde la lógica biológica.",
+            "B. Es falso, porque con la globalización como entorno la norma es la homogeneidad.",
+            "C. Es verdadero, porque cada uno tiene la edad que percibe que tiene y la juventud es la elección mayoritaria.",
+            "D. Es verdadero, porque definir cuándo se es mayor y qué significa serlo se vuelve una tarea que carece de una respuesta única."
+          ],
+          "correctAnswer": "D. Es verdadero, porque definir cuándo se es mayor y qué significa serlo se vuelve una tarea que carece de una respuesta única."
+        },
+        {
+          "question": "Según Sebastián Linares, las justificaciones del sorteo para designar cargos públicos aplican para cualquier contexto. Por ejemplo, solo el argumento de la igualdad política alcanza para justificar el carácter democrático de cualquier sistema de selección aleatoria.",
+          "answers": [
+            "A. Es verdadero, porque un dictador escogido por sorteo sería democrático, siempre que se honre la igualdad de trato en la selección.",
+            "B. Es verdadero, porque tener una misma probabilidad de acceder a un cargo público es, sin más, mucho más democrático que cualquier otro sistema de elección de representantes.",
+            "C. Es falso, porque el efecto sanitizante del sorteo para designar cargos públicos nunca depende del contexto.",
+            "D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+          ],
+          "correctAnswer": "D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+        },
+        {
+          "question": "Según Romero, Menem no necesitó ni la Plaza ni el balcón para comunicarse fácilmente con la gente, más allá de sus identidades políticas.",
+          "answers": [
+            "A. Es verdadero, porque el uso imaginativo y sistemático de las redes sociales lo colocó como el político más popular entre los jóvenes.",
+            "B. Es verdadero, porque Menem demostró que, para gobernar, en última instancia, podría prescindir del peronismo y de sus cuadros.",
+            "C. Es falso, Menem se apoyó en la liturgia y en la tradición peronista para consolidar su poder, apelando al recuerdo que los trabajadores tenían de las buenas épocas de Perón.",
+            "D. Es falso, porque Menem usó el poder del Estado y los subsidios y beneficios que otorgaba para llegar por medio del partido y sus punteros a la mayoría de su base electoral."
+          ],
+          "correctAnswer": "B. Es verdadero, porque Menem demostró que, para gobernar, en última instancia, podría prescindir del peronismo y de sus cuadros."
+        },
+        {
+          "question": "En el video sobre la política del futuro, Julia Pomares afirma que hay algunas certezas sobre cómo va a ser ese futuro, por ejemplo:",
+          "answers": [
+            "A. Seguramente habrá algún tipo de holocausto nuclear.",
+            "B. El socialismo será el sistema político dominante.",
+            "C. La inteligencia artificial aplicada a los procesos de todo tipo --de producción, de servicios-- va a haber transformado a las economías desarrolladas.",
+            "D. El centro del poder económico mundial va a estar en un mercado común entre Estados Unidos y Europa.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "C. La inteligencia artificial aplicada a los procesos de todo tipo --de producción, de servicios-- va a haber transformado a las economías desarrolladas."
+        },
+        {
+          "question": "Según Claudio Iglesias, desde el punto de vista de la economía, la Argentina es un país que una y otra vez elige repetir los mismos errores y que generan los mismos resultados. Esto se ve por ejemplo, en:",
+          "answers": [
+            "A. Insistir por el camino de los subsidios cruzados financiados con emisión.",
+            "B. Castigar el ahorro público.",
+            "C. Dejar que las grandes empresas trasnacionales capitalistas gobiernen el país.",
+            "D. Insistir con el financiamiento inflacionario para satisfacer las necesidades de corto plazo relacionadas con la competencia electoral.",
+            "E. Las opciones correctas son la A y la D.",
+            "F. Las opciones correctas son la A, la B y la C.",
+            "G. Las opciones correctas son la B, la C y la D.",
+            "H. Las opciones correctas son la A, la B, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Según Julio Montero, la doctrina de los derechos humanos afirma que todos los derechos humanos son indivisibles e interdependientes y que gozan de la misma jerarquía normativa; esto implica que:",
+          "answers": [
+            "A. Los gobiernos no pueden elegir qué derechos humanos van a respetar.",
+            "B. Los derechos humanos son dependientes de las políticas públicas de los Estados.",
+            "C. A través de las leyes, los gobiernos jerarquizan los derechos humanos según el país, sus coyunturas y raíces históricas.",
+            "D. Los gobiernos deben hacer su mejor esfuerzo por satisfacerlos todos a la vez.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Paula Bertino afirma que en una democracia delegativa no hay incorporación política de los sectores populares, excepto en lo discursivo. Esto es así porque:",
+          "answers": [
+            "A. La democracia delegativa es un régimen político totalitario (porque la capacidad de decidir del líder es total).",
+            "B. Los canales de diálogo entre el gobierno y la ciudadanía se abren solo durante las elecciones, para luego cerrarse hasta la siguiente elección.",
+            "C. Los votantes se expresan a través de las redes sociales, cuya característica principal es el uso del discurso y la palabra.",
+            "D. Los votantes esperan una salvación de la crisis de la mano de un líder que se considera único e irrepetible.",
+            "E. Las opciones correctas son la A y la C.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la B y la D.",
+            "H. Las opciones correctas son la B, la C y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la B y la D."
+        },
+        {
+          "question": "Romero afirma que luego de aprobada la ley de convertibilidad y estabilizada la economía, el ministro de Economía, Domingo Cavallo, avanzó con firmeza en las reformas estructurales iniciadas en 1989, pero con más prolijidad. Esto se observó en que:",
+          "answers": [
+            "A. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios de salud.",
+            "B. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios educativos.",
+            "C. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios públicos, como la telefonía y la luz y el gas.",
+            "D. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los medios de comunicación públicos.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la B y la C.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la B."
+        },
+        {
+          "question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, ya no como presidente sino como líder de su partido, inicialmente se disciplinó ante la decisión de la coalición que integraba (la Alianza) de mantener la convertibilidad. Sin embargo, con el tiempo el ex presidente buscó imponer su voluntad política por sobre la del entonces presidente de la Rúa:",
+          "answers": [
+            "A. Alfonsín aceptaba mantener la convertibilidad, ya que aspiraba a ser candidato a presidente de la Alianza opositora a Menem.",
+            "B. Alfonsín se oponía sistemáticamente a la política económica de Menem, o sea, a la convertibilidad, desde sus mismos inicios.",
+            "C. Alfonsín finalmente apoyó con decisión a de la Rúa durante la crisis el año 2001, en su política de mantener la convertibilidad.",
+            "D. Alfonsín creía inevitable el fin de la convertibilidad y eso lo fue acercando a las ideas de Duhalde.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la D.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la B y la D."
+        },
+        {
+          "question": "Según Romero, durante la presidencia de Carlos Menem, su canciller, Guido Di Tella, inició negociaciones con Inglaterra por las islas Malvinas. Estas negociaciones se caracterizaron por:",
+          "answers": [
+            "A. La postergación de discusiones sobre la cuestión de la soberanía.",
+            "B. Atender la propuesta argentina sobre el control de la pesca de barcos chinos en aguas territoriales comunes.",
+            "C. La incorporación de cuestiones vinculadas a los derechos pesqueros.",
+            "D. Que ambas partes acordaron, por primera vez, avanzar sobre formas de cogobierno en las islas.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A y la D.",
+            "H. Las opciones correctas son la B, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "En los últimos meses de 2001, el fantástico nivel alcanzado por el 'riesgo país' argentino descartó cualquier posibilidad de acceso al crédito internacional. Se corporizó así el fantasma del cese de los pagos de la deuda. Romero afirma que esto ocasionó que:",
+          "answers": [
+            "A. Muchas personas sacaran sus dólares del país y otros retiraran sus depósitos de los bancos. La corrida amenazaba con destruir todo el sistema bancario.",
+            "B. El llamado 'corralito' detuvo la protesta social que se trasladó a las instituciones formales del Estado, como el Congreso.",
+            "C. Comenzaran los saqueos en el Gran Buenos Aires y en otros centros urbanos. En los barrios populares, fueron asaltados muchos supermercados pequeños, aprovechando la pasividad de las fuerzas policiales, que se limitaron a proteger a grandes cadenas.",
+            "D. El peronismo intentará auxiliar, leal e infructuosamente, al gobierno radical para que pudiera sobrevivir a la crisis.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A, la B y la C.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "Según Edgar Strahele, eso que se ha llamado política 2.0 podría tener que ver con un incremento de importancia de lo que sería una política de lo común y para lo común. Esto se ve por ejemplo en que:",
+          "answers": [
+            "A. Palabras en el idioma español como procomún o en el ámbito anglosajón, commoners, se ha convertido en una práctica habitual.",
+            "B. Se hace referencia a algo común que comparten todos los integrantes de un proyecto en concreto.",
+            "C. Se hace referencia a algo común como si fuera una suerte de propiedad, característica o meta colectiva dada de antemano.",
+            "D. Se hace referencia a algo que es producido o generado gracias a la intervención real y efectiva de los miembros.",
+            "E. Las opciones correctas son la A, y la C.",
+            "F. Las opciones correctas son la A, y la D.",
+            "G. Las opciones correctas son la B, la C y la D.",
+            "H. Las opciones correctas son la A, la B, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A, y la D."
+        }
+      ]
+    },
+
+    // TODO A B C D
     {
       year: 2023,
       name: "TODO A B Y C",
       questions: [
+
+        // PARTE A
         {
           question: "Según afirma Paula Bertino, a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis y éstas han sido exclusivamente políticas.",
           answers: [
@@ -935,7 +1177,6 @@ export const allQuestionsData =
           ],
           "correctAnswer": "E. Las opciones correctas son la A y la B."
         },
-
 
         // PARTE B
         {
@@ -1358,12 +1599,242 @@ export const allQuestionsData =
           ],
           correctAnswer: "E. Las opciones correctas son la A y la C."
         },
+
+        // PARTE D
+        {
+          "question": "La crisis fiscal en Argentina reactivó la protesta social, que renació a mediados de 2000 y creció sostenidamente, hasta culminar en los sucesos de diciembre de 2001. Romero afirma que esto ocurrió porque:",
+          "answers": [
+            "A. El gobierno, huérfano del respaldo del FMI -pese a los desesperados intentos de Cavallo- comenzó a recortar todo tipo de gastos, lo que agudizó las reacciones.",
+            "B. La sequía y la crisis China redujeron los ingresos por las exportaciones agrícolas.",
+            "C. El peronismo trató de auxiliar, leal e infructuosamente, al gobierno radical para que pudiera sobrevivir a la crisis, pero de la Rúa lo rechazó.",
+            "D. Los gobernadores peronistas se organizaron para defender su parte de unos recursos fiscales que se reducían aceleradamente.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A, y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la A, y la D."
+        },
+        {
+          "question": "Según Julio Montero la idea de los derechos humanos fue una invención de los filósofos liberales asociados con el Humanismo y la Ilustración. Esto fue así porque:",
+          "answers": [
+            "A. Ya en el siglo XVII, una época dominada por déspotas y monarcas absolutos, el pensador inglés John Locke argumentó que todos los individuos gozamos de una serie de derechos “naturales”.",
+            "B. De acuerdo con Locke, estos derechos dependían de su reconocimiento legal por parte de los Estados que recién se organizaban.",
+            "C. De acuerdo con Locke, estos derechos no podían ser descubiertos mediante la mera reflexión racional, y no eran tan importantes para que nadie pudiera violarlos.",
+            "D. Una de las grandes contribuciones de Kant a la filosofía moral y política fue darle forma al principio de dignidad de la persona sobre el que se asientan todas las sociedades libres.",
+            "E. Las opciones correctas son la A y la D.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Según el video con la entrevista a Miguel Ángel Quintana Paz, la mejor palabra que define la actualidad, donde existe una propuesta cultural muy diferente a la civilización en la cual vivimos, es lo “woke”. Esto es así porque:",
+          "answers": [
+            "A. Woke es un anglicismo que viene de la tradición católica inglesa ligada a la inquisición de tiempos medievales.",
+            "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino.",
+            "C. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el populismo.",
+            "D. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el conservadurismo social.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino."
+        },
+        {
+          "question": "Según Tomás Straka, en su época de oro, el chavismo manifestó la vocación venezolana de ser una potencia regional, y más o menos emular a Bolívar. Esto se vio en que:",
+          "answers": [
+            "A. La bancarrota venezolana es parecida a las españolas del siglo XVII, así como el oro y la plata americana se dilapidaron en una política imperial fracasada, los petrodólares venezolanos se deshicieron más o menos en lo mismo.",
+            "B. Caracas ayudó a los movimientos de izquierda hasta que tomaron el poder en casi todo el mundo, pero sin forjar luego alianzas políticas o comerciales con ellos.",
+            "C. Según algunos cálculos, solo otorgando facilidades para obtener petróleo, Venezuela dejó de ganar unos cincuenta mil millones de dólares entre 2000 y 2017.",
+            "D. A diferencia de lo ocurrido en la década de 1970, esta vez había la intención ideológica de hacer un eje alternativo a Brasil y México.",
+            "E. Las opciones correctas son la A y la C.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "Pese a que la Constitución era categórica al rechazarlo, Menem intentó jugar la carta de volver a presentarse a las elecciones presidenciales, es decir, obtener una segunda reelección.",
+          "answers": [
+            "A. Es verdadero, lo hizo para tratar de conservar el poder hasta el final, y lanzó de modo informal su candidatura, distribuyendo millones de camisetas, globos y carteles que decían simplemente \"Menem 99”.",
+            "B. Es falso porque, en su primer gobierno, Carlos Saúl Menem se concentró, sobre todo, en las cuestiones de la administración, sabiendo que no había ninguna posibilidad de ser reelecto porque la Constitución era clara al respecto.",
+            "C. Es verdadero porque, para eso, se generó una fuerte alianza entre Menem y el entonces gobernador de la Provincia de Buenos Aires, Eduardo Duhalde, para bloquear el posible triunfo de la oposición.",
+            "D. Es falso, porque Menem apoyó con decisión la candidatura de Duhalde, su socio principal en los 10 años de gobierno que finalizaban en 1999."
+          ],
+          "correctAnswer": "A. Es verdadero, lo hizo para tratar de conservar el poder hasta el final, y lanzó de modo informal su candidatura, distribuyendo millones de camisetas, globos y carteles que decían simplemente \"Menem 99”."
+        },
+        {
+          "question": "Según señala Julio Montero, los derechos humanos tienen muchos defensores y entre sus objetivos prioritarios están los de globalizar valores occidentales que todos los pueblos comparten.",
+          "answers": [
+            "A. Es falso, porque los derechos humanos no impiden que las personas vivan sus vidas según las convenciones fijadas por su cultura o su religión, si así lo deciden.",
+            "B. Es verdadero, porque occidente es la cuna y el lugar privilegiado donde los derechos humanos son aplicados.",
+            "C. Es falso, porque lejos de colaborar con el pluralismo, los derechos humanos generan un marco para que las diferentes culturas sean ignoradas en función de ciertos valores que se consideran universales.",
+            "D. Es verdadero, porque en los países que no son occidentales no se respetan los derechos humanos del mismo modo y hay tradiciones que es necesario cambiar y hasta combatir."
+          ],
+          "correctAnswer": "A. Es falso, porque los derechos humanos no impiden que las personas vivan sus vidas según las convenciones fijadas por su cultura o su religión, si así lo deciden."
+        },
+        {
+          "question": "Según afirma Diego Bernardini, hoy está claro que ser una persona mayor implica pertenecer a un grupo que se exime de cualquier posibilidad de caracterización porque la norma es la diversidad.",
+          "answers": [
+            "A. Es falso, porque el devenir del tiempo es algo que solo se explica desde la lógica biológica.",
+            "B. Es falso, porque con la globalización como entorno la norma es la homogeneidad.",
+            "C. Es verdadero, porque cada uno tiene la edad que percibe que tiene y la juventud es la elección mayoritaria.",
+            "D. Es verdadero, porque definir cuándo se es mayor y qué significa serlo se vuelve una tarea que carece de una respuesta única."
+          ],
+          "correctAnswer": "D. Es verdadero, porque definir cuándo se es mayor y qué significa serlo se vuelve una tarea que carece de una respuesta única."
+        },
+        {
+          "question": "Según Sebastián Linares, las justificaciones del sorteo para designar cargos públicos aplican para cualquier contexto. Por ejemplo, solo el argumento de la igualdad política alcanza para justificar el carácter democrático de cualquier sistema de selección aleatoria.",
+          "answers": [
+            "A. Es verdadero, porque un dictador escogido por sorteo sería democrático, siempre que se honre la igualdad de trato en la selección.",
+            "B. Es verdadero, porque tener una misma probabilidad de acceder a un cargo público es, sin más, mucho más democrático que cualquier otro sistema de elección de representantes.",
+            "C. Es falso, porque el efecto sanitizante del sorteo para designar cargos públicos nunca depende del contexto.",
+            "D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+          ],
+          "correctAnswer": "D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+        },
+        {
+          "question": "Según Romero, Menem no necesitó ni la Plaza ni el balcón para comunicarse fácilmente con la gente, más allá de sus identidades políticas.",
+          "answers": [
+            "A. Es verdadero, porque el uso imaginativo y sistemático de las redes sociales lo colocó como el político más popular entre los jóvenes.",
+            "B. Es verdadero, porque Menem demostró que, para gobernar, en última instancia, podría prescindir del peronismo y de sus cuadros.",
+            "C. Es falso, Menem se apoyó en la liturgia y en la tradición peronista para consolidar su poder, apelando al recuerdo que los trabajadores tenían de las buenas épocas de Perón.",
+            "D. Es falso, porque Menem usó el poder del Estado y los subsidios y beneficios que otorgaba para llegar por medio del partido y sus punteros a la mayoría de su base electoral."
+          ],
+          "correctAnswer": "B. Es verdadero, porque Menem demostró que, para gobernar, en última instancia, podría prescindir del peronismo y de sus cuadros."
+        },
+        {
+          "question": "En el video sobre la política del futuro, Julia Pomares afirma que hay algunas certezas sobre cómo va a ser ese futuro, por ejemplo:",
+          "answers": [
+            "A. Seguramente habrá algún tipo de holocausto nuclear.",
+            "B. El socialismo será el sistema político dominante.",
+            "C. La inteligencia artificial aplicada a los procesos de todo tipo --de producción, de servicios-- va a haber transformado a las economías desarrolladas.",
+            "D. El centro del poder económico mundial va a estar en un mercado común entre Estados Unidos y Europa.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "C. La inteligencia artificial aplicada a los procesos de todo tipo --de producción, de servicios-- va a haber transformado a las economías desarrolladas."
+        },
+        {
+          "question": "Según Claudio Iglesias, desde el punto de vista de la economía, la Argentina es un país que una y otra vez elige repetir los mismos errores y que generan los mismos resultados. Esto se ve por ejemplo, en:",
+          "answers": [
+            "A. Insistir por el camino de los subsidios cruzados financiados con emisión.",
+            "B. Castigar el ahorro público.",
+            "C. Dejar que las grandes empresas trasnacionales capitalistas gobiernen el país.",
+            "D. Insistir con el financiamiento inflacionario para satisfacer las necesidades de corto plazo relacionadas con la competencia electoral.",
+            "E. Las opciones correctas son la A y la D.",
+            "F. Las opciones correctas son la A, la B y la C.",
+            "G. Las opciones correctas son la B, la C y la D.",
+            "H. Las opciones correctas son la A, la B, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Según Julio Montero, la doctrina de los derechos humanos afirma que todos los derechos humanos son indivisibles e interdependientes y que gozan de la misma jerarquía normativa; esto implica que:",
+          "answers": [
+            "A. Los gobiernos no pueden elegir qué derechos humanos van a respetar.",
+            "B. Los derechos humanos son dependientes de las políticas públicas de los Estados.",
+            "C. A través de las leyes, los gobiernos jerarquizan los derechos humanos según el país, sus coyunturas y raíces históricas.",
+            "D. Los gobiernos deben hacer su mejor esfuerzo por satisfacerlos todos a la vez.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A y la D.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la A y la D."
+        },
+        {
+          "question": "Paula Bertino afirma que en una democracia delegativa no hay incorporación política de los sectores populares, excepto en lo discursivo. Esto es así porque:",
+          "answers": [
+            "A. La democracia delegativa es un régimen político totalitario (porque la capacidad de decidir del líder es total).",
+            "B. Los canales de diálogo entre el gobierno y la ciudadanía se abren solo durante las elecciones, para luego cerrarse hasta la siguiente elección.",
+            "C. Los votantes se expresan a través de las redes sociales, cuya característica principal es el uso del discurso y la palabra.",
+            "D. Los votantes esperan una salvación de la crisis de la mano de un líder que se considera único e irrepetible.",
+            "E. Las opciones correctas son la A y la C.",
+            "F. Las opciones correctas son la B y la C.",
+            "G. Las opciones correctas son la B y la D.",
+            "H. Las opciones correctas son la B, la C y la D."
+          ],
+          "correctAnswer": "G. Las opciones correctas son la B y la D."
+        },
+        {
+          "question": "Romero afirma que luego de aprobada la ley de convertibilidad y estabilizada la economía, el ministro de Economía, Domingo Cavallo, avanzó con firmeza en las reformas estructurales iniciadas en 1989, pero con más prolijidad. Esto se observó en que:",
+          "answers": [
+            "A. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios de salud.",
+            "B. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios educativos.",
+            "C. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios públicos, como la telefonía y la luz y el gas.",
+            "D. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los medios de comunicación públicos.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la B y la C.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "E. Las opciones correctas son la A y la B."
+        },
+        {
+          "question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, ya no como presidente sino como líder de su partido, inicialmente se disciplinó ante la decisión de la coalición que integraba (la Alianza) de mantener la convertibilidad. Sin embargo, con el tiempo el ex presidente buscó imponer su voluntad política por sobre la del entonces presidente de la Rúa:",
+          "answers": [
+            "A. Alfonsín aceptaba mantener la convertibilidad, ya que aspiraba a ser candidato a presidente de la Alianza opositora a Menem.",
+            "B. Alfonsín se oponía sistemáticamente a la política económica de Menem, o sea, a la convertibilidad, desde sus mismos inicios.",
+            "C. Alfonsín finalmente apoyó con decisión a de la Rúa durante la crisis el año 2001, en su política de mantener la convertibilidad.",
+            "D. Alfonsín creía inevitable el fin de la convertibilidad y eso lo fue acercando a las ideas de Duhalde.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la B y la D.",
+            "G. Las opciones correctas son la C y la D.",
+            "H. Las opciones correctas son la A, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la B y la D."
+        },
+        {
+          "question": "Según Romero, durante la presidencia de Carlos Menem, su canciller, Guido Di Tella, inició negociaciones con Inglaterra por las islas Malvinas. Estas negociaciones se caracterizaron por:",
+          "answers": [
+            "A. La postergación de discusiones sobre la cuestión de la soberanía.",
+            "B. Atender la propuesta argentina sobre el control de la pesca de barcos chinos en aguas territoriales comunes.",
+            "C. La incorporación de cuestiones vinculadas a los derechos pesqueros.",
+            "D. Que ambas partes acordaron, por primera vez, avanzar sobre formas de cogobierno en las islas.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A y la D.",
+            "H. Las opciones correctas son la B, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "En los últimos meses de 2001, el fantástico nivel alcanzado por el 'riesgo país' argentino descartó cualquier posibilidad de acceso al crédito internacional. Se corporizó así el fantasma del cese de los pagos de la deuda. Romero afirma que esto ocasionó que:",
+          "answers": [
+            "A. Muchas personas sacaran sus dólares del país y otros retiraran sus depósitos de los bancos. La corrida amenazaba con destruir todo el sistema bancario.",
+            "B. El llamado 'corralito' detuvo la protesta social que se trasladó a las instituciones formales del Estado, como el Congreso.",
+            "C. Comenzaran los saqueos en el Gran Buenos Aires y en otros centros urbanos. En los barrios populares, fueron asaltados muchos supermercados pequeños, aprovechando la pasividad de las fuerzas policiales, que se limitaron a proteger a grandes cadenas.",
+            "D. El peronismo intentará auxiliar, leal e infructuosamente, al gobierno radical para que pudiera sobrevivir a la crisis.",
+            "E. Las opciones correctas son la A y la B.",
+            "F. Las opciones correctas son la A y la C.",
+            "G. Las opciones correctas son la A, la B y la C.",
+            "H. Las opciones correctas son la A, la B y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A y la C."
+        },
+        {
+          "question": "Según Edgar Strahele, eso que se ha llamado política 2.0 podría tener que ver con un incremento de importancia de lo que sería una política de lo común y para lo común. Esto se ve por ejemplo en que:",
+          "answers": [
+            "A. Palabras en el idioma español como procomún o en el ámbito anglosajón, commoners, se ha convertido en una práctica habitual.",
+            "B. Se hace referencia a algo común que comparten todos los integrantes de un proyecto en concreto.",
+            "C. Se hace referencia a algo común como si fuera una suerte de propiedad, característica o meta colectiva dada de antemano.",
+            "D. Se hace referencia a algo que es producido o generado gracias a la intervención real y efectiva de los miembros.",
+            "E. Las opciones correctas son la A, y la C.",
+            "F. Las opciones correctas son la A, y la D.",
+            "G. Las opciones correctas son la B, la C y la D.",
+            "H. Las opciones correctas son la A, la B, la C y la D."
+          ],
+          "correctAnswer": "F. Las opciones correctas son la A, y la D."
+        }
       ]
     },
-
-
-
-
   ]
 
 
@@ -1399,4 +1870,3 @@ const allQuestionsData2 =
       ]
     }
   ]
-
