@@ -246,7 +246,7 @@ const QuizComponent = () => {
           style={{ width: `${(answeredQuestionsCount / totalQuestionsCount) * 100}%`, outline: '2px solid gray' }}
         ></div>
         <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-around items-center text-white text-sm">
-           {`${((answeredQuestionsCount / totalQuestionsCount) * 100).toFixed(0)}%`} {formatTime()}
+          {`${((answeredQuestionsCount / totalQuestionsCount) * 100).toFixed(0)}%`} {formatTime()}
         </div>
       </div>
 
@@ -308,11 +308,22 @@ const QuizComponent = () => {
                 style={{ cursor: !submitted ? "pointer" : "default" }}
               >
                 {submitted && answer === question.correctAnswer && selectedAnswers[question.question] === answer && (
-                  <span className="text-sm text-red-500 pr-1">&#128077; </span>
+                  <span className="text-sm pr-1">&#128077; </span>
                 )}
                 {answer}
+                {/* 
+                &#10060;
+                &#128078;
+
+                */}
                 {submitted && answer === question.correctAnswer && selectedAnswers[question.question] === answer && (
                   <span className="text-sm text-red-500"> &#128077;</span>
+                )}
+                {submitted && answer !== question.correctAnswer && selectedAnswers[question.question] === answer && (
+                  <span className="text-sm text-red-500"> &#10060; </span>
+                )}
+                {submitted && answer === question.correctAnswer && selectedAnswers[question.question] !== answer && (
+                  <span className="text-xl text-green-500"> &#11013; </span>
                 )}
               </li>
             ))}
