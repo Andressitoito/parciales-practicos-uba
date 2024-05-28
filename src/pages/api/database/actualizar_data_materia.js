@@ -6,10 +6,10 @@ async function handler(req, res) {
 		try {
 			const { score, materia } = req.body;
 
-			console.log(score, materia)
+			// console.log(score, materia)
 
 			totalExamsTaken = await actualizar_materia_database(score, materia);
-			console.log("totalExamsTaken ", totalExamsTaken)
+			// console.log("totalExamsTaken ", totalExamsTaken)
 		} catch (error) {
 			return res.status(500).json({
 				status: 500,
