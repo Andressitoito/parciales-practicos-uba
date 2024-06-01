@@ -502,16 +502,6 @@ export const allQuestionsData =
           "correctAnswer": "A. Es verdadero, porque la devaluación de Tailandia en julio de 1997, dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
         },
         {
-          question: "Según Romero, el nuevo gobierno de Fernando de la Rúa que asumía en 1999 recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
-          answers: [
-            "A. Es verdadero, porque al comienzo de la gestión de la Alianza, el enorme ingreso de divisas provenientes de las exportaciones de soja, que ya había comenzado con el gobierno anterior, permitió mejorar los ya excelentes índices macroeconómicos.",
-            "B. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa, gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
-            "C. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada.",
-            "D. Es falso, porque si bien las cuentas públicas estaban en orden gracias a las políticas de achicamiento del Estado, aún persistía una alta inflación heredada del gobierno menemista."
-          ],
-          "correctAnswer": "B. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa, gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional."
-        },
-        {
           question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
           answers: [
             "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
@@ -732,20 +722,6 @@ export const allQuestionsData =
             "H. Las opciones correctas son la A, la C y la D."
           ],
           "correctAnswer": "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino."
-        },
-        {
-          "question": "Según Tomás Straka, en su época de oro, el chavismo manifestó la vocación venezolana de ser una potencia regional, y más o menos emular a Bolívar. Esto se vio en que:",
-          "answers": [
-            "A. La bancarrota venezolana es parecida a las españolas del siglo XVII, así como el oro y la plata americana se dilapidaron en una política imperial fracasada, los petrodólares venezolanos se deshicieron más o menos en lo mismo.",
-            "B. Caracas ayudó a los movimientos de izquierda hasta que tomaron el poder en casi todo el mundo, pero sin forjar luego alianzas políticas o comerciales con ellos.",
-            "C. Según algunos cálculos, solo otorgando facilidades para obtener petróleo, Venezuela dejó de ganar unos cincuenta mil millones de dólares entre 2000 y 2017.",
-            "D. A diferencia de lo ocurrido en la década de 1970, esta vez había la intención ideológica de hacer un eje alternativo a Brasil y México.",
-            "E. Las opciones correctas son la A y la C.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          "correctAnswer": "E. Las opciones correctas son la A y la C."
         },
         {
           "question": "Pese a que la Constitución era categórica al rechazarlo, Menem intentó jugar la carta de volver a presentarse a las elecciones presidenciales, es decir, obtener una segunda reelección.",
@@ -1418,16 +1394,6 @@ export const allQuestionsData =
           "correctAnswer": "A. Es verdadero, porque la devaluación de Tailandia en julio de 1997, dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
         },
         {
-          question: "Según Romero, el nuevo gobierno de Fernando de la Rúa que asumía en 1999 recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
-          answers: [
-            "A. Es verdadero, porque al comienzo de la gestión de la Alianza, el enorme ingreso de divisas provenientes de las exportaciones de soja, que ya había comenzado con el gobierno anterior, permitió mejorar los ya excelentes índices macroeconómicos.",
-            "B. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa, gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
-            "C. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada.",
-            "D. Es falso, porque si bien las cuentas públicas estaban en orden gracias a las políticas de achicamiento del Estado, aún persistía una alta inflación heredada del gobierno menemista."
-          ],
-          "correctAnswer": "B. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa, gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional."
-        },
-        {
           question: "Claudio Iglesias señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
           answers: [
             "A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
@@ -1642,20 +1608,6 @@ export const allQuestionsData =
             "H. Las opciones correctas son la A, la C y la D."
           ],
           "correctAnswer": "B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino."
-        },
-        {
-          "question": "Según Tomás Straka, en su época de oro, el chavismo manifestó la vocación venezolana de ser una potencia regional, y más o menos emular a Bolívar. Esto se vio en que:",
-          "answers": [
-            "A. La bancarrota venezolana es parecida a las españolas del siglo XVII, así como el oro y la plata americana se dilapidaron en una política imperial fracasada, los petrodólares venezolanos se deshicieron más o menos en lo mismo.",
-            "B. Caracas ayudó a los movimientos de izquierda hasta que tomaron el poder en casi todo el mundo, pero sin forjar luego alianzas políticas o comerciales con ellos.",
-            "C. Según algunos cálculos, solo otorgando facilidades para obtener petróleo, Venezuela dejó de ganar unos cincuenta mil millones de dólares entre 2000 y 2017.",
-            "D. A diferencia de lo ocurrido en la década de 1970, esta vez había la intención ideológica de hacer un eje alternativo a Brasil y México.",
-            "E. Las opciones correctas son la A y la C.",
-            "F. Las opciones correctas son la B y la C.",
-            "G. Las opciones correctas son la C y la D.",
-            "H. Las opciones correctas son la A, la B y la D."
-          ],
-          "correctAnswer": "E. Las opciones correctas son la A y la C."
         },
         {
           "question": "Pese a que la Constitución era categórica al rechazarlo, Menem intentó jugar la carta de volver a presentarse a las elecciones presidenciales, es decir, obtener una segunda reelección.",
