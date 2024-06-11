@@ -6,7 +6,7 @@ async function handler(req, res) {
 		try {
 			documents = await getData("ICSE");
 
-			console.log("documents ", documents)
+			// console.log("documents ", documents)
 		} catch (error) {
 			console.log("error ", error);
 
