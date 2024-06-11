@@ -4,7 +4,7 @@ import ScrollToTopButton from "@/components/scrollToTop/scrollToTop";
 import React, { useState, useEffect } from "react";
 import useCounterStore from "../../../../../store/countersData.js";
 import useStore from "../../../../../store/store";
-import { allQuestionsData } from "./parciales.js";
+import { final_data as allQuestionsData } from "./final_data.js";
 import { useRouter } from "next/navigation.js";
 
 const QuizComponent = () => {
