@@ -1,7 +1,7 @@
 export const final_data = [
 	// PARTE A
 	{
-		year: 2023,
+		year: 2024,
 		name: "PARTE A",
 		questions: [
 			{
@@ -219,12 +219,11 @@ export const final_data = [
 				"correctAnswer": "G. Las opciones correctas son la C y la D."
 			}
 		]
-
 	},
 
 	// PARTE B
 	{
-		year: 2023,
+		year: 2024,
 		name: "PARTE B",
 		questions: [
 			{
@@ -460,7 +459,7 @@ export const final_data = [
 
 	// PARTE C
 	{
-		year: 2023,
+		year: 2024,
 		name: "PARTE C",
 		questions: [
 			{
@@ -693,12 +692,233 @@ export const final_data = [
 			}
 		],
 	},
+	// PARTE D
+	{
+		year: 2024,
+		name: "PARTE D",
+		questions: [
+			{
+				"question": "Vale 1. Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
+				"answers": [
+					"A. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX acerca de los cambios producidos en la sociedad contemporánea.",
+					"B. Imagina qué dirían Heidegger, Hegel o Nietzsche, acerca de los cambios producidos en la sociedad contemporánea.",
+					"C. Imagina qué dirían Marx, Engels y Weber acerca de los cambios producidos en la sociedad contemporánea.",
+					"D. Imagina qué dirían los más importantes filósofos de los siglos XIX y XX a partir de la existencia de Internet como acelerador del proceso de digitalización global.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Sebastián Linares, las justificaciones del sorteo para designar cargos públicos aplican para cualquier contexto. Por ejemplo, solo con el argumento de la igualdad política alcanza para justificar el carácter democrático de cualquier sistema de selección aleatoria.",
+				"answers": [
+					"A. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación.",
+					"B. Es verdadero, porque un dictador escogido por sorteo sería democrático, siempre que se honre la igualdad de trato en la selección.",
+					"C. Es falso, porque el efecto sanitizante del sorteo para designar cargos públicos nunca depende del contexto.",
+					"D. Es verdadero, porque tener una misma probabilidad de acceder a un cargo público es, sin más, mucho más democrático que cualquier otro sistema de elección de representantes."
+				],
+				"correctAnswer": "A. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+			},
+			{
+				"question": "Según Luis A. Romero, en los años de la presidencia de Carlos Menem la Argentina volvió a ser confiable para los inversores globales, en momentos en que una masa de dólares circulaba por el mundo a la búsqueda de \"mercados emergentes\" más rendidores que los metropolitanos.",
+				"answers": [
+					"A. Es falso, porque solo estaban disponibles los capitales chinos que nadie aceptaba en el resto del mundo.",
+					"B. Es falso, porque más allá de un período en el siglo XIX Argentina nunca fue confiable para el capital extranjero.",
+					"C. Es verdadero, porque entre 1991 y 1994 entraron al país una cantidad considerable de dólares, con los que el Estado cumplió sus compromisos y saldó su déficit.",
+					"D. Es verdadero, porque Argentina ofrecía una serie de empresas tecnológicas asociadas a la revolución digital que no existían en otras partes del mundo."
+				],
+				"correctAnswer": "C. Es verdadero, porque entre 1991 y 1994 entraron al país una cantidad considerable de dólares, con los que el Estado cumplió sus compromisos y saldó su déficit."
+			},
+			{
+				"question": "Según Romero, el Ministro de Economía de Carlos Menem, Domingo Cavallo, encaró el problema de la inflación mediante la trascendente Ley de Convertibilidad que, durante diez años, marcó las pautas de la economía. Para esto también se logró:",
+				"answers": [
+					"A. Elevar los impuestos más fáciles de cobrar -al Valor Agregado y a las Ganancias-, a costa de mejorar el ahorro o de considerar algún criterio de equidad social.",
+					"B. Reforzar el poder del más importante –e indiscriminado- instrumento de intervención en la economía: la emisión monetaria.",
+					"C. La reducción general de aranceles que cayeron a una tercera parte de su anterior valor.",
+					"D. Declarar un default de la deuda externa unilateral para ahorrarse los pagos y aumentar el superávit.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la A y la D.",
+					"G. Las opciones correctas son la A, la C y la D.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Paula Bertino, afirma que en el concepto de “democracia delegativa” no hay incorporación política de los sectores populares, excepto en lo discursivo. Esto es así porque:",
+				"answers": [
+					"A. La democracia delegativa es un régimen político autoritario porque solo toma en cuenta las decisiones del líder.",
+					"B. Los canales de diálogo entre el gobierno y la ciudadanía se abren sólo durante las elecciones, para luego cerrarse hasta la siguiente elección.",
+					"C. Los votantes esperan una salvación de la crisis de la mano de un líder que se considera extraordinario e insustituible.",
+					"D. Los votantes se expresan a través de los medios de comunicación cuya característica principal es el uso del discurso y la palabra.",
+					"E. Las opciones correctas son la A y B.",
+					"F. Las opciones correctas son la B y C.",
+					"G. Las opciones correctas son la B y D.",
+					"H. Las opciones correctas son la B, C y D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y C."
+			},
+			{
+				"question": "Según Luis A. Romero, los cambios en la economía y en el Estado en los años menemistas le dieron a la sociedad un perfil absolutamente diferente al que había tenido en los cien años anteriores.",
+				"answers": [
+					"A. Es verdadero, porque el Estado reemplazó las costosas y complejas políticas universales de sus épocas de esplendor por intervenciones parciales y focalizadas.",
+					"B. Es verdadero, porque fue un conjunto de acciones integradas, sistemáticas y, si bien muy costosas, a la vez fueron útiles para obtener réditos políticos.",
+					"C. Es falso, porque fue un conjunto de acciones esporádicas, no sistemáticas y poco articuladas, más costosas y, a la vez, poco útiles para obtener réditos políticos.",
+					"D. Es falso, porque los fondos venían principalmente del Estado, aunque en muchos casos los recibía de impuestos confiscatorios, como en el caso de las retenciones a las exportaciones agrícolas."
+				],
+				"correctAnswer": "A. Es verdadero, porque el Estado reemplazó las costosas y complejas políticas universales de sus épocas de esplendor por intervenciones parciales y focalizadas."
+			},
+			{
+				"question": "Según afirma Diego Bernardini, las personas mayores se convierten en un grupo subordinado por una gran parte de la sociedad actual.",
+				"answers": [
+					"A. Es falso, porque en la sociedad actual no hay edadismo y los adultos mayores gozan de plena autonomía en sus decisiones.",
+					"B. Es falso, porque la desde tiempos inmemoriales los ancianos fueron personas importantes e independientes.",
+					"C. Es verdadero, se trata de una actitud que subyace en el inconsciente y se hace realidad como edadismo.",
+					"D. Es verdadero, porque ancianos y niños son personas que, justificadamente, carecen de autonomía para decidir."
+				],
+				"correctAnswer": "C. Es verdadero, se trata de una actitud que subyace en el inconsciente y se hace realidad como edadismo."
+			},
+			{
+				"question": "Según Paula Bertino, las democracias surgidas en tiempos postransicionales en América Latina no se correspondían con los modelos teóricos existentes en ese mismo momento.",
+				"answers": [
+					"A. Es falso, porque en la práctica, eran los mismos tipos de democracias que habían existido en años anteriores, donde la sociedad votaba libremente a quienes serían las autoridades que los gobernaran.",
+					"B. Es falso, porque las democracias surgidas en aquellos años se correspondían con los modelos teóricos existentes, particularmente los que analizaban las transiciones a la democracia.",
+					"C. Es verdadero, porque no solo no correspondían a los modelos teóricos existentes, tampoco correspondían a los ejemplos prácticos de democracias que habían existido en años anteriores.",
+					"D. Es verdadero, porque los expertos observaban que las tipologías previas eran parcialmente útiles, por lo cual a veces no era necesario recurrir a nuevos conceptos, pero en otras ocasiones sí."
+				],
+				"correctAnswer": "C. Es verdadero, porque no solo no correspondían a los modelos teóricos existentes, tampoco correspondían a los ejemplos prácticos de democracias que habían existido en años anteriores."
+			},
+			{
+				"question": "Según Diego Pimentel, en el mundo de hoy se repiten anacronismos como los llevados adelante por series de Netflix, que muestran personajes históricos distorsionados según la perspectiva contemporánea de lo “políticamente correcto”.",
+				"answers": [
+					"A. Es verdadero, porque no se promueve un mundo más tolerante, se exacerba la negación de lo diferente y se expulsa lo distinto.",
+					"B. Es falso, porque la Historia solo debe juzgarse por los ojos contemporáneos.",
+					"C. Es verdadero, porque es característica de la sociedad actual la revalorización de toda negatividad.",
+					"D. Es falso, porque la historia es una sola, no importa cómo ni quién la interprete."
+				],
+				"correctAnswer": "A. Es verdadero, porque no se promueve un mundo más tolerante, se exacerba la negación de lo diferente y se expulsa lo distinto."
+			},
+			{
+				"question": "Según Julio Montero, la idea de los derechos humanos fue una invención de los filósofos liberales asociados con el Humanismo y la Ilustración. Esto fue así porque:",
+				"answers": [
+					"A. Una de las grandes contribuciones de Kant a la filosofía moral y política fue darle forma al principio de dignidad de la persona sobre el que se asientan todas las sociedades libres.",
+					"B. De acuerdo con Locke, estos derechos no podían ser descubiertos mediante la mera reflexión racional, y no eran tan importantes para que nadie pudiera violarlos.",
+					"C. De acuerdo con Locke, estos derechos dependían de su reconocimiento legal por parte de los Estados que recién se organizaban.",
+					"D. Ya en el siglo XVII, una época dominada por déspotas y monarcas absolutos, el pensador inglés John Locke argumentó que todos los individuos gozamos de una serie de derechos “naturales”.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "Según Edgar Straehle, hay cuestiones problemáticas y contraproducentes que deben ser tenidas en cuenta a la hora de reflexionar acerca de los nuevos modelos políticos que se abren a partir del fenómeno en continua transformación que es internet. Estas son:",
+				"answers": [
+					"A. Se sobrevalora el potencial de internet y se confía en que los problemas correspondientes a la política pueden ser resueltos gracias a la instalación y consolidación de una herramienta tecnológica.",
+					"B. Se subvalora el potencial de internet y no se confía en el poder de herramientas tecnológicas para resolver problemas correspondientes a la política.",
+					"C. Se suele olvidar que la red constituye una realidad profundamente heterogénea.",
+					"D. Se suele olvidar que la red constituye una realidad profundamente homogénea organizada a través de algoritmos.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la A y la D.",
+					"G. Las opciones correctas son la B y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se afirma que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa. Eso fue así porque:",
+				"answers": [
+					"A. El sector del peronismo liderado por Menem era mayoritario y querían que el ex presidente volviera al poder.",
+					"B. Los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso, después de las elecciones.",
+					"C. La masiva derrota electoral del oficialismo radical le hizo perder las mayorías que tenía en ambas cámaras (senadores y diputados).",
+					"D. El sector del peronismo liderado por Duhalde quería terminar de inmediato con la convertibilidad.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Según el video con la entrevista a Miguel Ángel Quintana Paz, la mejor palabra que define la actualidad, donde existe una propuesta cultural muy diferente a la civilización en la cual vivimos, es lo “woke”. Esto es así porque:",
+				"answers": [
+					"A. Woke es un anglicismo que viene de awakening y denomina cierto despertar de tipo religioso en países anglosajones.",
+					"B. Imperan ideas, como una nueva religión, que viene a sustituir el mundo religioso y cultural tradicional que sería el judío-cristiano-grecolatino.",
+					"C. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el populismo.",
+					"D. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el conservadurismo social.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Armando Chaguaceda y Eloy Viera, en los grupos de académicos de América Latina no se comprende bien el esquema de poder vigente en Cuba. Esto se ve en que:",
+				"answers": [
+					"A. Desde el relativismo izquierdista extienden al gobierno cubano la certificación de ser “una democracia diferente”.",
+					"B. Solo hay un debate serio sobre el tema dentro de la academia cubana.",
+					"C. Algunos académicos esgrimen para su desinterés justificaciones banales, como las dificultades para entender el idioma local.",
+					"D. Algunos académicos esgrimen para su desinterés justificaciones banales, como que “es una pequeña isla aislada de la globalización”.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "Según Luis A. Romero, en el gobierno de Eduardo Duhalde la mejora en la economía facilitó la salida política, que también tuvo sus complicaciones. Esto fue así porque:",
+				"answers": [
+					"A. Duhalde poseía una clara legitimidad electoral y también de fondos en su caja, pero le faltaba carisma.",
+					"B. La muerte de dos dirigentes de los movimientos sociales a manos de oficiales de la Policía Bonaerense lo decidieron a renovar su mandato y a fortalecer su candidatura, utilizando un discurso que apelaba al orden.",
+					"C. En la sociedad movilizada predominaba un ánimo contra los políticos que hacía dudar del éxito de una convocatoria electoral.",
+					"D. Los gobernadores creían que Duhalde aspiraba a hacerse elegir presidente y retaceaban su apoyo.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Según Claudio Iglesias, desde el punto de vista de la economía, la Argentina es un país que una y otra vez elige repetir los mismos errores y que generan los mismos resultados. Esto se ve en:",
+				"answers": [
+					"A. Castigar el ahorro público.",
+					"B. Insistir por el camino de los subsidios cruzados financiados con emisión.",
+					"C. Dejar que las grandes empresas trasnacionales capitalistas gobiernen el país.",
+					"D. Insistir con el financiamiento inflacionario para satisfacer las necesidades de corto plazo relacionadas con la competencia electoral.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la B, la C y la D.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Según Luis A. Romero, con la crisis del 2001 el doble cuestionamiento de la autoridad política y de la moneda impulsó el despliegue de la crisis social y política. Esto produjo que:",
+				"answers": [
+					"A. En el año de la crisis, se agravara la situación de los 'perdedores' de la gran transformación de las décadas anteriores.",
+					"B. El escenario más visible de la crisis, y también el punto de mayor concentración de sus expresiones, fuera la Provincia de Córdoba, que concentraba los reclamos sociales y los ataques de bandas de saqueadores que aprovecharon la ausencia de personal de seguridad.",
+					"C. El escenario más visible de la crisis, y también el punto de mayor concentración de sus expresiones, fuera la ciudad de Buenos Aires.",
+					"D. Cotidianamente aparecieran columnas de piqueteros, que lucían amenazantes, con sus palos y las caras cubiertas con pasamontañas, reclamando subsidios y 'planes'.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la D.",
+					"G. Las opciones correctas son la B y la C.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la A, la C y la D."
+			}
+		],
+	},
 ];
 
 const allQuestionsData2 = [
 	// PARTE 1
 	{
-		year: 2023,
+		year: 2024,
 		name: "PARTE A",
 		questions: [
 
