@@ -29,7 +29,8 @@ export const final_data = [
 				"answers": [
 					"A. Es verdadero, porque Menem se hizo respetar en el mundo por haber consolidado una posición no alineada con las grandes potencias de la época.",
 					"B. Es falso, porque Menem no se vinculó demasiado con el resto del mundo, ya que se dedicó completamente a una coyuntura nacional que parecía al borde de la explosión.",
-					"C. Es falso, porque se alineó radicalmente con Estados Unidos y beneficios que otorgaba para llegar a la mayoría de su base electoral por medio del partido y sus punteros."
+					"C. Es falso, porque se alineó radicalmente con Estados Unidos y beneficios que otorgaba para llegar a la mayoría de su base electoral por medio del partido y sus punteros.",
+					"D. Es verdadero, porque buscaba apoyo para continuar la disputa diplomática con los ingleses en torno a la soberanía de las Islas Malvinas."
 				],
 				"correctAnswer": "C. Es falso, porque se alineó radicalmente con Estados Unidos y beneficios que otorgaba para llegar a la mayoría de su base electoral por medio del partido y sus punteros."
 			},
@@ -42,16 +43,6 @@ export const final_data = [
 					"D. Es verdadero, porque el humor y la sátira no han existido siempre en la forma insolente que hoy las vemos y no en todas las culturas se puede burlar de sus símbolos."
 				],
 				"correctAnswer": "B. Es verdadero, porque cancelar la cultura es una confesión de impotencia, de una generación que busca las causas a toda costa en lugares cómodos donde el bien y el mal son aparentemente fácilmente identificables."
-			},
-			{
-				"question": "Sebastián Linares afirma que James Fishkin ha argumentado que el sorteo, cuando involucra a un número amplio de personas, tiene la virtud de asegurar la representación descriptiva de la población.",
-				"answers": [
-					"A. Es falso, porque ningún sistema basado en rasgos descriptivos puede ser democrático.",
-					"B. Es falso, porque Fishkin rechaza el sorteo en todas sus formas.",
-					"C. Es verdadero, porque el sorteo de una asamblea hace posible que los rasgos descriptivos que identifican a las personas de una población estén presentes, en igual proporción, dentro de la muestra seleccionada por azar.",
-					"D. Es verdadero, porque el sorteo no discrimina grupos minoritarios, ya que por su propia definición es objetivo."
-				],
-				"correctAnswer": "B. Es falso, porque Fishkin rechaza el sorteo en todas sus formas."
 			},
 			{
 				"question": "Pese a que la Constitución era categórica al rechazarlo, según Luis A. Romero, Menem intentó jugar la carta de volver a presentarse a las elecciones presidenciales, es decir, obtener una segunda reelección.",
