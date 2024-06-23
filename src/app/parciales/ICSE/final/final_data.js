@@ -457,6 +457,242 @@ export const final_data = [
 			}
 		],
 	},
+
+	// PARTE C
+	{
+		year: 2023,
+		name: "PARTE C",
+		questions: [
+			{
+				"question": "Según Edgar Straehle, una de las consecuencias más interesantes de la aparición y difusión de internet ha sido la inversión del tradicional pesimismo que, al menos en el seno de la academia, había prevalecido después de la Segunda Guerra Mundial. Esto generó que:",
+				"answers": [
+					"A. No se valore el potencial de internet y se desconfíe en que los problemas correspondientes a la política pudieran ser resueltos gracias a la instalación y consolidación de una herramienta tecnológica.",
+					"B. Haya lecturas demasiado esperanzadoras acerca de nuestro futuro, en muchos casos por un desconocimiento de las ambivalencias aparejadas a las dinámicas de la red.",
+					"C. Se hayan generado críticas contra este nuevo optimismo, en especial contra las tendencias ciberutopistas, que ven en la red la definitiva (e incluso mágica) tabla de salvación de los principales males del presente.",
+					"D. Se suelen olvidar que la red constituye una realidad profundamente homogénea organizada a través de algoritmos.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Diego Pimentel uno de los cambios de paradigmas tecnosociales a los cuales la humanidad se ha enfrentado durante la segunda mitad del siglo XX ha sido el proceso de achicamiento del universo de los objetos materiales, también llamado proceso de obsolescencia. Esto se ve en que:",
+				"answers": [
+					"A. Ahora producimos más información que cosas.",
+					"B. Ahora producimos más cosas para consumir que información.",
+					"C. Vivimos la información constante como un mundo de ensueño.",
+					"D. El fetichismo de las cosas se ha acabado.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "Según Edgar Straehle, evidenciando de nuevo la ambivalencia o la resignificabilidad inherente a Internet, esto también ha desembocado en prácticas empresariales, como el crowdsourcing. Esto se produjo porque:",
+				"answers": [
+					"A. Internet se ha convertido en una herramienta del poder de los Estados para controlar a la población.",
+					"B. Son las corporaciones más poderosas las que se aprovechan para sus propios intereses de esta contribución desinteresada hecha por los internautas, por supuesto sin remunerarla.",
+					"C. La extensión de la red también ha tenido su compleja traducción política, no siempre fácil de llevar a cabo ni exenta de contradicciones.",
+					"D. Los gobiernos han intervenido Internet para garantizar la neutralidad de la red.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Luis A. Romero, cuando el anunciado final de su mandato colocaba al presidente Menem en una incómoda situación por no poder ser reelecto, una nueva crisis internacional desequilibró el edificio económico e inició una larga recesión.",
+				"answers": [
+					"A. Es verdadero, porque la devaluación de Tailandia en julio de 1997, dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros.",
+					"B. Es falso, porque Menem logró su segunda reelección en 1999 de la mano del éxito de la convertibilidad.",
+					"C. Es verdadero, porque la devaluación de la moneda brasileña obligó a la devaluación del peso.",
+					"D. Es falso, porque la crisis y derrumbe de la Unión Soviética en julio de 1997 afectó al mundo socialista y no llegó a Argentina."
+				],
+				"correctAnswer": "A. Es verdadero, porque la devaluación de Tailandia en julio de 1997, dio lugar a una serie de derrumbes –Corea del Sur, Japón, Rusia– que minó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia mercados más seguros."
+			},
+			{
+				"question": "Según Romero, el nuevo gobierno de Fernando de la Rúa, que asumía en 1999, recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
+				"answers": [
+					"A. Es verdadero, porque al comienzo de la gestión de la Alianza, el enorme ingreso de divisas provenientes de las exportaciones de soja, que ya había comenzado con el gobierno anterior, permitió mejorar los ya excelentes índices macroeconómicos.",
+					"B. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa, gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
+					"C. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada.",
+					"D. Es falso, porque si bien las cuentas públicas estaban en orden gracias a las políticas de achicamiento del Estado, aun persistía una alta inflación heredada del gobierno menemista."
+				],
+				"correctAnswer": "C. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada."
+			},
+			{
+				"question": "Según Julio Montero, las ideas de Karl Marx tienen gran atractivo y resultan muy seductoras para quienes las estudian; sin embargo, los regímenes socialistas raramente cumplieron con sus promesas.",
+				"answers": [
+					"A. Es verdadero, porque los socialismos reales asesinaron a millones de seres humanos y enviaron a muchos otros a campos de concentración donde se esperaba 'reeducarlos'.",
+					"B. Es falso, porque los regímenes socialistas lograron mejorar la calidad de vida de los trabajadores y erradicar la explotación.",
+					"C. Es verdadero, porque los regímenes socialistas existieron en el siglo XIX y en ese momento los derechos políticos y sociales no estaban muy desarrollados.",
+					"D. Es falso, porque en Cuba los artistas y los blogueros no son perseguidos, y el Estado tampoco ejerce un estricto control sobre las redes sociales, la música y el acceso a internet."
+				],
+				"correctAnswer": "A. Es verdadero, porque los socialismos reales asesinaron a millones de seres humanos y enviaron a muchos otros a campos de concentración donde se esperaba 'reeducarlos'."
+			},
+			{
+				"question": "Según Romero, el gobierno de Menem se caracterizó por el importante apoyo que obtuvo de los presidentes estadounidenses de entonces.",
+				"answers": [
+					"A. Es falso, porque Menem hizo una política independiente; pero un tanto aislacionista, con excepción del Mercosur.",
+					"B. Es falso, porque a ningún gobierno norteamericano le interesó demasiado Argentina, ni antes de Menem ni después.",
+					"C. Es verdadero porque Barack Obama ayudó al gobierno de Menem cada vez que éste lo requirió.",
+					"D. Es verdadero, porque Menem respaldó todas las posiciones internacionales de Estados Unidos y acompañó a sus campañas militares, enviando tropas al Golfo Pérsico y a la ex Yugoslavia."
+				],
+				"correctAnswer": "D. Es verdadero, porque Menem respaldó todas las posiciones internacionales de Estados Unidos y acompañó a sus campañas militares, enviando tropas al Golfo Pérsico y a la ex Yugoslavia."
+			},
+			{
+				"question": "Según afirma Paula Bertino, a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis y éstas han sido exclusivamente políticas.",
+				"answers": [
+					"A. Es falso, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis económicas y sociales.",
+					"B. Es verdadero, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis donde los políticos han sido la causa y los responsables.",
+					"C. Es verdadero, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis culturales.",
+					"D. Es falso, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis ideológicas."
+				],
+				"correctAnswer": "A. Es falso, porque a lo largo de su historia contemporánea, América Latina ha sufrido una serie recurrente de crisis económicas y sociales."
+			},
+			{
+				"question": "Según Armando Chaguaceda y Eloy Viera, el régimen cubano, como quiera que se lo evalúe, siempre pasa un test serio de democraticidad formal o sustantiva.",
+				"answers": [
+					"A. Es falso, porque la forma real del poder en la isla es un socialismo de Estado y una autocracia con un núcleo familiar y militar ‒ monopolizadora del poder, el saber y la riqueza‒.",
+					"B. Es verdadero, porque es “una democracia diferente” que no puede ser comprendida a la manera occidental.",
+					"C. Es verdadero, porque se trata de un régimen político de matriz neoliberal.",
+					"D. Es falso, porque no existen ese tipo de test."
+				],
+				"correctAnswer": "A. Es falso, porque la forma real del poder en la isla es un socialismo de Estado y una autocracia con un núcleo familiar y militar ‒ monopolizadora del poder, el saber y la riqueza‒."
+			},
+			{
+				"question": "Romero, afirma que era inevitable que la crisis post-menemista provocara un remezón social y político. Pudo haber sido diferente su forma y su profundidad, y eso fue responsabilidad del gobierno de de la Rúa. Esto fue así porque:",
+				"answers": [
+					"A. Al menos hasta octubre de 2001, nadie se propuso definidamente derribarlo o ponerle obstáculos imposibles de superar.",
+					"B. Su único logro político fue mantener la unidad - ciertamente precaria- de la Alianza.",
+					"C. La gestión de de la Rúa no intentó sumar a otras fuerzas políticas y tratar de hacerlas copartícipes de un derrumbe que se avizoraba.",
+					"D. La gestión de de la Rúa intentó sumar a otras fuerzas políticas y tratar de hacerlas copartícipes de un derrumbe que se avizoraba, pero del que no eran responsables.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A, la B, la C.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Paola Bautista de Alemán, define tres conceptos que, afirma, ayudarán a una mejor lectura del fenómeno de los gobiernos autoritarios y su eficiencia en la administración. Estos son:",
+				"answers": [
+					"A. Eficacia autoritaria, gestión pública y racionalidad burocrática.",
+					"B. Desempeño, crisis y capacidad estatal.",
+					"C. Lógica autoritaria, crisis y coacción.",
+					"D. Burocracia, hegemonía y Estados opacos.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la B y la D."
+				],
+				"correctAnswer": "B. Desempeño, crisis y capacidad estatal."
+			},
+			{
+				"question": "Según la entrevista a Miguel Ángel Quintana Paz, el académico afirma que la ideología “woke” modifica la tradición judeocristiana en la idea de darle protagonismo al sufriente, a la víctima, eliminando la idea de perdón o reconciliación. Esto es así porque:",
+				"answers": [
+					"A. En la ideología woke se te desprecia si has cometido un error, si te has comportado de una manera inadecuada en un momento determinado de tu vida, aunque haya sido hace 20 o 30 años. Eso puede volver siempre.",
+					"B. En la ideología woke, si has cometido un error, hagas lo que hagas, lo único que te queda es pedir perdón, pero aún, incluso si lo pides, nunca se te da.",
+					"C. En la ideología woke la humillación del que cometió un error es importante, porque también lo es en la tradición judeocristiana en la que vivimos.",
+					"D. En la ideología woke se busca consolidar las ideas y tradiciones clásicas que sostienen a la sociedad en la que vivimos.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Romero, la sanción de las leyes de emergencia y de reforma le dieron a Menem importantes atribuciones que manejó discrecionalmente. Esto se vio en que:",
+				"answers": [
+					"A. “El jefe\", como empezó a llamárselo, concedía a sus fieles protección e impunidad.",
+					"B. “El jefe\", como empezó a llamárselo, repartía dadivas, subsidios y planes a todos aquellos que se le acercaban.",
+					"C. “El jefe\", como empezó a llamárselo, distribuía con generosidad los frutos de un tráfico de influencias practicado sin disimulo.",
+					"D. “El jefe\", como empezó a llamárselo, tenía carisma y recursos para repartir y los trató de usar infructuosamente, para que el peronismo apoyara sus nuevas ideas y políticas, cosa que no ocurrió.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "En el video sobre la política del futuro, Julia Pomares afirma que los líderes políticos cada vez privilegian más las identidades locales; pero al mismo tiempo, enfrentan problemas que son cada vez más globales. Esto genera complicaciones, como por ejemplo:",
+				"answers": [
+					"A. La amenaza de la vuelta a un sistema de Estados-nación de tipo absolutistas.",
+					"B. Que los países hoy son muy grandes para los problemas pequeños, pero muy pequeños para los problemas grandes.",
+					"C. La existencia de un mundo donde hay muchas pequeñas empresas, pero con gobiernos municipales que pueden resolver los grandes problemas globales.",
+					"D. Que haya incertidumbre sobre un posible mundo de grandes empresas que ostenten mucho del poder económico global junto a un gobierno mundial que tome decisiones alejado de las sociedades y las personas.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Según Diego Bernardini, el cambio social vinculado a la nueva longevidad, no solo se da en términos cuantitativos, sino que también es cualitativo. Nuevos roles definen esta nueva longevidad y ayudan a comprender la envergadura de su influencia. Esto se ve en que:",
+				"answers": [
+					"A. Ser una persona mayor es ser parte de un grupo en el que día a día se construye fortaleza en base a la unidad y la homogeneidad.",
+					"B. Se ha generado una guerra entre los mayores y las nuevas generaciones que quieren ocupar sus lugares en la producción.",
+					"C. Los mayores votan, consumen, producen y brindan servicios.",
+					"D. Son una fuerza social que influye en las decisiones, como en el brexit y en la elección de 2016 en Estados Unidos, en los que se hicieron sentir y con fuerza, ya que sus votos condicionaron de manera determinante el resultado de esas elecciones.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff, se hace referencia a que Raúl Alfonsín, ya no como presidente, sino como líder de su partido, inicialmente se disciplinó ante la decisión de la coalición que integraba (la Alianza) de mantener la convertibilidad. Sin embargo, con el tiempo, el expresidente buscó imponer su voluntad política por sobre la del presidente de la Rúa:",
+				"answers": [
+					"A. Alfonsín aceptaba mantener la convertibilidad ya que aspiraba a ser candidato a presidente de la Alianza opositora a Menem.",
+					"B. Alfonsín se oponía sistemáticamente a la política económica de Menem, o sea, a la convertibilidad, desde sus mismos inicios.",
+					"C. Alfonsín finalmente apoyó con decisión a de la Rúa durante la crisis el año 2001 en su política de mantener la convertibilidad.",
+					"D. Alfonsín creía inevitable el fin de la convertibilidad y eso lo fue acercando a las ideas de Duhalde.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Claudio Iglesias, señala una serie de continuidades históricas a la hora de responder la pregunta de por qué la Argentina se transformó en una economía estancada y un país sometido a recurrentes golpes militares y revueltas políticas y sociales. Entre ellas:",
+				"answers": [
+					"A. La presencia del Fondo Monetario Internacional (FMI) tratando de imponer planes de ajuste y estancamiento.",
+					"B. Existe un sindicalismo –de inspiración estatal y controlado monopólicamente por una fuerza política– poco propenso al pluralismo.",
+					"C. Existen gobiernos subnacionales (provincias) donde la democracia liberal y la división de poderes no es más que una aspiración.",
+					"D. No existen partidos políticos consolidados.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la B y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Vale 1. Según Julio Montero, y a pesar de los discursos sobre la preocupación por los que menos tienen, y que los recursos y las oportunidades estuvieran distribuidos de una manera más justa, los regímenes socialistas raramente cumplieron con sus promesas. Esto se funda en que:",
+				"answers": [
+					"A. Los socialismos reales asesinaron a millones de seres humanos y enviaron a muchos otros a campos de concentración donde se esperaba “reeducarlos”.",
+					"B. Los experimentos socialistas conocidos hasta ahora culminaron en graves penurias económicas que tarde o temprano precipitaron su caída, dejando millones de pobres y exiliados.",
+					"C. Los países nórdicos, en especial Finlandia, Suecia y Noruega, fueron países donde las dictaduras comunistas sembraron el terror en la primera mitad del siglo XX.",
+					"D. Hoy ya no existen gobiernos que se consideren comunistas o socialistas marxistas.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			}
+		],
+	},
 ];
 
 const allQuestionsData2 = [
