@@ -217,7 +217,21 @@ export const final_data = [
 					"H. Las opciones correctas son la A, la B y la D."
 				],
 				"correctAnswer": "G. Las opciones correctas son la C y la D."
-			}
+			},
+			{
+				"question": "Según Luis A. Romero, con la renuncia del presidente de la Rúa terminó traumáticamente el breve interludio de un gobierno no peronista en el ciclo del segundo peronismo. Esto fue así porque:",
+				"answers": [
+					"A. La dolarización de la economía propuesta por de la Rúa no se aprobó en el Congreso a pesar de que su partido tenía la mayoría en ambas cámaras.",
+					"B. Los datos duros de la economía ya indicaban en 1999 que, salvo algún cambio importante en las condiciones externas, el derrumbe fiscal era imposible de evitar.",
+					"C. La gestión de de la Rúa no intentó sumar a otras fuerzas políticas y tratar de hacerlas copartícipes de un derrumbe que se avizoraba, y del que también eran responsables.",
+					"D. Durante el gobierno de la Alianza, los datos económicos cambiaron para peor, sobre todo, con la nueva política de Estados Unidos y el FMI.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la B, la C y la D."
+			},
 		]
 	},
 
@@ -453,6 +467,16 @@ export const final_data = [
 					"H. Las opciones correctas son la B y la D."
 				],
 				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Luis A. Romero, Menem inició su gobierno en medio de una crisis formidable: la hiperinflación, desatada en abril, se prolongó hasta agosto; en julio la inflación fue del 200%, y en diciembre todavía se mantenía en el 40%.",
+				"answers": [
+					"A. Es falso, dado que eso ocurrió en el gobierno de Alfonsín. Menem, con la convertibilidad, eludió la hiperinflación.",
+					"B. Es verdadero, porque lo nuevo era la crisis, y que ésta se manifestara más con depresión social y apatía que con violencia y espectacularidad.",
+					"C. Es falso, porque los gastos del Estado benefactor aún no eran excesivos y el problema era de carácter político, sobre todo con el tema de los juicios pendientes a los militares de la dictadura.",
+					"D. Es verdadero, porque con un fisco en bancarrota, moneda licuada, sueldos inexistentes y violencia social, quedó expuesta la incapacidad del Estado para gobernar."
+				],
+				"correctAnswer": "D. Es verdadero, porque con un fisco en bancarrota, moneda licuada, sueldos inexistentes y violencia social, quedó expuesta la incapacidad del Estado para gobernar."
 			}
 		],
 	},
@@ -689,7 +713,21 @@ export const final_data = [
 					"H. Las opciones correctas son la A, la C y la D."
 				],
 				"correctAnswer": "E. Las opciones correctas son la A y la B."
-			}
+			},
+			{
+				"question": "Según Romero, con la crisis del 2001 el doble cuestionamiento de la autoridad política y de la moneda impulsó el despliegue de la crisis social y política. Esto produjo que:",
+				"answers": [
+					"A. En el año de la crisis, se agravara la situación de los 'perdedores' de la gran transformación de las décadas anteriores.",
+					"B. El escenario más visible de la crisis, y también el punto de mayor concentración de sus expresiones, fuera la Provincia de Córdoba, que concentraba los reclamos sociales y los ataques de bandas de saqueadores que aprovecharon la ausencia de personal de seguridad.",
+					"C. La crisis empeorara la situación de los grupos que habían sido los perdedores sociales de los años 90 pero, finalmente, no arrastró a otros segmentos sociales en esa crisis que comenzaba con el siglo XX.",
+					"D. Cotidianamente aparecieran columnas de piqueteros, que lucían amenazantes, con sus palos y las caras cubiertas con pasamontañas, reclamando subsidios y 'planes'.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la D.",
+					"G. Las opciones correctas son la B y la C.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la A y la D."
+			},
 		],
 	},
 	// PARTE D
@@ -910,7 +948,35 @@ export const final_data = [
 					"H. Las opciones correctas son la A, la C y la D."
 				],
 				"correctAnswer": "H. Las opciones correctas son la A, la C y la D."
-			}
+			},
+			{
+				"question": "Según Tomás Straka, Venezuela entregó todo el poder a un hombre (Hugo Chávez), que logró generar una ilusión de prosperidad por un súper boom petrolero, pero que, al mismo tiempo, aprovechó la coyuntura para construir una versión moderada del socialismo real. Esto fue así porque:",
+				"answers": [
+					"A. Chávez aplicó un sistema basado en los valores y creencias clásicas que rigieron en América Latina en todo el siglo XIX y XX.",
+					"B. No se trató de una socialdemocracia, sino de una idea de socialismo parecido al húngaro y al yugoslavo de los años de la Guerra Fría.",
+					"C. Se aplicó en Venezuela modelos que esencialmente habían triunfado en todas partes.",
+					"D. Se construyó un sistema en el que la propiedad privada y el mercado tuvieron un papel muy secundario.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Según Sebastián Linares, el sorteo de cargos públicos, en principio, resulta plenamente congruente con el valor de la igualdad de trato, puesto que concede a todos una igual probabilidad de obtener un cargo público. Sin embargo, podría tener contraindicaciones. Por ejemplo:",
+				"answers": [
+					"A. Podría lesionar el valor de la libertad de elegir cuando el número de cargos sorteados es reducido.",
+					"B. Podría lesionar el valor de la libertad de elegir cuando el número de cargos sorteados es muy numeroso.",
+					"C. La ausencia de libertad de elección es un problema si se busca adjudicar a los sorteados la autoridad final, puesto que no queremos vivir bajo leyes sobre las que no hemos podido manifestar nuestra libertad de elección.",
+					"D. La ausencia de libertad de elección es una objeción suficiente para rechazar el sorteo de cargos como esquemas mixtos o complementarios de gobierno y de elecciones hechas en forma tradicional.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la A y la C."
+			},
 		],
 	},
 ];
