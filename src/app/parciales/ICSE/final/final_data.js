@@ -2,7 +2,176 @@ export const final_data = [
 	// PARTE A
 	{
 		year: 2024,
-		name: "PARTE A",
+		name: "PARTE 1 A",
+		questions: [
+			{
+				"question": "Según Florencia Deich, en 1973 el presidente Héctor Cámpora y el vice Vicente Solano Lima renunciaron a sus cargos y fueron reemplazados por el tercero en la línea constitucional, el entonces presidente de la Cámara de Diputados, Raúl Lastiri.",
+				"answers": [
+					"A. Es falso, porque ni Cámpora ni Solano Lima ocuparon los cargos de presidente y vice respectivamente.",
+					"B. Es falso, porque Cámpora finalizó su mandato de 6 años y es recordado como un presidente ejemplar.",
+					"C. Es verdadero, porque fue producto de movimientos militares opuestos al peronismo y que años más tarde concluirían en un golpe de Estado.",
+					"D. Es verdadero, porque fue producto de movimientos dentro del mismo peronismo para convocar a nuevas elecciones y garantizar el retorno de Perón a la presidencia."
+				],
+				"correctAnswer": "D. Es verdadero, porque fue producto de movimientos dentro del mismo peronismo para convocar a nuevas elecciones y garantizar el retorno de Perón a la presidencia."
+			},
+			{
+				"question": "Según Nicolás Simone, los sectores que apoyaron al régimen no democrático suelen dividirse frente a una transición entre quienes quieren volver al viejo régimen y quien entienden que ya no hay marcha atrás.",
+				"answers": [
+					"A. Es falso, porque quienes apoyaron a los militares golpistas nunca apoyan una salida democrática, sea ésta como sea.",
+					"B. Es falso, porque la división siempre se produce por cuestiones económicas, según convenga o no cada sector.",
+					"C. Es verdadero, porque los “blandos” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los \"duros\" son quienes quieren continuar la dictadura aún cuando ya no hay legitimidad para que eso ocurra.",
+					"D. Es verdadero, porque los “liberales” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los \"duros\" son quienes quieren continuar la dictadura aún cuando ya no hay legitimidad para que eso ocurra."
+				],
+				"correctAnswer": "C. Es verdadero, porque los “blandos” apoyaron inicialmente la dictadura, pero en ese momento prefieren una salida democrática. Los \"duros\" son quienes quieren continuar la dictadura aún cuando ya no hay legitimidad para que eso ocurra."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff se hace referencia a que Raúl Alfonsín, después de las elecciones intermedias de octubre de 2001, se dio cuenta de que había una conspiración peronista para terminar con el gobierno de de la Rúa.",
+				"answers": [
+					"A. Es falso, porque el gobierno de de la Rúa tenía una sólida relación con Menem y Duhalde, producto de continuar con la convertibilidad.",
+					"B. Es falso, porque las elecciones de octubre se convirtieron en un masivo plebiscito a favor del gobierno de de la Rúa.",
+					"C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso, después de las elecciones.",
+					"D. Es verdadero, porque el sector del peronismo liderado por Néstor Kirchner quería llegar al poder lo antes posible."
+				],
+				"correctAnswer": "C. Es verdadero, porque los legisladores peronistas ocuparon rápidamente los cargos de la sucesión presidencial en el Congreso, después de las elecciones."
+			},
+			{
+				"question": "Según se señala en el texto de Laura Petrino, el tipo de liderazgo populista tiene una relación compleja con la democracia.",
+				"answers": [
+					"A. Es verdadero, porque con la excusa de la “herencia recibida” se realizan planes de gobierno sin mecanismos de control.",
+					"B. Es falso, porque el liderazgo populista es resultado de una relación indirecta entre líder y seguidores, en la cual quienes más tienen para ganar son los intermediarios.",
+					"C. Es verdadero, porque el populismo se presenta públicamente enfrentado a los intereses de lo anti política y se aferra a rígidos conceptos ideológicos.",
+					"D. Es falso, porque celebran muchas elecciones a lo largo de sus años en el poder, y en general las ganan con contundencia."
+				],
+				"correctAnswer": "A. Es verdadero, porque con la excusa de la “herencia recibida” se realizan planes de gobierno sin mecanismos de control."
+			},
+			{
+				"question": "En el artículo de Javier Hermo se afirma que en Argentina hubo matanzas, pero que éstas fueron en el contexto de guerras externas o civiles, lo que no cuenta para definirlas como “prácticas genocidas”.",
+				"answers": [
+					"A. Es falso, porque cada vez que hubo un golpe de Estado militar en la Argentina hubo prácticas genocidas.",
+					"B. Es verdadero, porque a diferencia de Europa, en la historia argentina no ha habido persecuciones sistemáticas ni campos de concentración.",
+					"C. Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación.",
+					"D. Es verdadero, porque para que haya prácticas genocidas debe haber una guerra civil declarada, cosa que no ocurrió en el país."
+				],
+				"correctAnswer": "C. Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación."
+			},
+			{
+				"question": "Según Graciela Etchevest, terrorismo es un concepto que hace referencia al uso de la violencia para obligar a un gobierno o a instituciones de la sociedad a tomar determinadas decisiones.",
+				"answers": [
+					"A. Es verdadero, porque el grupo que utiliza métodos terroristas busca obligar a gobiernos o instituciones a conceder determinadas demandas políticas, religiosas o sociales.",
+					"B. Es falso, porque el uso de la violencia no implica un acto terrorista, excepto que sea realizado por terroristas extranjeros.",
+					"C. Es verdadero, porque el terrorismo como herramienta de acción política es un asunto que solo compete a los Estados y no involucra a los ciudadanos ni a la sociedad civil.",
+					"D. Es falso, porque este concepto tiene fuertes connotaciones y un alto contenido emocional entre la población si la acción terrorista se produce en el marco de sociedades en crisis económica."
+				],
+				"correctAnswer": "A. Es verdadero, porque el grupo que utiliza métodos terroristas busca obligar a gobiernos o instituciones a conceder determinadas demandas políticas, religiosas o sociales."
+			},
+			{
+				"question": "Romero explica que, luego de la salida de Leopoldo Galtieri como presidente de facto, lo sucedió el general Reynaldo Bignone, que tuvo varios propósitos en su corta gestión (1982-83). Entre ellos:",
+				"answers": [
+					"A. Considerar a los desaparecidos como combatientes en fuga.",
+					"B. Hacer lugar a las Fuerzas Armadas para que investiguen la violación de los Derechos Humanos durante la dictadura.",
+					"C. Considerar a todos los desaparecidos como muertos en combate no sobrevivientes.",
+					"D. Intentar negociar con los partidos políticos más representativos una salida acordada y negociada del régimen autoritario.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la C y la D.",
+					"G. Las opciones correctas son la A y la C.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Según Javier Hermo, el genocidio es un concepto que sirve para caracterizar situaciones en las que se pone en riesgo la continuidad vital de grupos sociales que tienen características comunes. Esto implica que:",
+				"answers": [
+					"A. Estas características comunes pueden ser nacionales, políticas o ideológicas.",
+					"B. Estas características comunes pueden ser étnicas y religiosas.",
+					"C. Estas características comunes pueden ser provinciales, municipales o incluso, barriales.",
+					"D. Estas características comunes pueden ser económicas y sociales.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Luis Alberto Romero afirma que desde 1971, los reclamos sociales fueron identificándose cada vez más con los militares hasta que empezaron a ocupar una posición casi tan central en la política argentina como la que habían tenido en el siglo XIX.",
+				"answers": [
+					"A. Es falso, porque a inicios de la década de los 70 las Fuerzas Armadas, impotentes y desconcertadas con el rumbo del conflicto social, fueron advirtiendo que debían buscar una salida al callejón en el que estaban metidas.",
+					"B. Es falso, porque a inicios de la década de los 70 el clima había cambiado: los sindicalistas eran más dóciles y los empresarios manifestaban abiertamente su confianza en una vuelta del sistema democrático para aumentar la confianza internacional del país.",
+					"C. Es verdadero, porque los peronistas estaban en retirada por la imposibilidad de Juan D. Perón de volver del exilio, y por ello debían negociar acuerdos con diversas fuerzas sociales y políticas y, en definitiva, con los mismos militares.",
+					"D. Es verdadero, porque para mayo de 1969 la autoridad de los militares se consolidó tanto que el gobierno del Gral. Onganía se planteó un proyecto de largo plazo en que las Fuerzas Armadas no pensaban volver a los cuarteles y entregar el poder a los civiles."
+				],
+				"correctAnswer": "A. Es falso, porque a inicios de la década de los 70 las Fuerzas Armadas, impotentes y desconcertadas con el rumbo del conflicto social, fueron advirtiendo que debían buscar una salida al callejón en el que estaban metidas."
+			},
+			{
+				"question": "Según se afirma en el libro Herramientas para el Análisis de la Sociedad y el Estado, si contara con el suficiente apoyo popular, un golpe de Estado realizado por las Fuerzas Armadas podría ser un acto legal, como por ejemplo lo fue el de 1943 en Argentina.",
+				"answers": [
+					"A. Es verdadero, porque un golpe de Estado puede servir para ordenar sociedades en crisis y obtener ahí su legitimidad y legalidad como fue el caso citado de 1943.",
+					"B. Es falso, porque un golpe de Estado es ilegal si los militares apelan a la violencia contra el pueblo como ocurrió en el de 1943.",
+					"C. Es verdadero, porque los militares poseen la función de salvaguarda de los principios constitucionales; su intervención es siempre legal más aún si es en representación de la voz mayoritaria del pueblo, como quedó claro en el plebiscito de 1943.",
+					"D. Es falso, porque un golpe de Estado siempre es una acción por fuera de la ley, y el golpe de 1943, aun con sus características particulares, también fue ilegal."
+				],
+				"correctAnswer": "D. Es falso, porque un golpe de Estado siempre es una acción por fuera de la ley, y el golpe de 1943, aun con sus características particulares, también fue ilegal."
+			},
+			{
+				"question": "Tal como se menciona en el libro Herramientas para el Análisis de la Sociedad y el Estado, durante una dictadura los niveles de consenso también son necesarios para sostener el Gobierno de facto.",
+				"answers": [
+					"A. Es falso, porque los regímenes políticos basados en el autoritarismo y el uso de la fuerza no necesitan de ninguna instancia de consenso, dado que la violencia propinada desde el poder acalla cualquier tipo de diferencia y disciplina a la sociedad.",
+					"B. Es falso, porque los regímenes políticos basados en el autoritarismo y el uso de la fuerza utilizan las encuestas constantemente para medir su nivel de popularidad.",
+					"C. Es verdadero, porque es necesaria una legitimidad que complemente el uso de la fuerza, que en general se origina en alguna causa de interés público que sirva de fundamento al Régimen para ejercer el poder (recuperación del orden, crisis económica, etc.).",
+					"D. Es verdadero, porque los conceptos se elaboran a partir de elementos concretos, tomados de la realidad cotidiana, y por ello no requieren alguna explicación o análisis una vez formulados."
+				],
+				"correctAnswer": "C. Es verdadero, porque es necesaria una legitimidad que complemente el uso de la fuerza, que en general se origina en alguna causa de interés público que sirva de fundamento al Régimen para ejercer el poder (recuperación del orden, crisis económica, etc.)."
+			},
+			{
+				"question": "Según Romero, la Iglesia Católica evolucionó hacia una creciente hostilidad al Gobierno radical encabezado desde 1983 por Alfonsín.",
+				"answers": [
+					"A. Es falso, porque el Partido Radical y su líder Alfonsín eran tradicionalmente católicos y eso se reflejó en su agenda de gobierno, especialmente en lo cultural.",
+					"B. Es verdadero, porque la Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en la enseñanza pública.",
+					"C. Es verdadero, porque la Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el gobierno y que luego fuera rechazado en el Congreso.",
+					"D. Es verdadero, porque la Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios del Estado."
+				],
+				"correctAnswer": "D. Es verdadero, porque la Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios del Estado."
+			},
+			{
+				"question": "Según lo planteado por Patricio Gómez Talavera, el filósofo británico Thomas Hobbes (1588-1679) sostenía que el Estado surgió a través de un acuerdo efectuado entre todos los habitantes de un territorio con el fin de controlar la guerra.",
+				"answers": [
+					"A. Es verdadero, porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social.",
+					"B. Es falso, porque la aparición del Estado implicó que haya más guerras, lo que aceleró la destrucción descontrolada y la disgregación social.",
+					"C. Es verdadero, porque el Estado debe limitarse a la protección de la vida y no es de su incumbencia lo referido a los bienes materiales.",
+					"D. Es falso, porque el Estado es previo a la sociedad y, de hecho, la crea y la organiza."
+				],
+				"correctAnswer": "A. Es verdadero, porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+			},
+			{
+				"question": "Romero afirma que la transformación económica y social que diseñó el Ministro de Economía Martínez de Hoz para la Dictadura asumida en 1976 planteaba un problema: la conducción económica debía mantenerse el tiempo suficiente para que los cambios fueran irreversibles.",
+				"answers": [
+					"A. Es falso, porque las medidas del equipo ministerial no tenían una clara idea del rumbo futuro y solo buscaban aplicar medidas de corto plazo para sostener al Gobierno militar mientras se dedicaba a la represión ilegal.",
+					"B. Es verdadero, y eso se manifestó después de su salida, cuando sus sucesores fracasaron en el intento de cambiar algo del rumbo.",
+					"C. Es verdadero, porque Martínez de Hoz necesitaba ese tiempo para lograr el esquivo apoyo de los organismos internacionales, bancos extranjeros y del sector más concentrado delestablishment local, que desconfiaban del ministro por no conocerlo.",
+					"D. Es falso, porque desde mediados de 1977 –y a medida que la conducción militar se afirmaba– comenzaron a plantearse las mismas políticas que mantuvieron las normas básicas del sistema económico vigentes desde 1930."
+				],
+				"correctAnswer": "B. Es verdadero, y eso se manifestó después de su salida, cuando sus sucesores fracasaron en el intento de cambiar algo del rumbo."
+			},
+			{
+				"question": "Según Romero, desde fines de la década de los 60 y en adelante hubo una aparición de varios grupos guerrilleros. Entre ellos había grandes diferencias teóricas y políticas, aunque también primaba un espíritu común. Esto se observó en que:",
+				"answers": [
+					"A. Todos aspiraban a transformar la movilización espontánea de la sociedad en un alzamiento generalizado, y todos coincidían en una cultura política que retomaba y potenciaba la de los grupos de izquierda.",
+					"B. Todos llevaban la lógica de la exclusión hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+					"C. Para todos, la violencia no solo se justificaba por la que ejercía el adversario: era glorificada como la partera del orden nuevo. Los atributos del verdadero militante eran el heroísmo y la disposición a una muerte gloriosa.",
+					"D. Todos aspiraban a transformar la movilización espontánea de la sociedad en un alzamiento generalizado, y todos coincidían en una cultura política que retomaba y potenciaba la de los grupos piqueteros más tradicionales.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la A, la B y la C.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la A, la B y la C."
+			}
+		],
+	},
+	// PARTE A
+	{
+		year: 2024,
+		name: "PARTE 2 A",
 		questions: [
 			{
 				"question": "Sebastián Linares afirma que James Fishkin ha argumentado que el sorteo, cuando involucra a un número amplio de personas, tiene la virtud de asegurar la representación descriptiva de la población.",
@@ -238,7 +407,7 @@ export const final_data = [
 	// PARTE B
 	{
 		year: 2024,
-		name: "PARTE B",
+		name: "PARTE 2 B",
 		questions: [
 			{
 				"question": "Según Luis A. Romero, desde 2001 y durante 2002, la crisis se desplegó en todo su alcance debido a la conjugación de diversas crisis. Entre ellas:",
@@ -484,7 +653,7 @@ export const final_data = [
 	// PARTE C
 	{
 		year: 2024,
-		name: "PARTE C",
+		name: "PARTE 2 C",
 		questions: [
 			{
 				"question": "Según Edgar Straehle, una de las consecuencias más interesantes de la aparición y difusión de internet ha sido la inversión del tradicional pesimismo que, al menos en el seno de la academia, había prevalecido después de la Segunda Guerra Mundial. Esto generó que:",
@@ -733,7 +902,7 @@ export const final_data = [
 	// PARTE D
 	{
 		year: 2024,
-		name: "PARTE D",
+		name: "PARTE 2 D",
 		questions: [
 			{
 				"question": "Vale 1. Según Diego Pimentel, el filósofo surcoreano Byung-Chul Han desarrolla su obra en torno a la relación entre las ideas de la modernidad y el mundo contemporáneo. Esto es así porque:",
@@ -979,6 +1148,9 @@ export const final_data = [
 			},
 		],
 	},
+
+
+
 ];
 
 const allQuestionsData2 = [
@@ -991,3 +1163,11 @@ const allQuestionsData2 = [
 		],
 	},
 ];
+
+
+
+
+
+
+
+
