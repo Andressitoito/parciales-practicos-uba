@@ -1,4 +1,261 @@
 export const final_data = [
+	// PARTE 1
+	{
+		year: 2024,
+		name: "PARTE FINAL A",
+		questions: [
+			{
+				"question": "Según Luis A. Romero, el presidente Carlos Menem sufrió la oposición de los militares por continuar las políticas del gobierno de Raúl Alfonsín y negarse a indultar a los miembros de las Juntas Militares condenados por delitos cometidos durante la dictadura iniciada en 1976.",
+				"answers": [
+					"A. Es verdadero, ya que Menem llegó al poder por medio del partido peronista que históricamente había sido víctima de la represión ilegal llevada adelante por los militares entre 1976 y 1983 e, incluso Menem mismo, había sido apresado en esa época.",
+					"B. Es verdadero, ya que Menem había establecido sólidos contactos con un muy pequeño grupo nacionalista de militares, llamados carapintadas, y en especial, con su líder, el coronel Seineldín, y por ello se ganó la oposición del resto de las Fuerzas Armadas.",
+					"C. Es falso porque Menem ignoró la cuestión de los derechos humanos y las relaciones con el pasado militar, debido a que ya habían transcurrido varios años de la dictadura y además enfrentaba una grave situación económica a la que dedicó toda su gestión.",
+					"D. Es falso, porque dentro de su política más general de reconciliación con el pasado reciente, Menem indultó en diciembre de 1990 a los integrantes de las Juntas Militares, pese a la fuerte movilización popular en contra de la medida."
+				],
+				"correctAnswer": "D. Es falso, porque dentro de su política más general de reconciliación con el pasado reciente, Menem indultó en diciembre de 1990 a los integrantes de las Juntas Militares, pese a la fuerte movilización popular en contra de la medida."
+			},
+			{
+				"question": "Según Romero, y vista desde una perspectiva más amplia, la economía argentina tuvo, hasta 1975, un desempeño muy poco satisfactorio, y que justificaba los pronósticos apocalípticos y de militares y guerrilleros.",
+				"answers": [
+					"A. Es verdadero, porque Argentina entró en un clima de decadencia desde 1945 que paralizó el crecimiento y revirtió el desarrollo y la tendencia que, en la primera parte del siglo, la había llevado a estar entre los primeros 10 países del mundo.",
+					"B. Es falso, porque en estos años el mundo se encontraba en condiciones de transformar su necesidad de alimentos en demanda efectiva, y por eso se abrieron nuevos mercados para los productos argentinos, particularmente en los países socialistas.",
+					"C. Es falso, ya que en estos años el mundo se encontraba en condiciones de transformar parte de su necesidad de alimentos y se abrieron nuevos mercados para los productos argentinos, particularmente, en los países asiáticos y con China a la cabeza.",
+					"D. Es verdadero, porque desde el Estado argentino no se promovió el vínculo con el mundo ni las exportaciones, de ese modo, no hubo créditos ni subsidios para las inversiones y mucho menos una política sistemática para impulsar la tecnología agropecuaria."
+				],
+				"correctAnswer": "B. Es falso, porque en estos años el mundo se encontraba en condiciones de transformar su necesidad de alimentos en demanda efectiva, y por eso se abrieron nuevos mercados para los productos argentinos, particularmente en los países socialistas."
+			},
+			{
+				"question": "Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar de 1976, sino que ya se observaban en el gobierno peronista que encabezó Isabel Perón entre 1974 y 1976.",
+				"answers": [
+					"A. Es falso, porque las prácticas ligadas a la represión estatal e ilegal son una marca registrada de la dictadura militar asumida en 1976.",
+					"B. Es verdadero, porque desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir la guerrilla en Tucumán. El genocidio estaba en marcha.",
+					"C. Es verdadero, porque la represión en el sur del país en 1975, conocida como la “Patagonia Rebelde”, fue el primer acto en que las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.",
+					"D. Es falso, porque, aun con todos sus defectos, el gobierno peronista que encabezaba Isabel era democrático y las Fuerzas Armadas no tuvieron el poder para implementar una represión de ese tipo."
+				],
+				"correctAnswer": "B. Es verdadero, porque desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir la guerrilla en Tucumán. El genocidio estaba en marcha."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, Gerchunoff señala que resultó fundamental el decreto del gobierno radical por el que permitió al Consejo Supremo de las Fuerzas Armadas, juzgar a las Juntas Militares.",
+				"answers": [
+					"A. Es falso, porque hubo un solo juicio a las Juntas Militares y no fue el del Consejo Supremo de las Fuerzas Armadas.",
+					"B. Es verdadero, porque el decreto mencionado por el entrevistado les permitió a los militares ser absueltos en primera instancia y por ello acceder luego al indulto posterior que el mismo Alfonsín se viera obligado a dictar.",
+					"C. Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las Juntas Militares a ser juzgados primero por sus propios pares, no hubiera existido el famoso juicio posterior.",
+					"D. Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno del Néstor Kirchner en 2003."
+				],
+				"correctAnswer": "C. Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las Juntas Militares a ser juzgados primero por sus propios pares, no hubiera existido el famoso juicio posterior."
+			},
+			{
+				"question": "Según Romero, la Iglesia católica evolucionó hacia una creciente hostilidad al gobierno radical encabezado, desde 1983, por Raúl Alfonsín.",
+				"answers": [
+					"A. Es falso, porque el partido radical y su líder Alfonsín eran tradicionalmente católicos y eso se reflejó en su agenda de gobierno, especialmente en lo cultural.",
+					"B. Es verdadero, porque la Iglesia estaba molesta por su poca injerencia -al menos, menor a sus aspiraciones- en la enseñanza pública.",
+					"C. Es verdadero, porque la Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el gobierno y que luego fuera rechazado en el congreso.",
+					"D. Es verdadero, porque la Iglesia estaba molesta por el tono laico del discurso cultural de instituciones y medios del Estado."
+				],
+				"correctAnswer": "D. Es verdadero, porque la Iglesia estaba molesta por el tono laico del discurso cultural de instituciones y medios del Estado."
+			},
+			{
+				"question": "Romero afirma que la ley del divorcio de 1987 se aprobó luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:",
+				"answers": [
+					"A. Fue el punto culminante de la modernización cultural iniciada en 1983.",
+					"B. Fue el punto de ruptura del entonces presidente Carlos Menem con la Iglesia católica.",
+					"C. Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión y a otros mucho más novedosos.",
+					"D. Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el congreso.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Nicolás Simone afirma que los estudios sobre las transiciones fueron impulsados por expertos en Ciencias Sociales para analizar procesos de los que eran testigos y mejorar la calidad de las democracias que entonces nacían. Pero ¿a qué democracia se referían esos especialistas?",
+				"answers": [
+					"A. Una democracia entendida como un sistema de reglas en el que los ciudadanos se expresan libremente y eligen a sus gobernantes, como algunas de sus características principales.",
+					"B. Una democracia entendida como un sistema de reglas que incluyen la posibilidad de elegir y de ser elegido en el ejercicio de elecciones limpias y competitivas, como algunas de sus características principales.",
+					"C. Una democracia entendida como una democracia sustantiva, sin limitarse a cuestiones instrumentales, pero a la vez integrándolas.",
+					"D. Una democracia entendida como una versión maximalista, es decir en el marco de las transiciones y el derrumbe militar, apuntaban a obtener mayores cuotas de justicia social entre la población de los países latinoamericanos.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la C y la D.",
+					"G. Las opciones correctas son la A, la B y la C.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Romero, luego de electo en 1989, y mientras se ganaba la confianza del establishment, Menem procedió a ampliar los márgenes de poder del Ejecutivo, estirando los límites de lo legal y hasta subvirtiendo algunas de sus instituciones. Esto resultó en que:",
+				"answers": [
+					"A. Para eliminar controles y restricciones, redujo el rango institucional de la Sindicatura General de Empresas Públicas y desplazó o reubicó a jueces o fiscales cuyas iniciativas le resultaban incómodas.",
+					"B. Con la ampliación de la Corte Suprema -en la que designó cuatro miembros de su confianza-, se aseguró la mayoría y la Corte falló en favor del Ejecutivo en cada situación discutida.",
+					"C. Para eliminar controles y restricciones, removió a casi todos los miembros del Tribunal de Cuentas y al fiscal general. También nombró por decreto al procurador general de la Nación.",
+					"D. Las leyes de emergencia y de reforma le dieron importantes atribuciones, que manejó discrecionalmente.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la B, la C y la D.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la A, la B, la C y la D."
+			},
+			{
+				"question": "El video sobre la Transición a la Democracia (que se dedica al caso de Sudáfrica) se refiere a la Comisión de Verdad y Reconciliación (TRC, por sus siglas en inglés) y se la diferencia de otras comisiones semejantes en América Latina y África. ¿Cuáles son estas diferencias?",
+				"answers": [
+					"A. Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de satisfacción mutua.",
+					"B. Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las primeras.",
+					"C. Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a las segundas.",
+					"D. Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante al papel de la Iglesia como elemento de reconciliación común.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la B y la D.",
+					"H. Las opciones correctas son la A y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Romero, la relación del ministro de la última dictadura, Alfredo Martínez de Hoz, con los militares fue compleja, en parte por las profundas divisiones de los uniformados -entre las armas y aun entre facciones-, que se expresaban en apoyos, críticas o bloqueos a su gestión. Esto se vio en que:",
+				"answers": [
+					"A. Los militares juzgaban que la privatización de todas las empresas en manos del Estado era imprescindible para equilibrar el gasto fiscal y evitar las protestas sociales.",
+					"B. Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse con el mantenimiento de un nivel elevado de empleo, de modo que la receta recesiva más clásica estaba descartada.",
+					"C. Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales eran imprescindibles para equilibrar el gasto fiscal y evitar las protestas sociales.",
+					"D. Los militares juzgaban que el control de los sindicatos y la fuerte reducción de los ingresos laborales debían equilibrarse por razones de seguridad.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la B y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Nicolás Simone afirma en el texto sobre transiciones, que los procesos de democratización suelen estar a cargo de una casta política. Es decir, de aquellos que integran y, a la vez, se reconocen mutuamente como parte del elenco político privilegiado de un país.",
+				"answers": [
+					"A. Es falso, porque es una élite la encargada de conducir el proceso de instalación de la democracia.",
+					"B. Es verdadero, porque los políticos finalmente terminan trabajando en función de sus propios intereses y beneficios.",
+					"C. Es verdadero, porque en un régimen democrático solo la casta política toma decisiones basadas en su poder legal y económico.",
+					"D. Es falso, porque en los procesos democráticos –a diferencia de las dictaduras- las decisiones las toma el pueblo."
+				],
+				"correctAnswer": "A. Es falso, porque es una élite la encargada de conducir el proceso de instalación de la democracia."
+			},
+			{
+				"question": "Según afirma Diego Bernardini, las personas mayores se convierten en un grupo subordinado por una gran parte de la sociedad actual.",
+				"answers": [
+					"A. Es verdadero, porque ancianos y niños son personas que, justificadamente, carecen de autonomía para decidir.",
+					"B. Es falso, porque en la sociedad actual no hay edadismo y los adultos mayores gozan de plena autonomía en sus decisiones.",
+					"C. Es falso, porque la desde tiempos inmemoriales los ancianos fueron personas importantes e independientes.",
+					"D. Es verdadero, se trata de una actitud que subyace en el inconsciente y se hace realidad como edadismo."
+				],
+				"correctAnswer": "D. Es verdadero, se trata de una actitud que subyace en el inconsciente y se hace realidad como edadismo."
+			},
+			{
+				"question": "Según afirma María Florencia Deich, un golpe de Estado realizado por las Fuerzas Armadas, si contara con el suficiente apoyo popular, podría ser un acto legal, como por ejemplo lo fue el de 1943 en Argentina.",
+				"answers": [
+					"A. Es falso, porque un golpe de Estado es ilegal si los militares apelan a la violencia contra el pueblo para imponerse como ocurrió en el de 1943.",
+					"B. Es verdadero, porque los militares poseen la función de salvaguarda de los principios constitucionales; su intervención es siempre legal más aún si es en representación de la voz mayoritaria del pueblo como quedo claro en el plebiscito de 1943.",
+					"C. Es falso, porque un golpe de Estado siempre es una acción por fuera de la ley y el de 1943, aun con sus características particulares, también fue ilegal.",
+					"D. Es verdadero, porque un golpe de Estado puede servir para ordenar sociedades en crisis, y obtener ahí su legitimidad y legalidad como fue el caso citado de 1943."
+				],
+				"correctAnswer": "C. Es falso, porque un golpe de Estado siempre es una acción por fuera de la ley y el de 1943, aun con sus características particulares, también fue ilegal."
+			},
+			{
+				"question": "Según explica Enrique García, el Estado liberal plantea la defensa de los llamados derechos naturales, inviolables, precontractuales e individuales.",
+				"answers": [
+					"A. Es verdadero, porque el hombre en su estado pre-social, anterior a la formación de la sociedad, ya posee los derechos a la igualdad, la libertad y la propiedad.",
+					"B. Es falso, porque el liberalismo y el neoliberalismo buscan vulnerar los derechos humanos básicos de las personas.",
+					"C. Es falso, porque no existen derechos naturales, toda elaboración social del hombre es cultural y política.",
+					"D. Es verdadero, porque el Estado liberal significó un retroceso en el proceso de secularización social."
+				],
+				"correctAnswer": "A. Es verdadero, porque el hombre en su estado pre-social, anterior a la formación de la sociedad, ya posee los derechos a la igualdad, la libertad y la propiedad."
+			},
+			{
+				"question": "Según Luis A. Romero, cuando el anunciado final de su segundo mandato colocaba al presidente Menem en la incómoda situación del 'pato rengo', una nueva crisis internacional desequilibró el edificio económico e inició una larga recesión.",
+				"answers": [
+					"A. Es falso, porque la consolidación de la nueva moneda brasileña, el real, a principios de 1999 mejoró las relaciones comerciales, intensificadas desde 1995 con el Mercosur y por eso subieron las exportaciones y aumentaron los ingresos fiscales argentinos.",
+					"B. Es falso, porque la devaluación del peso, que habría solucionado de manera sencilla todos estos desequilibrios, era posible por el régimen de la convertibilidad, que mostraba en tiempos de crisis su cara positiva.",
+					"C. Es verdadero, porque la crisis fue más profunda y prolongada que la del 'Tequila'. Todo se sumó: aumento de los intereses de la deuda, escasez y alto costo del crédito, caída de los precios de productos exportables y recesión interna.",
+					"D. Es verdadero, porque la recuperación de la economía asiática consolidó la confianza global en las 'economías emergentes' y reorientó las inversiones hacia los mercados de esa región que eran más seguros que los latinoamericanos."
+				],
+				"correctAnswer": "C. Es verdadero, porque la crisis fue más profunda y prolongada que la del 'Tequila'. Todo se sumó: aumento de los intereses de la deuda, escasez y alto costo del crédito, caída de los precios de productos exportables y recesión interna."
+			},
+			{
+				"question": "En el artículo de Javier Hermo en el libro Herramientas para el análisis de la Sociedad y el Estado, se afirma que en Argentina hubo matanzas, pero que éstas fueron en el contexto de guerras externas o civiles, lo que no cuenta para definirlas como prácticas genocidas.",
+				"answers": [
+					"A. Es falso, porque cada vez que hubo un golpe de Estado militar en la Argentina hubo prácticas genocidas.",
+					"B. Es verdadero, porque para que haya prácticas genocidas debe haber una guerra civil declarada, cosa que no ocurrió en el país.",
+					"C. Es verdadero, porque a diferencia de Europa, en la historia argentina no ha habido persecuciones sistemáticas ni campos de concentración.",
+					"D. Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación."
+				],
+				"correctAnswer": "D. Es falso, porque en diversos momentos de la historia argentina el Estado mantuvo prácticas genocidas para sostener su dominación."
+			},
+			{
+				"question": "Según Luis A. Romero, sorpresivamente, en noviembre de 1993, Menem y Alfonsín acordaron en secreto el llamado 'Pacto de Olivos', garantizando las condiciones para una reforma constitucional. Esto fue así, porque:",
+				"answers": [
+					"A. Incluiría la cláusula de reelección tan deseada por Menem.",
+					"B. Incluiría una serie de modificaciones impulsadas por la UCR para modernizar el texto y reducir el margen de discrecionalidad presidencial.",
+					"C. Incluiría una serie de modificaciones impulsadas por el peronismo para reducir el margen de discrecionalidad del poder judicial.",
+					"D. Ambas partes acordaron la creación de las llamadas elecciones PASO (Primarias, Abiertas, Simultaneas y Obligatorias).",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "En los últimos meses de 2001, el fantástico nivel alcanzado por el 'riesgo país' argentino descartó cualquier posibilidad de acceso al crédito internacional. Se corporizaba así el fantasma del cese de los pagos de la deuda. Romero afirma que esto ocasionó que:",
+				"answers": [
+					"A. Muchas personas sacaran sus dólares del país y otros retiraran sus depósitos de los bancos. La corrida amenazaba con destruir todo el sistema bancario.",
+					"B. Comenzaran los saqueos en el Gran Buenos Aires y en otros centros urbanos. En los barrios populares, fueron asaltados muchos supermercados pequeños, aprovechando la pasividad de las fuerzas policiales, que se limitaron a proteger a grandes cadenas.",
+					"C. El llamado 'corralito' detuvo la protesta social que se trasladó a las instituciones formales del Estado, como el Congreso.",
+					"D. El peronismo intentará auxiliar, leal e infructuosamente, al gobierno radical para que pudiera sobrevivir a la crisis.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A, la B, la C.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Luis A. Romero afirma que luego de aprobada la ley de convertibilidad y estabilizada la economía, el ministro de Economía, Domingo Cavallo, avanzó con firmeza en las reformas estructurales iniciadas en 1989, pero con más prolijidad. Esto se observó en que:",
+				"answers": [
+					"A. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios públicos, como la telefonía y la luz y el gas.",
+					"B. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios educativos.",
+					"C. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los servicios de salud.",
+					"D. Para achicar el déficit fiscal, el Estado nacional transfirió a las provincias la mayoría de los medios de comunicación públicos.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la B y la C.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Romero, es difícil saber cuándo Perón dejó de verse como el insobornable jefe de la resistencia, y se consideró el destinado a pilotear el proyecto de reconstrucción que asumió como la última misión de su vida. Así, armó su proyecto sobre determinadas bases, entre ellas:",
+				"answers": [
+					"A. Un acuerdo pragmático con los empresarios ligados al capital extranjero, especialmente de los Estados Unidos.",
+					"B. Una conducción más democrática de su movimiento.",
+					"C. Una conducción más centralizada de su movimiento.",
+					"D. Un pacto social con los grandes representantes corporativos.",
+					"E. Las opciones correctas son la B y la C.",
+					"F. Las opciones correctas son la C y la D.",
+					"G. Las opciones correctas son la A, la B y la C.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Entre mediados del siglo XX e inicios del siglo XXI hubo en Argentina numerosos cambios de gobiernos y de régimen político. Entre ellos se puede mencionar:",
+				"answers": [
+					"A. La reelección de Menem generó un cambio de régimen político porque fue intermediada por la reforma constitucional de 1994.",
+					"B. El paso del gobierno de Adolfo Rodríguez Saá a Eduardo Duhalde fue un cambio de régimen político ya que pasó de un sistema de elección popular por elecciones a otra de tipo parlamentaria.",
+					"C. El paso del gobierno de Fernando de la Rúa al de Rodríguez Saá no generó un cambio de régimen político.",
+					"D. El paso del gobierno de Raúl Alfonsín al de Carlos Menem no generó un cambio de régimen político a pesar de integrar ambos dos partidos diferentes.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la C y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la C y la D."
+			}
+		],
+	},
 	// PARTE A
 	{
 		year: 2024,
