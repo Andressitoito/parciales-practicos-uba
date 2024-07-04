@@ -529,6 +529,476 @@ export const final_data = [
 			}
 		],
 	},
+	// PARTE FINAL C
+	{
+		year: 2024,
+		name: "PARTE FINAL C",
+		questions: [
+			{
+				"question": "Según afirma Diego Bernardini, es habitual escuchar que “la sociedad está envejeciendo” y que eso no solo es una realidad, también es una verdad que caracteriza a nuestra época.",
+				"answers": [
+					"A. Es falso, porque las que envejecen son las personas y por lo tanto la población, no la sociedad, que puede tomar distintos caminos frente a esa situación.",
+					"B. Es falso, porque el mundo se encuentra inmerso en un proceso de envejecimiento demográfico que no es global y que afecta, sobre todo, a los países desarrollados.",
+					"C. Es verdadero, porque vivimos tiempos donde las personas viven más por los adelantos científicos y eso es lo que hace que la sociedad esté envejeciendo.",
+					"D. Es verdadero, porque en poco tiempo, las personas mayores de 100 años serán más que el grupo de personas menores de 15 años."
+				],
+				"correctAnswer": "A. Es falso, porque las que envejecen son las personas y por lo tanto la población, no la sociedad, que puede tomar distintos caminos frente a esa situación."
+			},
+			{
+				"question": "Según Diego Pimentel, el filósofo coreano Han sostiene que la relación entre humanos y objetos inteligentes configura una “infoesfera” donde solo importa la verdad.",
+				"answers": [
+					"A. Es verdadero, porque en la “infoesfera” recibimos tanta información que la verdad se vuelve un tema clave.",
+					"B. Es falso, porque en la “infoesfera” predominan las informaciones falsas por sobre todas las cosas.",
+					"C. Es falso, porque en la “infoesfera” solo importa que el mensaje sea eficiente y llegue en el corto plazo de manera efectiva.",
+					"D. Es verdadero, porque en la “infoesfera” todo se rige en torno al largo plazo y la capacidad de verificación de la información."
+				],
+				"correctAnswer": "C. Es falso, porque en la “infoesfera” solo importa que el mensaje sea eficiente y llegue en el corto plazo de manera efectiva."
+			},
+			{
+				"question": "Según Romero, en el gobierno de Eduardo Duhalde la mejora en la economía facilitó la salida política, que tuvo sus complicaciones. Esto fue así porque:",
+				"answers": [
+					"A. Duhalde poseía una clara legitimidad electoral y también de fondos en su caja, pero le faltaba carisma.",
+					"B. Los gobernadores creían que Duhalde aspiraba a hacerse elegir presidente y retaceaban su apoyo.",
+					"C. En la sociedad movilizada predominaba un ánimo contrario a los políticos que hacía dudar del éxito de una convocatoria electoral.",
+					"D. La muerte de dos dirigentes de los movimientos sociales a manos de oficiales de la Policía Bonaerense lo impulsaron a renovar su mandato y a fortalecer su candidatura, utilizando un discurso que apelaba al orden.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Sebastián Linares, solo con el argumento de la igualdad política alcanza para justificar el carácter democrático de cualquier sistema de selección aleatoria.",
+				"answers": [
+					"A. Es verdadero, porque un dictador escogido por sorteo sería democrático, siempre que se honre la igualdad de trato en la selección.",
+					"B. Es verdadero, porque tener una misma probabilidad de acceder a un cargo público es, sin más, mucho más democrático que cualquier otro sistema de elección de representantes.",
+					"C. Es falso, porque el efecto sanitizante del sorteo para designar cargos públicos nunca depende del contexto.",
+					"D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+				],
+				"correctAnswer": "D. Es falso, porque tener una misma probabilidad de acceder a un cargo público no es, sin más, democrático, si solo unas pocas personas alcanzan esas funciones a lo largo de una generación."
+			},
+			{
+				"question": "Enrique García afirma que en la década de 1990 la mayoría de los países socialistas entró en una crisis que derivó en que el ícono comunista, la Unión Soviética, desapareciera. Con ella también fue arrastrada la creencia de que el Estado debía encargarse de todo lo relativo a la sociedad.",
+				"answers": [
+					"A. Es verdadero, porque el Estado soviético se había convertido en el modelo de autoritarismo, de ahogo de la iniciativa individual, de falta de libertad y pluralismo y, además, de ineficiencia económica.",
+					"B. Es falso, porque el fin de la Unión Soviética y el comunismo en 1990 se produjo por el bloqueo de Estados Unidos más que por la mayor o menor eficiencia del sistema socialista.",
+					"C. Es falso, porque las fronteras nacionales comenzaron a recuperar importancia y el socialismo abría entonces una nueva etapa de expansión en el mundo.",
+					"D. Es verdadero, porque la caída del comunismo permitió una gran expansión del Estado de bienestar a nuevos mercados."
+				],
+				"correctAnswer": "A. Es verdadero, porque el Estado soviético se había convertido en el modelo de autoritarismo, de ahogo de la iniciativa individual, de falta de libertad y pluralismo y, además, de ineficiencia económica."
+			},
+			{
+				"question": "Según Max Povse, en la historia de la Argentina también pueden encontrarse regímenes híbridos (por distintas causas y con distintas formas) en los gobiernos de Raúl Alfonsín, Eduardo Duhalde y Fernando De la Rúa.",
+				"answers": [
+					"A. Es falso, porque en Argentina los regímenes híbridos existieron hasta 1945, cuando la democracia se extendió popularmente. A partir de entonces solo existieron regímenes democráticos y autoritarios, pero no un tercer tipo.",
+					"B. Es verdadero, porque Alfonsín, Duhalde y De la Rúa combinaron en sus gobiernos aspectos democráticos indudables con otros no tanto, pero tan importantes en su impacto social y político que fuerzan a incluirlos como regímenes políticos híbridos.",
+					"C. Es falso, porque en Argentina los regímenes híbridos existieron y se encuentran varios casos, pero ninguno de los mencionados en el enunciado. Esos gobiernos mencionados pueden incluirse dentro del grupo de los regímenes políticos democráticos.",
+					"D. Es verdadero, porque en la historia argentina también puede encontrarse un tercer tipo ideal de régimen político en los gobiernos de José María Sanguinetti, Eduardo Frei y Alan García."
+				],
+				"correctAnswer": "C. Es falso, porque en Argentina los regímenes híbridos existieron y se encuentran varios casos, pero ninguno de los mencionados en el enunciado. Esos gobiernos mencionados pueden incluirse dentro del grupo de los regímenes políticos democráticos."
+			},
+			{
+				"question": "Según señala Julio Montero, los derechos humanos (DDHH) son derechos universales, por eso todas las sociedades deben respetarlos siempre y en todas partes.",
+				"answers": [
+					"A. Es falso, porque los DDHH no son inderogables, y las personas pueden enajenarlos o perderlos dependiendo de las circunstancias y solo por razones muy valederas.",
+					"B. Es verdadero, porque según la Declaración Universal, los DDHH son derechos que todas las personas tenemos y deben respetarse siempre sin importar el régimen político, las tradiciones culturales o disposición étnica que exista en una sociedad determinada.",
+					"C. Es falso, porque esta regla no se aplica a quienes violan los derechos de los demás.",
+					"D. Es verdadero, porque los derechos más fundamentales de las personas siempre están ligados a los deseos de las mayorías."
+				],
+				"correctAnswer": "B. Es verdadero, porque según la Declaración Universal, los DDHH son derechos que todas las personas tenemos y deben respetarse siempre sin importar el régimen político, las tradiciones culturales o disposición étnica que exista en una sociedad determinada."
+			},
+			{
+				"question": "Según lo planteado por Patricio Gómez Talavera, el filósofo británico Thomas Hobbes (1588-1679) sostenía que el Estado surgió a través de un acuerdo efectuado entre todos los habitantes de un territorio con el fin de controlar la guerra.",
+				"answers": [
+					"A. Es falso, porque el Estado es previo a la sociedad y, de hecho, la crea y la organiza.",
+					"B. Es falso, porque la aparición del Estado implicó más guerras, lo que aceleró la destrucción descontrolada y la disgregación social.",
+					"C. Es verdadero, porque el Estado debe limitarse a la protección de la vida, y no es de su incumbencia lo referido a los bienes materiales.",
+					"D. Es verdadero, porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+				],
+				"correctAnswer": "D. Es verdadero, porque la aparición del Estado busca poner freno a la destrucción descontrolada y la disgregación social."
+			},
+			{
+				"question": "Según Armando Chaguaceda y Eloy Viera, en los grupos de académicos de América Latina no se comprende bien el esquema de poder vigente en Cuba. Esto se ve en que:",
+				"answers": [
+					"A. Algunos académicos esgrimen para su desinterés justificaciones banales, como las dificultades para entender el idioma local.",
+					"B. Algunos académicos esgrimen para su desinterés justificaciones banales, como que 'es una pequeña isla aislada de la globalización'.",
+					"C. Desde el relativismo izquierdista extienden al gobierno cubano la certificación de ser 'una democracia diferente'.",
+					"D. Solo hay un debate serio sobre el tema dentro de la academia cubana.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según María Florencia Deich, los Golpes de Estado pueden clasificarse. Por ejemplo:",
+				"answers": [
+					"A. Los Golpes de Estado religiosos, en los que el grupo dominante pertenecen a la Iglesia católica.",
+					"B. Cuando un gobierno originalmente no democrático se perpetúa en el poder, más allá de lo legalmente permitido.",
+					"C. Un autogolpe de Estado, que ocurre cuando un presidente que había sido elegido por la vía democrática se convierte en un dictador.",
+					"D. Los Golpes de Estado en los que las Fuerzas Armadas toman el poder y son el grupo más importante de la coalición golpista son los denominados golpes militares.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando un régimen no democrático de un país comienza a retirarse y termina cuando un régimen democrático se impone ya sin riesgo de ser derrocado. En Argentina eso se tradujo en que:",
+				"answers": [
+					"A. La recuperación de las Islas Malvinas en 1982 le dio al gobierno militar un impensado apoyo popular, éste fue de tal magnitud que, incluso con la derrota posterior en la guerra, se mantuvo en el poder varios años sin llamar a elecciones democráticas.",
+					"B. La transición argentina abarcó solo el gobierno de Alfonsín, luego de lo cual la democracia ya estuvo consolidada.",
+					"C. El período de transición, en sentido amplio, finalizó cuando el gobierno de Menem, a quien Alfonsín entregó el poder en 1989, derrotó definitivamente a los militares 'carapintada', en diciembre de 1990.",
+					"D. La derrota militar en la Guerra de Malvinas dejó al gobierno militar sin ningún apoyo y con el repudio total de los ciudadanos, por lo que se vio obligado a llamar a elecciones democráticas.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, particularmente en su etapa de presidente de la Nación, el entrevistado considera a 1985 un punto de inflexión y luego de caída. ¿Por qué elige ese año?",
+				"answers": [
+					"A. Porque el juicio a las Juntas militares, como gran momento de la institucionalidad democrática, no terminó los problemas con los militares, y a pesar de mantener encarcelados a los miembros de las Juntas, no logró resolver los problemas que traían las Fuerzas Armadas a la naciente democracia.",
+					"B. Porque el juicio a las Juntas militares, como gran momento de la institucionalidad democrática, no terminó con los problemas con los militares, y debido a las presiones y alzamientos debió dictar el indulto que los liberó años después.",
+					"C. Porque el llamado Plan Austral, el cual había permitido a Alfonsín ganar las elecciones intermedias de 1985, ya estaba muy deteriorado apenas nueve meses después de su implementación.",
+					"D. Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación de la convertibilidad, un exitoso programa de estabilización económica implementado por el gobierno radical, aunque no le alcanzó a Alfonsín para lograr su reelección.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Según Tomás Straka, Venezuela entregó todo el poder a Hugo Chávez, quien logró generar una ilusión de prosperidad por un súper boom petrolero, pero que al mismo tiempo aprovechó la coyuntura para construir una versión moderada del socialismo real. Esto fue así porque:",
+				"answers": [
+					"A. Chávez aplicó un sistema basado en los valores y creencias clásicas que rigieron en América Latina en todo el siglo XIX y XX.",
+					"B. No se trató de una socialdemocracia, sino de una idea de socialismo parecido al húngaro y al yugoslavo de los años de la Guerra Fría.",
+					"C. Se aplicó en Venezuela modelos que esencialmente habían triunfado en todas partes.",
+					"D. Se construyó un sistema en el que la propiedad privada y el mercado tuvieron un papel muy secundario.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B y la D."
+				],
+				"correctAnswer": "H. Las opciones correctas son la B y la D."
+			},
+			{
+				"question": "Romero señala que, en la cultura y las relaciones exteriores, el gobierno de Raúl Alfonsín (1983-1989) avanzó con facilidad, pero no fue así con dos poderosas corporaciones, la militar y la sindical. Esto se debió a que:",
+				"answers": [
+					"A. En la campaña electoral Alfonsín denunció un pacto de impunidad entre los militares de la dictadura y los sindicalistas peronistas.",
+					"B. A pesar de las denuncias realizadas durante la campaña, el gobierno radical ofreció una amnistía a las ex Juntas Militares que fue rechazada porque los militares exigían que se liberara de causas judiciales a todos los miembros de las Fuerzas Armadas.",
+					"C. A causa del pacto que habían sellado militares y sindicalistas, el gobierno no abrió espacios para el diálogo y la concertación con la CGT, a quien pretendió ilegalizar.",
+					"D. La CGT organizó trece paros generales contra el gobierno, lo que contrastaba con la escasa actividad realizada por aquella en tiempos del anterior gobierno militar.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la C y la B.",
+					"G. Las opciones correctas son la A y la D.",
+					"H. Las opciones correctas son la A, la B, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "Según Romero, desde fines de la década del ´60 y en adelante, hubo una aparición de varios grupos guerrilleros. Entre ellos había grandes diferencias teóricas y políticas, aunque también primaba un espíritu común. Esto se observó en que:",
+				"answers": [
+					"A. Todos aspiraban a transformar la movilización espontánea de la sociedad en un alzamiento generalizado, y todos coincidían en una cultura política que retomaba y potenciaba la de los grupos de izquierda.",
+					"B. Todos llevaban la lógica de la exclusión hasta sus últimas consecuencias: el enemigo debía ser aniquilado.",
+					"C. Para todos, la violencia no sólo se justificaba por la del adversario: era glorificada como la partera del orden nuevo. Los atributos del verdadero militante eran el heroísmo y la disposición a una muerte gloriosa.",
+					"D. Todos aspiraban a transformar la movilización espontánea de la sociedad en un alzamiento generalizado, y todos coincidían en una cultura política que retomaba y potenciaba la de los grupos piqueteros más tradicionales.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la A, la B y la C.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la A, la B y la C."
+			},
+			{
+				"question": "Según Romero, cuando Isabel –así era conocida la viuda de Perón- asumió la presidencia, se dedicó a parodiar las fórmulas y los gestos del líder muerto para capitalizar su herencia simbólica. Durante su mandato:",
+				"answers": [
+					"A. Su política se apartó totalmente de la que había trazado Perón en sus últimos años.",
+					"B. Su política continuó la realizada por Perón en sus últimos años, pero con cambios solo discursivos, para mostrar su propio liderazgo.",
+					"C. Isabel se propuso homogeneizar el gobierno, colocando a amigos e incondicionales en los puestos clave y rompiendo una a una las alianzas que había tejido Perón.",
+					"D. Isabel y los sindicalistas no coincidían en ningún punto de la agenda social que habían heredado del gobierno de Perón.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la A, la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Según Romero y como preludio a la crisis del 2001, la convertibilidad, sumada a diez años de inflación interna, tuvo como consecuencia un peso sobrevaluado. Esto generó que:",
+				"answers": [
+					"A. Se hiciera difícil competir en los mercados mundiales.",
+					"B. La impresión desmedida de billetes hiriera de muerte a la convertibilidad.",
+					"C. Retrocedieran las exportaciones agrícola-ganaderas que habían sido uno de los pilares de la transformación de los noventa.",
+					"D. Pagar los vencimientos de la deuda requería un enorme esfuerzo fiscal y una severa reducción de los gastos del Estado.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "Según Romero, la Alianza, exitosa en lo electoral, no funcionó como coalición de gobierno. Esto fue así porque:",
+				"answers": [
+					"A. Carlos Chacho Álvarez, el vicepresidente, apostó a la colaboración de los senadores y los gobernadores justicialistas.",
+					"B. Combinar tendencias y puntos de vista divergentes era imposible, aun con el talento político de De la Rúa.",
+					"C. La Unión Cívica Radical tuvo fricciones cada vez más fuertes con el grupo que rodeaba a De la Rúa.",
+					"D. Alfonsín fue tomando distancia de la defensa a ultranza de la convertibilidad.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Según Sebastián Linares, el sorteo de cargos públicos resulta congruente con el valor de la igualdad de trato, puesto que concede a todos una igual probabilidad de obtener un cargo público. Sin embargo, esto tendría cuestionamientos porque:",
+				"answers": [
+					"A. Parece lesionar el valor de la libertad de elegir cuando el número de cargos sorteados es reducido.",
+					"B. Es razonable argumentar que no queremos vivir bajo leyes sobre las que no hemos podido manifestar nuestra libertad de elección.",
+					"C. En el sorteo, el ausentismo político y la abstención no son neutralizados ni obstaculizados.",
+					"D. El sorteo sigue siendo una forma antidemocrática, aunque se la combine con las formas tradicionales de elecciones.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Según Paola Batista de Alemán, existen distintos tipos de tiranía, que se pueden diferenciar según su grado de intensidad autocrática.",
+				"answers": [
+					"A. Es falso, porque distinguir su variedad puede mitigar el terrible daño que, en cualquiera de sus formas, inflige a quienes la padecen.",
+					"B. Es falso, porque el ejercicio por comprenderlas en detalle podría derivar en su valoración positiva.",
+					"C. Es verdadero, porque se trata de identificar entre sus formas, su alcance y, de alguna manera, su perversidad.",
+					"D. Es verdadero, porque en ese análisis podríamos distinguir tiranías que son más o menos democráticas."
+				],
+				"correctAnswer": "C. Es verdadero, porque se trata de identificar entre sus formas, su alcance y, de alguna manera, su perversidad."
+			},
+			{
+				"question": "Según el video con la entrevista a Miguel Ángel Quintana Paz, la mejor palabra que define la actualidad, donde existe una propuesta cultural muy diferente a la civilización en la cual vivimos, es lo “woke”. Esto es así porque:",
+				"answers": [
+					"A. Woke es un anglicismo que viene de awakening y denomina cierto despertar de tipo religioso en países anglosajones.",
+					"B. Imperan ideas que vienen a sustituir el mundo religioso y cultural tradicional.",
+					"C. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el populismo.",
+					"D. Lo woke es una nueva forma de ideología que proviene de tradiciones políticas sudamericanas, entre ellas, el conservadurismo social.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+		],
+	},
+	// PARTE FINAL D
+	{
+		year: 2024,
+		name: "PARTE FINAL D",
+		questions: [
+			{
+				"question": "Según Romero, con la crisis del 2001 el doble cuestionamiento de la autoridad política y de la moneda impulsó el despliegue de la crisis social y política. Esto produjo que:",
+				"answers": [
+					"A. En el año de la crisis se agravara la situación de los 'perdedores' de la gran transformación de las décadas anteriores.",
+					"B. Comenzaran a aparecer propuestas muy realistas, incluso un poco burocráticas, para organizar de manera diferente la sociedad y la política.",
+					"C. La crisis empeorara la situación de los grupos que habían sido los perdedores sociales de los años 90’ pero, finalmente, no arrastró a otros segmentos sociales en esa crisis que comenzaba con el siglo XX.",
+					"D. La doble crisis fortaleciera las conductas ligadas a la mera supervivencia y se frenaran otras propuestas, fragmentarias, posiblemente utópicas, pero con una dosis de creatividad para organizar de manera diferente la sociedad y la política y así salir de la crisis.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "A. En el año de la crisis se agravara la situación de los 'perdedores' de la gran transformación de las décadas anteriores."
+			},
+			{
+				"question": "Según Edgar Straehle, las revueltas de Hong Kong en 2014 han servido para recordar que los últimos tiempos han estado plagados de imprevistas movilizaciones populares, sea en países del llamado primer mundo o en otros mucho más pobres. Esto produjo que:",
+				"answers": [
+					"A. Internet se haya convertido en una herramienta del poder de los Estados para controlar a la población.",
+					"B. Los gobiernos intervinieran para garantizar la neutralidad de la red.",
+					"C. Internet se haya revelado como un espacio díscolo, difícil de domesticar y que aparece como una suerte de quinto poder.",
+					"D. Una sucesión de levantamientos haya incrementado el miedo que los gobiernos profesan a Internet.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "Según Diego Pimentel, uno de los cambios de paradigmas tecnosociales a los cuales la humanidad se ha enfrentado durante la segunda mitad del siglo XX ha sido el proceso de achicamiento del universo de los objetos materiales.",
+				"answers": [
+					"A. Es falso, porque el materialismo ha aumentado la ambición social por obtener más cosas concretas.",
+					"B. Es falso, porque el universo de objetos materiales ha crecido en forma significativa.",
+					"C. Es verdadero, porque nuestra obsesión no son ya las cosas, sino la información y los datos.",
+					"D. Es verdadero, porque nuestra obsesión no son ya las cosas, sino el dinero y el prestigio social."
+				],
+				"correctAnswer": "C. Es verdadero, porque nuestra obsesión no son ya las cosas, sino la información y los datos."
+			},
+			{
+				"question": "Según Paula Bertino, las democracias surgidas en tiempos postransicionales en América Latina no se correspondían con los modelos teóricos existentes en ese mismo momento.",
+				"answers": [
+					"A. Es falso, porque las democracias surgidas en aquellos años se correspondían con los modelos teóricos existentes, particularmente los que analizaban las transiciones a la democracia.",
+					"B. Es verdadero, porque no solo no correspondían a los modelos teóricos existentes, tampoco correspondían a los ejemplos prácticos de democracias que habían existido en años anteriores.",
+					"C. Es falso, porque en la práctica, eran los mismos tipos de democracias que habían existido en años anteriores, donde la sociedad votaba libremente a quienes serían las autoridades que los gobernaran.",
+					"D. Es verdadero, porque los expertos observaban que las tipologías previas eran parcialmente útiles, por lo cual a veces no era necesario recurrir a nuevos conceptos, pero en otras ocasiones sí."
+				],
+				"correctAnswer": "B. Es verdadero, porque no solo no correspondían a los modelos teóricos existentes, tampoco correspondían a los ejemplos prácticos de democracias que habían existido en años anteriores."
+			},
+			{
+				"question": "Según señala Julio Montero, la noción de derechos humanos recién alcanzó aceptación internacional plena durante la Segunda Guerra Mundial. Las aberraciones de los nazis no podían repetirse, ni en Alemania ni en ninguna parte.",
+				"answers": [
+					"A. Es falso, porque los derechos humanos son un concepto que organiza la sociedad occidental desde la aparición del Estado liberal.",
+					"B. Es verdadero, porque los derechos humanos son un concepto que organiza la sociedad occidental desde la aparición del Estado liberal.",
+					"C. Es falso, porque desde entonces si un país se mete en los asuntos internos de otro, su “interferencia” podría ser considerada como un acto de guerra y dar lugar a represalias, aunque se trataran de evitar violaciones sistemáticas a los DD.HH.",
+					"D. Es verdadero, porque hasta la llegada de los nazis al poder predominó en el mundo la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos."
+				],
+				"correctAnswer": "D. Es verdadero, porque hasta la llegada de los nazis al poder predominó en el mundo la idea de que cada Estado tenía total libertad para decidir qué derechos les reconocía a sus ciudadanos."
+			},
+			{
+				"question": "Según Max Povse la democracia es uno de los tipos ideales de régimen político que se sitúa en un extremo del espectro. Un régimen político es democrático cuando el acceso y el ejercicio del poder son ilimitados.",
+				"answers": [
+					"A. Es verdadero porque las Fuerzas Armadas son las garantes de que los gobiernos se auto limiten en su conducción del Estado.",
+					"B. Es falso porque la democracia no es un régimen político real, y además no se encuentra en el extremo del espectro.",
+					"C. Es verdadero ya que el poder popular carece de límites, excepto los que el mismo pueblo o la sociedad se autoimpongan.",
+					"D. Es falso porque dicho acceso se hace a través de elecciones libres y justas, y los elegidos deben ejercer el poder también de manera democrática, lo que significa que debe existir un Estado de derecho."
+				],
+				"correctAnswer": "D. Es falso porque dicho acceso se hace a través de elecciones libres y justas, y los elegidos deben ejercer el poder también de manera democrática, lo que significa que debe existir un Estado de derecho."
+			},
+			{
+				"question": "Nadia Yannuzzi afirma que las instituciones son pautas, leyes, códigos, estatutos, constituciones, organismos del Estado o comportamientos establecidos culturalmente con funciones sociales muy definidas destinadas a producir algunos de los siguientes efectos, como ser:",
+				"answers": [
+					"A. Enmarcar las interacciones sociales, pero no para guiarlas o regularlas, ya que la ley considera que las personas son mayores de edad y deben ser tratadas como adultos responsables que pueden hacerse cargo de las consecuencias de sus acciones.",
+					"B. Generar un poderoso efecto: el orden. Y así ordenan la vida cotidiana, instalan un sentido común sobre cómo deben ser las cosas y regulan las expectativas de las personas.",
+					"C. Guiar y regular las relaciones entre las personas y los grupos que componen una sociedad, ya que estos tienen diferentes características, dado que las sociedades son complejas y presentan diversos tipos de interacciones entre las personas.",
+					"D. Impedir que se genere un poderoso efecto de orden, a través del cual el Estado construya un sentido común sobre cómo deben ser las cosas y también, evitar que se imponga una regulación de las expectativas de las personas.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la A, la B y la C.",
+					"H. Las opciones correctas son la A, la B y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Patricio Gómez Talavera, el Estado no es representativo de la totalidad de la sociedad ya que esta es heterogénea y conflictiva. Esto genera que:",
+				"answers": [
+					"A. El control del Estado siempre debe quedar en manos de todos los grupos de la sociedad para evitar que alguno en particular lo use en su propio beneficio.",
+					"B. Las elecciones democráticas se realizan periódicamente para terminar con esa heterogeneidad.",
+					"C. Siempre hay grupos sociales o individuos que resisten a la dominación por parte del Estado.",
+					"D. A veces el conflicto continúa dentro del Estado mismo y funcionarios compiten entre ellos porque representan los intereses de grupos diferentes.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la A y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "G. Las opciones correctas son la C y la D."
+			},
+			{
+				"question": "En el video en que Eduardo Levy Yeyaty entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín, se hace referencia a que Alfonsín primero se resistió a acordar con el entonces presidente Carlos Menem, pero después lo hizo a espaldas o en contra de parte de su propio partido para reformar la Constitución Nacional. Eso fue así porque:",
+				"answers": [
+					"A. Alfonsín logró imponer en ese acuerdo alguna de las ideas de su propio proyecto de reforma constitucional, el que había fracasado en los años ochenta.",
+					"B. Alfonsín logra un triunfo a largo plazo y Menem lo obtiene a corto plazo.",
+					"C. Alfonsín logra un triunfo a corto plazo y Menem lo obtiene a largo plazo.",
+					"D. Porque Alfonsín manejaba el partido con mano de hierro y nadie lo podía criticar o hacer algo diferente.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la B."
+			},
+			{
+				"question": "Graciela Etchevest afirma que el terrorismo de Estado es un tipo especial de terrorismo ya que su protagonista no es un grupo extremista ni personas que buscan imponer una religión o idea por la fuerza. El terrorista, en este caso, es el Estado. Esto implica que:",
+				"answers": [
+					"A. Se genere una situación muy delicada ya que produce la convivencia de un Estado formal y otro “clandestino”.",
+					"B. El Estado, al violar las leyes (que debería cumplir e implementar), refuerza su propia existencia.",
+					"C. Las acciones terroristas son producto de un plan sistemático y planificado desde las máximas autoridades públicas.",
+					"D. Las acciones terroristas pueden ser fruto de un error o de un acto de locura momentánea de algún agente público.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la D.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "En el libro de Romero se afirma que el llamado 'Proceso de Reorganización Nacional' iniciado en 1976 supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a normas establecidas por las propias autoridades, pero que sometían sus acciones a una cierta juridicidad. Esto implicó que:",
+				"answers": [
+					"A. En la práctica, esta distinción no se mantuviera y el Estado ilegal fuera corroyendo y corrompiendo al conjunto de las instituciones del Estado y su misma organización jurídica.",
+					"B. En la práctica, esta distinción fuera muy evidente y el Estado legal fuera, poco a poco, aumentando su importancia en el rol de juzgar y condenar a los autores de la violencia política ilegal.",
+					"C. Al crearse la Junta Militar, con atribuciones para designar al presidente y controlar una parte importante de sus actos, las atribuciones respectivas de una y otro no quedaron totalmente deslindadas.",
+					"D. El Estatuto del Proceso y las actas institucionales complementarias -que suprimieron el Congreso- no pudieran evitar que la Constitución Nacional (la ley máxima del país) siguiera guiando y protegiendo la actividad judicial y política.",
+					"E. Las opciones correctas son la A y la C.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la C."
+			},
+			{
+				"question": "Según Verónica Beyreuther, la coacción pura puede servir inicialmente para mantener el dominio sobre una sociedad, pero, al transcurrir el tiempo, se hace necesario algún grado de consenso. Esto es así porque:",
+				"answers": [
+					"A. Los Estados modernos siempre requieren de una legitimidad que puede provenir del uso de la fuerza a la hora de convencer sobre la necesidad de su dominio sobre una sociedad.",
+					"B. Para lograr esa legitimidad, las dictaduras generalmente se consolidan en el poder apelando a un supuesto interés público.",
+					"C. El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.",
+					"D. Las dictaduras buscan sostenerse siempre en un consenso mayoritario, sobre todo si ya no existe la causa que le dio origen.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Luis A. Romero, el peronismo renovador –que entre sus principales figuras tenía a Antonio Cafiero y al gobernador de La Rioja y futuro presidente, Carlos Menem- se proponía adecuar el peronismo al nuevo contexto democrático abierto en 1983. Esto resultó en que:",
+				"answers": [
+					"A. Se proponía adecuar el peronismo al nuevo contexto democrático e insertarse en el discurso de la civilidad que predominaba en la sociedad de la época.",
+					"B. Buscaron constantemente seguir y unirse al liderazgo de Alfonsín, quien era el político más popular del momento y no era tan distinto a la tradición peronista.",
+					"C. Cuando se produjo la crisis militar de Semana Santa de 1987, los dirigentes renovadores aprovecharon para usar el conflicto en su beneficio y reemplazar a Alfonsín, quien ya se encontraba muy desgastado por la crisis económica, pero sin cambiar el régimen político.",
+					"D. No solo inscribían al peronismo en el juego democrático, además parecían sostener la principal condición de éste: la posible alternancia entre partidos competidores y copartícipes.",
+					"E. Las opciones correctas son la A y la D.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la A, la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "E. Las opciones correctas son la A y la D."
+			},
+			{
+				"question": "A partir de la lectura del libro “Herramientas para el Análisis de la Sociedad y el Estado”, se puede afirmar que los conceptos régimen político y gobierno refieren a cuestiones distintas, aunque pueden estar relacionadas en lo siguiente:",
+				"answers": [
+					"A. Puede haber tantos regímenes políticos como gobernantes.",
+					"B. Puede darse el caso de un régimen político que en el transcurrir del tiempo tenga diferentes gobernantes.",
+					"C. Puede haber un gobernante que en el transcurrir del tiempo ejerza su poder en regímenes políticos distintos.",
+					"D. Puede haber un gobernante que, según las circunstancias, se convierta él mismo en un régimen político.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la A, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			},
+			{
+				"question": "Según Romero, desde 2001 y durante 2002, la crisis se desplegó en todo su alcance debido a la conjugación de diversas crisis. Entre ellas:",
+				"answers": [
+					"A. La crisis global como producto del fin violento de la Guerra Fría generaba un contexto incierto y potencias interesadas en otros asuntos.",
+					"B. La crisis política derivada de la acefalía presidencial.",
+					"C. La crisis política por el cuestionamiento general a la legitimidad de los gobernantes.",
+					"D. La crisis económica provocada por la impopular intervención del FMI en la economía argentina.",
+					"E. Las opciones correctas son la A y la B.",
+					"F. Las opciones correctas son la B y la C.",
+					"G. Las opciones correctas son la C y la D.",
+					"H. Las opciones correctas son la B, la C y la D."
+				],
+				"correctAnswer": "F. Las opciones correctas son la B y la C."
+			}
+		],
+	},
 	// PARTE A
 	{
 		year: 2024,
@@ -933,7 +1403,6 @@ export const final_data = [
 			},
 		]
 	},
-
 	// PARTE B
 	{
 		year: 2024,
@@ -1179,7 +1648,6 @@ export const final_data = [
 			}
 		],
 	},
-
 	// PARTE C
 	{
 		year: 2024,
@@ -1678,9 +2146,6 @@ export const final_data = [
 			},
 		],
 	},
-
-
-
 ];
 
 const allQuestionsData2 = [
