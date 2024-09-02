@@ -1,0 +1,330 @@
+Determine cuál de los siguientes fragmentos es un argumento.
+
+1. La piel de los reptiles es impermeable, delgada y cubierta de escamas. Y eso les permite vivir en tierra firme.
+2. Los lagartos mudan su piel al crecer. Se la comen luego para obtener calcio y otros nutrientes.
+X 3. El yacaré tiene hábitos nocturnos o diurnos. Se sigue que tiene hábitos nocturnos, dado que no tiene hábitos diurnos.
+4. Si el Mar Argentino ocupa un tercio del territorio, entonces es la zona ecológica más grande del país.
+
+---------------------------------
+
+Indique cuál es la conclusión del siguiente argumento.
+
+"La mayoría de los anfibios son animales nocturnos. La rana marsupial es un anfibio. Por lo tanto, es un animal nocturno."
+
+1. La mayoría de los anfibios son animales nocturnos.
+X 2. La rana marsupial es un animal nocturno.
+3. La rana marsupial es un anfibio.
+4. Es un animal nocturno.
+
+---------------------------------
+
+Dadas las siguientes oraciones verdaderas:
+
+- La caranca es un ave que se puede observar en el Parque Nacional Tierra del Fuego (PNTF).
+- La caranca se alimenta de algas.
+
+Determine cuál de los siguientes enunciados es verdadero.
+
+1. La caranca es un ave que se puede observar en el PNTF y además no se alimenta de algas.
+X 2. Si la caranca es un ave que se puede observar en el PNTF, entonces se alimenta de algas.
+3. O bien la caranca se alimenta de algas o bien es un ave que se puede observar en el PNTF.
+4. La caranca no es un ave que se puede observar en el PNTF.
+
+---------------------------------
+
+Complete el siguiente enunciado para que sea una tautología. 
+
+Los macaes son aves zambullidoras ...
+
+1. pero no son patos.
+2. pero no son aves zambullidoras.
+X 3. o no son aves zambullidoras.
+4. y bucean con facilidad.
+
+---------------------------------
+
+Dados los siguientes argumentos, determine cuál es válido. 
+
+1. El lago Nahuel Huapi, el valle de Talampaya, el glaciar Perito Moreno y las cataratas del Iguazú son todos parques nacionales, y también zonas cuya fauna y flora son protegidas por el Estado. Por lo tanto, todos los parques nacionales son zonas cuya fauna y flora son protegidas por el Estado.
+X 2. Si el valle de Talampaya es un parque nacional, entonces es una zona cuya fauna y flora son protegidas por el Estado. Pero el valle de Talampaya no es una zona cuya fauna y flora son protegidas por el Estado. Por lo tanto, no es un parque nacional.
+3. Si el valle de Talampaya es un parque nacional, entonces es una zona cuya fauna y flora son protegidas por el Estado. Pero el valle de Talampaya no es un parque nacional. Por lo tanto, no es una zona cuya fauna y flora sean protegidas por el Estado.
+4. Si el valle de Talampaya es un parque nacional, entonces es una zona cuya fauna y flora son protegidas por el Estado. Y el valle de Talampaya de hecho es una zona cuya fauna y flora son protegidas por el Estado. Por lo tanto, es un parque nacional.
+
+---------------------------------
+
+Seleccione la opción que permite completar la oración siguiente de modo que resulte ser correcta y escriba el número en el talón de respuestas.
+
+Si un argumento es válido, ...
+
+1. sus premisas deben ser verdaderas.
+2. su conclusión no puede ser falsa.
+X 3. sus premisas pueden ser falsas.
+4. sus premisas pueden ser inválidas.
+5. sus premisas o su conclusión deben ser verdaderas.
+
+---------------------------------
+
+Dado el siguiente conjunto de
+enunciados:
+
+- El águila coronada es un ave que habita en los Esteros del Iberá y está en peligro de extinción.
+- El cachilo de antifaz es un ave que habita en los Esteros del Iberá y está en peligro de extinción.
+
+A. El cardenal amarillo es un ave que habita en los Esteros del Iberá.
+B. El cachilo de antifaz está en peligro de extinción.
+C. Todas las aves que habitan los Esteros del Iberá están en peligro de extinción.
+D. La mayoría de las aves que habitan los Esteros del Iberá está en peligro de extinción.
+E. El cardenal amarillo está en peligro de extinción.
+
+Seleccione cuáles de los siguientes enunciados corresponden respectivamente a la premisa faltante y a la
+conclusión, de modo tal que el argumento resulte un argumento inductivo por analogía. Escriba en el talón de
+respuestas la opción seleccionada como premisa donde dice "P" y la opción seleccionada como conclusión donde
+dice "C".
+
+1. A y B
+2. C y D
+X 3. A y E
+4. D y E
+5. B y D
+---------------------------------
+
+Determine qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un argumento
+inductivo por enumeración incompleta. 
+
+Los parques nacionales argentinos contienen una gran diversidad de fauna y flora. Porque Iberá, Tierra del Fuego, Iguazú y Arrayanes contienen una gran diversidad de fauna y flora, y son parques nacionales argentinos.
+
+1. Iberá, Tierra del Fuego, Iguazú y Arrayanes son todos los parques nacionales argentinos que hay.
+X 2. El Impenetrable contiene una gran diversidad de fauna y flora y es un parque nacional argentino.
+3. El parque nacional argentino Los Glaciares no contiene una gran diversidad de fauna y flora.
+4. Tijuca contiene una gran variedad de fauna y flora y es un parque nacional brasileño.
+
+---------------------------------
+
+
+
+
+---------------------------------
+
+
+
+Voy a pasarte una serie de textos, son ejercicios, no tenes que resolverlos, tenes que reformatear los ejercicios como un objeto de javascript teniendo en cuenta que en el texto la x o X va a marcar la correctAnswer, y reformatear el texto de la siguiente manera:
+
+- Este es un ejemplo de texto:
+
+Determine cuál de los siguientes fragmentos es un argumento. Seleccione una opción y escriba el número en el
+talón de respuestas.
+1. La piel de los reptiles es impermeable, delgada y cubierta de escamas. Y eso les permite vivir en tierra firme.
+2. Los lagartos mudan su piel al crecer. Se la comen luego para obtener calcio y otros nutrientes.
+X 3. El yacaré tiene hábitos nocturnos o diurnos. Se sigue que tiene hábitos nocturnos, dado que no tiene hábitos diurnos.
+4. Si el Mar Argentino ocupa un tercio del territorio, entonces es la zona ecológica más grande del país.
+
+Determine cuál de los siguientes fragmentos es un argumento. Seleccione una opción y escriba el número en el
+talón de respuestas.
+Si un argumento es válido, ...
+1. sus premisas deben ser verdaderas.
+2. su conclusión no puede ser falsa.
+3. sus premisas o su conclusión deben ser verdaderas.
+4. sus premisas pueden ser inválidas.
+5. sus premisas pueden ser falsas.
+
+
+- Tenes que convertilo a un objeto asi:
+
+      {
+          question: "Determine cuál de los siguientes fragmentos es un argumento. Seleccione una opción y escriba el número en eltalón de respuestas.",
+          answers: [
+            "1. La piel de los reptiles es impermeable, delgada y cubierta de escamas. Y eso les permite vivir en tierra firme.",
+            "2. Los lagartos mudan su piel al crecer. Se la comen luego para obtener calcio y otros nutrientes.",
+            "3. El yacaré tiene hábitos nocturnos o diurnos. Se sigue que tiene hábitos nocturnos, dado que no tiene hábitos diurnos.",
+            "4. Si el Mar Argentino ocupa un tercio del territorio, entonces es la zona ecológica más grande del país."
+          ],
+          correctAnswer: "3. El yacaré tiene hábitos nocturnos o diurnos. Se sigue que tiene hábitos nocturnos, dado que no tiene hábitos diurnos."
+        },
+        {
+          question: "Determine cuál de los siguientes fragmentos es un argumento. Seleccione una opción y escriba el número en el talón de respuestas.
+Si un argumento es válido, ...",
+          answers: [
+            "1. sus premisas deben ser verdaderas.",
+            "2. su conclusión no puede ser falsa.",
+            "3. sus premisas pueden ser falsas.",
+            "4. sus premisas pueden ser inválidas."
+            "5. sus premisas o su conclusión deben ser verdaderas."
+          ],
+          correctAnswer: "5. sus premisas pueden ser falsas."
+        },
+
+
+
+Estar atento a cada question que va a estar dividida por "------------------------", ademas, respetar los espacios que contienen y las comillas que estan dentro de cada pregunta, por ejemplo:
+
+Esta es una pregunta.
+
+"Ademas tiene esta parte la pregunta"
+
+- Y tiene esto
+
+- Y esto tambien.
+
+Respetar el formateo de cada pregunta tal cual se presenta con las comillas y los "-"
+
+Despues tenes que estar atento, cuando te diga "Convertime este texto a un objeto", no tenes que analizar ni responder nada de lo que esta en e ltexto, simplemente reformatear todo el texto a un objeto teniendo en cuenta lo anterior
+
+
+
+Convertime este texto a objeto:
+
+---------------------------------
+
+Dado un sistema axiomático que incluye los siguientes axiomas y regla de inferencia, determine cuál de los enunciados que se enumeran a continuación es un teorema del sistema y responda a la pregunta que se formula a
+continuación.
+Regla de inferencia:
+Modus ponens
+Axiomas:
+Si A entonces B
+A
+B
+- Si Los Glaciares es un parque nacional, entonces es un área
+protegida por el Estado.
+
+- Los Glaciares es un parque nacional.
+- Los Glaciares no es un área protegida por el Estado.
+
+Seleccione el teorema y escriba el número en el talón de respuestas.
+
+X 1. Los Glaciares es un área protegida por el Estado.
+2. Los Glaciares es un parque nacional.
+3. Los Glaciares no es un área protegida por el Estado.
+4. Los Glaciares no es un parque nacional.
+
+---------------------------------
+
+Determine si el siguiente enunciado es verdadero (V) o falso (F) según la concepción contemporánea de los
+sistemas axiomáticos. Los axiomas se eligen convencionalmente como puntos de partida de un sistema.
+Seleccione la opción que justifica su respuesta 
+
+X 1. Los axiomas son aceptados como punto de partida de un sistema sin necesidad de demostrarlos.
+2. Ningún enunciado se elige convencionalmente como punto de partida del sistema.
+3. Los axiomas deben ser demostrados para evitar la regresión al infinito.
+4. Todos los enunciados del sistema se eligen convencionalmente.
+
+---------------------------------
+
+Determine cuál de los siguientes fragmentos es un argumento.
+
+1. Los anfibios respiran con branquias en estado larvario. Muchos luego pasan a usar pulmones en estado adulto.
+2.La cáscara protege a los huevos de reptil de la desecación. También protege al embrión de golpes y fenómenos atmosféricos.
+3.Si el gecko de Sierra de la Ventana se reproduce por partenogénesis, entonces las crías son clones genéticos de la madre.
+X 4.Las serpientes cascabel, yarará y coral tienen lenguas bífidas y son venenosas. La anaconda curiyú tiene lengua bífida. Por lo tanto, es venenosa.
+
+---------------------------------
+
+Indique cuál es la conclusión del siguiente argumento. 
+
+"Si los caimanes tienen sangre fría, entonces necesitan una fuente externa de calor. Podemos inferir que los caimanes la
+necesitan, puesto que tienen sangre fría."
+
+X 1. Los caimanes necesitan una fuente externa de calor.
+2. Si los caimanes tienen sangre fría, entonces necesitan una fuente externa de calor.
+3. Los caimanes tienen sangre fría.
+4. Los caimanes la necesitan.
+
+---------------------------------
+
+Dadas las siguientes oraciones verdaderas:
+- La caranca es un ave que se puede observar en el Parque Nacional Tierra del Fuego (PNTF).
+- La caranca se alimenta de algas.
+Determine cuál de los siguientes enunciados es verdadero. Seleccione una opción y escriba el número en el talón
+de respuestas.
+
+1. La caranca se alimenta de algas pero no es un ave que se puede observar en el PNTF.
+2. Si la caranca se alimenta de algas, entonces no es un ave que se puede observar en el PNTF.
+3. No es cierto que la caranca se alimenta de algas.
+X 4. La caranca se alimenta de algas o es un ave que se puede observar en el PNTF.
+
+---------------------------------
+
+Complete el siguiente enunciado para que sea una contradicción.
+
+Los macaes son aves zambullidoras ...
+
+X 1. pero no son aves zambullidoras.
+2. aunque no son patos.
+3. o son aves zambullidoras.
+4. y bucean con facilidad.
+
+---------------------------------
+
+Dados los siguientes argumentos, determine cuál es válido.
+
+X 1. Todos los lagos que están en Río Negro tienen su origen en el deshielo. El lago Titicaca está en Río Negro. En consecuencia, el lago Titicaca tiene su origen en el deshielo.
+2. El lago Nahuel Huapi, el lago Lácar, el lago Machónico y el lago Correntoso están en Río Negro y tienen su origen en el deshielo. El lago Espejo está en Río Negro. Por ende, tiene su origen en el deshielo.
+3. Si el lago Nahuel Huapi está en Río Negro, entonces tiene su origen en el deshielo. Pero no está en Río Negro. En consecuencia, no tiene su origen en el deshielo.
+4. El lago Nahuel Huapi está en Río Negro o en California. Por lo tanto, está en Río Negro.
+
+---------------------------------
+
+Seleccione la opción que permite completar la oración siguiente de modo que resulte ser correcta.
+
+Si un argumento es inválido, ...
+
+1. su conclusión puede ser válida.
+2. su conclusión necesariamente es falsa.
+3. sus premisas necesariamente son inválidas.
+4. sus premisas o su conclusión deben ser falsas.
+5. su conclusión puede ser verdadera.
+
+---------------------------------
+
+Determine qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un silogismo
+inductivo.
+
+"El 75% de los parques nacionales en el norte argentino presenta un riesgo de incendio elevado. Calilegua es un parque
+nacional en el norte argentino. Luego, Calilegua presenta un riesgo de incendio elevado."
+
+1. Calilegua es un parque nacional con un clima cálido y escasas precipitaciones.
+X 2. El 86% de los parques nacionales en el norte argentino presenta un riesgo de incendio elevado.
+3. El 100% de los parques nacionales en el norte argentino presenta un riesgo de incendio elevado.
+4. El 100% de los parques nacionales y/o reservas naturales en el norte argentino presenta un riesgo de incendio elevado.
+
+---------------------------------
+
+Dado un sistema axiomático que incluye los siguientes axiomas y regla de inferencia, determine cuál de los enunciados que se enumeran a continuación es un teorema del sistema y responda a la pregunta que se formula a continuación.
+Regla de inferencia:
+
+Modus Tollens
+
+Axiomas:
+
+Si A entonces B
+no B
+no A
+
+- Si se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita,
+se avanza en la protección de los humedales.
+- No se avanza en la protección de los humedales.
+- No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+
+1. No se avanza en la protección de los humedales.
+X 2. No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+3. Se avanza en la protección de los humedales.
+4. Se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+
+
+---------------------------------
+
+Determine si el siguiente enunciado es verdadero (V) o falso (F) según la concepción contemporánea de los sistemas axiomáticos.
+Los teoremas se eligen convencionalmente como puntos de partida de un sistema.
+Seleccione la opción que justifica su respuesta y escriba el número en el talón de respuestas.
+X 1. Los teoremas se demuestran a partir de los axiomas del sistema.
+Los teoremas son meros constructos formales aceptados convencionalmente de los que se infieren los axiomas del
+sistema.
+3. Ningún enunciado se elige convencionalmente como punto de partida del sistema.
+4. Todos los enunciados del sistema se eligen convencionalmente.
+
+---------------------------------
+
+
+
+---------------------------------
+
+
