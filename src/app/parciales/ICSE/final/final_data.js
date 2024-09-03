@@ -1,3 +1,5 @@
+import { PT_Mono } from "next/font/google";
+
 export const final_data = [
 	// PARTE FINAL A
 	{
@@ -2158,11 +2160,6 @@ const allQuestionsData2 = [
 		],
 	},
 ];
-
-
-
-
-
 
 
 
