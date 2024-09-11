@@ -310,11 +310,16 @@ X 2. No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
 4. Se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
 
 
+
+
+
+
+
+
+
 ---------------------------------
 
-Determine si el siguiente enunciado es verdadero (V) o falso (F) según la concepción contemporánea de los sistemas axiomáticos.
-Los teoremas se eligen convencionalmente como puntos de partida de un sistema.
-Seleccione la opción que justifica su respuesta y escriba el número en el talón de respuestas.
+Determine el siguiente enunciado verdadero:
 X 1. Los teoremas se demuestran a partir de los axiomas del sistema.
 Los teoremas son meros constructos formales aceptados convencionalmente de los que se infieren los axiomas del
 sistema.
@@ -323,8 +328,123 @@ sistema.
 
 ---------------------------------
 
+Dado un sistema axiomático que incluye los siguientes axiomas y regla de inferencia, determine cuál de los
+enunciados que se enumeran a continuación es un teorema del sistema y responda a la pregunta que se formula a
+continuación.
+Regla de inferencia:
+Modus Tollens
+Axiomas:
+- Si se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita,
+se avanza en la protección de los humedales.
+no B
+- No se avanza en la protección de los humedales.
+no A
+- No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+
+1. Se avanza en la protección de los humedales.
+2. Se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+3. No se avanza en la protección de los humedales.
+Si A entonces B
+X 4. No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.
+
+---------------------------------
+
+Sabiendo que "Los teoremas se eligen convencionalmente como puntos de partida de un sistema." es falso, Seleccione la opción que justifica su respuestas
+
+1. Los teoremas son meros constructos formales aceptados convencionalmente de los que se infieren los axiomas del
+sistema.
+X 2. Los teoremas se demuestran a partir de los axiomas del sistema.
+3. Ningún enunciado se elige convencionalmente como punto de partida del sistema.
+4. Todos los enunciados del sistema se eligen convencionalmente.
+
+---------------------------------
+
+Determine cuál de los siguientes fragmentos es un argumento. Sobre reptiles y cascabeles y anfibios.
+1. La cáscara protege a los huevos de reptil de la desecación. También protege al embrión de golpes y fenómenos
+atmosféricos.
+2. Los anfibios respiran con branquias en estado larvario. Muchos luego pasan a usar pulmones en estado adulto.
+3. Si el gecko de Sierra de la Ventana se reproduce por partenogénesis, entonces las crías son clones genéticos de la
+madre.
+X 4. Las serpientes cascabel, yarará y coral tienen lenguas bífidas y son venenosas. La anaconda curiyú tiene lengua bífida.
+Por lo tanto, es venenosa.
 
 
+
+---------------------------------
+Indique cuál es la conclusión del siguiente argumento. 
+Si el yacaré ñato es un cocodrilo, entonces es un reptil. Efectivamente, el yacaré ñato es un cocodrilo. Por lo tanto, es un
+reptil.
+X1. El yacaré ñato es un reptil.
+2. Si el yacaré ñato es un cocodrilo, entonces es un reptil.
+3. El yacaré ñato es un cocodrilo.
+X 4. Es un reptil.
+---------------------------------
+Complete el siguiente enunciado para que sea una contingencia. 
+Los macaes son aves zambullidoras ...
+1. pero no son aves zambullidoras.
+2. y no son aves zambullidoras.
+X 3. y bucean con facilidad.
+4. o no son aves zambullidoras.
+---------------------------------
+
+
+
+
+Dados los siguientes argumentos, sobre glaciares, determine cuál es válido.
+1. Las cataratas del Iguazú, el lago Nahuel Huapi y el parque nacional Tierra del Fuego son atractivos turísticos de gran
+impacto y reciben más de 10000 visitantes el año. El glaciar Perito Moreno es un atractivo turístico de gran impacto;
+por ende, recibe más de 10000 visitantes al año.
+X 2. Si el glaciar Perito Moreno es una atracción turística de gran impacto, entonces recibe más de 10 visitantes al año.
+Pero el glaciar Perito Moreno no recibe más de 10 visitantes al año. Por lo tanto, no es un atractivo turístico de gran
+impacto.
+3.Si el glaciar Perito Moreno está en las inmediaciones de Bariloche, entonces está en Río Negro. Pero el glaciar Perito
+Moreno no está en las inmediaciones de Bariloche. Por lo tanto, no está en la provincia de Río Negro.
+4. Si el glaciar Perito Moreno es una atracción turística de gran impacto, entonces recibe más de 10000 visitantes al año.
+Y el glaciar Perito Moreno de hecho recibe más de 10000 visitantes al año. Por ende, es un atractivo turístico de gran
+impacto
+
+
+---------------------------------
+
+Seleccione la opción que permite completar la oración siguiente de modo que resulte ser correcta: 
+Si un argumento es válido, ...
+1. sus premisas o su conclusión deben ser verdaderas.
+2. sus premisas o su conclusión deben ser falsas.
+3. su conclusión es necesariamente verdadera.
+4. sus premisas son necesariamente verdaderas.
+X 5. su conclusión puede ser verdadera
+
+
+---------------------------------
+
+
+Determine qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un argumento
+inductivo por analogía.
+Juan, María, Bob y Sophia son turistas extranjeros, fueron a las cataratas del Iguazú y recomiendan el viaje. Olivia es una
+turista extranjera e irá a las cataratas del Iguazú. Seguramente recomiende el viaje.
+1. Todos los turistas extranjeros que van a las cataratas del Iguazú recomiendan el viaje.
+2. Algunos turistas extranjeros que van a las cataratas del iguazú no recomiendan el viaje.
+X 3. Peter es un turista extranjero, fue a las cataratas de Iguazú y recomienda el viaje.
+4. El 90% de los turistas extranjeros que van a las cataratas del Iguazú recomiendan el viaje.
+---------------------------------
+
+
+Determine cuál de los siguientes fragmentos es un argumento sobre lagartijas: 
+1.Las lagartijas cuyanas no tienen pupilas verticales. Porque si tienen pupilas verticales, entonces son nocturnas, y las lagartijas cuyanas no son nocturnas.
+2. Si el lagarto overo pierde su cola, entonces puede generar una nueva.
+3. La serpiente yarará incuba huevos en su vientre. Éstos dejan el cuerpo luego al momento de eclosionar.
+4. Los geckos carecen de párpados. De hecho, mantienen la higiene de sus ojos con su lengua.
+
+---------------------------------
+
+
+Determine cuál de los siguientes fragmentos es un argumento acerca de tortugas:
+1. Si los huevos de tortugas laúd son expuestos a temperaturas menores a 30°C, entonces las crías nacen machos.
+2. Todos los reptiles respiran a través de pulmones. La tortuga laúd es un reptil. Por lo tanto, respira a través de pulmones.
+3. La boa chaqueña mata a sus presas con veneno o constricción. Debe aletargar luego para digerirlas.
+4. Los sapos y las ranas son anfibios carnívoros cazadores. Las salamandras también.
+---------------------------------
+---------------------------------
 ---------------------------------
 
 

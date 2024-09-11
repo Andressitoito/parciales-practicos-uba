@@ -198,15 +198,116 @@ export const allQuestionsData =
       name: "PARTE B",
       questions: [
         {
-          question: "Según Luis A. Romero, el nuevo gobierno de Fernando de la Rúa que asumía en 1999 recibía del presidente saliente, Carlos Menem, una economía en expansión; con un déficit fiscal menor gracias a las privatizaciones y el achicamiento del Estado, y con bajo desempleo.",
+          question: "Determine el siguiente enunciado verdadero:",
           answers: [
-            "A. Es verdadero, porque ni bien llegó al poder, el nuevo gobierno encabezado por Fernando de la Rúa gozó de un legado económico inmejorable a lo que debió sumar la apertura de una nueva etapa de crecimiento económico gracias al contexto internacional.",
-            "B. Es verdadero, porque al comienzo de la gestión de la Alianza, el enorme ingreso de divisas provenientes de las exportaciones de soja, que ya había comenzado con el gobierno anterior, permitió mejorar los ya excelentes índices macroeconómicos.",
-            "C. Es falso, porque si bien las cuentas públicas estaban en orden gracias a las políticas de achicamiento del Estado, aun persistía una alta inflación heredada del gobierno menemista.",
-            "D. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada."
+            "Los teoremas se demuestran a partir de los axiomas del sistema.",
+            "Los teoremas son meros constructos formales aceptados convencionalmente de los que se infieren los axiomas del sistema.",
+            "Ningún enunciado se elige convencionalmente como punto de partida del sistema.",
+            "Todos los enunciados del sistema se eligen convencionalmente."
           ],
-          correctAnswer: "D. Es falso, porque el nuevo gobierno asumió en un marco de alto desempleo, déficit fiscal y actividad económica estancada."
+          correctAnswer: "Los teoremas se demuestran a partir de los axiomas del sistema."
         },
+        {
+          question: "Dado un sistema axiomático que incluye los siguientes axiomas y regla de inferencia, determine cuál de los enunciados que se enumeran a continuación es un teorema del sistema y responda a la pregunta que se formula a continuación.\nRegla de inferencia:\nModus Tollens\nAxiomas:\n- Si se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita, se avanza en la protección de los humedales.\n- No se avanza en la protección de los humedales.\n- No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.",
+          answers: [
+            "Se avanza en la protección de los humedales.",
+            "Se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita.",
+            "No se avanza en la protección de los humedales.",
+            "No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita."
+          ],
+          correctAnswer: "No se crea el Parque Nacional Ansenunza en la Laguna de Mar Chiquita."
+        },
+        {
+          question: "Sabiendo que 'Los teoremas se eligen convencionalmente como puntos de partida de un sistema.' es falso, Seleccione la opción que justifica su respuesta",
+          answers: [
+            "Los teoremas son meros constructos formales aceptados convencionalmente de los que se infieren los axiomas del sistema.",
+            "Los teoremas se demuestran a partir de los axiomas del sistema.",
+            "Ningún enunciado se elige convencionalmente como punto de partida del sistema.",
+            "Todos los enunciados del sistema se eligen convencionalmente."
+          ],
+          correctAnswer: "Los teoremas se demuestran a partir de los axiomas del sistema."
+        },
+        {
+          question: "Determine cuál de los siguientes fragmentos es un argumento. Sobre reptiles y cascabeles y anfibios.",
+          answers: [
+            "La cáscara protege a los huevos de reptil de la desecación. También protege al embrión de golpes y fenómenos atmosféricos.",
+            "Los anfibios respiran con branquias en estado larvario. Muchos luego pasan a usar pulmones en estado adulto.",
+            "Si el gecko de Sierra de la Ventana se reproduce por partenogénesis, entonces las crías son clones genéticos de la madre.",
+            "Las serpientes cascabel, yarará y coral tienen lenguas bífidas y son venenosas. La anaconda curiyú tiene lengua bífida. Por lo tanto, es venenosa."
+          ],
+          correctAnswer: "Las serpientes cascabel, yarará y coral tienen lenguas bífidas y son venenosas. La anaconda curiyú tiene lengua bífida. Por lo tanto, es venenosa."
+        },
+        {
+          question: "Indique cuál es la conclusión del siguiente argumento.\nSi el yacaré ñato es un cocodrilo, entonces es un reptil. Efectivamente, el yacaré ñato es un cocodrilo. Por lo tanto, es un reptil.",
+          answers: [
+            "El yacaré ñato es un reptil.",
+            "Si el yacaré ñato es un cocodrilo, entonces es un reptil.",
+            "El yacaré ñato es un cocodrilo.",
+            "Es un reptil."
+          ],
+          correctAnswer: "El yacaré ñato es un reptil."
+        },
+        {
+          question: "Complete el siguiente enunciado para que sea una contingencia.\nLos macaes son aves zambullidoras ...",
+          answers: [
+            "pero no son aves zambullidoras.",
+            "y no son aves zambullidoras.",
+            "y bucean con facilidad.",
+            "o no son aves zambullidoras."
+          ],
+          correctAnswer: "y bucean con facilidad."
+        },
+        {
+          question: "Dados los siguientes argumentos, sobre glaciares, determine cuál es válido.",
+          answers: [
+            "Las cataratas del Iguazú, el lago Nahuel Huapi y el parque nacional Tierra del Fuego son atractivos turísticos de gran impacto y reciben más de 10000 visitantes el año. El glaciar Perito Moreno es un atractivo turístico de gran impacto; por ende, recibe más de 10000 visitantes al año.",
+            "Si el glaciar Perito Moreno es una atracción turística de gran impacto, entonces recibe más de 10 visitantes al año. Pero el glaciar Perito Moreno no recibe más de 10 visitantes al año. Por lo tanto, no es un atractivo turístico de gran impacto.",
+            "Si el glaciar Perito Moreno está en las inmediaciones de Bariloche, entonces está en Río Negro. Pero el glaciar Perito Moreno no está en las inmediaciones de Bariloche. Por lo tanto, no está en la provincia de Río Negro.",
+            "Si el glaciar Perito Moreno es una atracción turística de gran impacto, entonces recibe más de 10000 visitantes al año. Y el glaciar Perito Moreno de hecho recibe más de 10000 visitantes al año. Por ende, es un atractivo turístico de gran impacto."
+          ],
+          correctAnswer: "Si el glaciar Perito Moreno es una atracción turística de gran impacto, entonces recibe más de 10 visitantes al año. Pero el glaciar Perito Moreno no recibe más de 10 visitantes al año. Por lo tanto, no es un atractivo turístico de gran impacto."
+        },
+        {
+          question: "Seleccione la opción que permite completar la oración siguiente de modo que resulte ser correcta:\nSi un argumento es válido, ...",
+          answers: [
+            "sus premisas o su conclusión deben ser verdaderas.",
+            "sus premisas o su conclusión deben ser falsas.",
+            "su conclusión es necesariamente verdadera.",
+            "sus premisas son necesariamente verdaderas.",
+            "su conclusión puede ser verdadera."
+          ],
+          correctAnswer: "su conclusión puede ser verdadera."
+        },
+        {
+          question: "Determine qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un argumento inductivo por analogía.\nJuan, María, Bob y Sophia son turistas extranjeros, fueron a las cataratas del Iguazú y recomiendan el viaje. Olivia es una turista extranjera e irá a las cataratas del Iguazú. Seguramente recomiende el viaje.",
+          answers: [
+            "Todos los turistas extranjeros que van a las cataratas del Iguazú recomiendan el viaje.",
+            "Algunos turistas extranjeros que van a las cataratas del Iguazú no recomiendan el viaje.",
+            "Peter es un turista extranjero, fue a las cataratas de Iguazú y recomienda el viaje.",
+            "El 90% de los turistas extranjeros que van a las cataratas del Iguazú recomiendan el viaje."
+          ],
+          correctAnswer: "Peter es un turista extranjero, fue a las cataratas de Iguazú y recomienda el viaje."
+        },
+        {
+          question: "Determine cuál de los siguientes fragmentos es un argumento sobre lagartijas:",
+          answers: [
+            "Las lagartijas cuyanas no tienen pupilas verticales. Porque si tienen pupilas verticales, entonces son nocturnas, y las lagartijas cuyanas no son nocturnas.",
+            "Si el lagarto overo pierde su cola, entonces puede generar una nueva.",
+            "La serpiente yarará incuba huevos en su vientre. Éstos dejan el cuerpo luego al momento de eclosionar.",
+            "Los geckos carecen de párpados. De hecho, mantienen la higiene de sus ojos con su lengua."
+          ],
+          correctAnswer: "Las lagartijas cuyanas no tienen pupilas verticales. Porque si tienen pupilas verticales, entonces son nocturnas, y las lagartijas cuyanas no son nocturnas."
+        },
+        {
+          question: "Determine cuál de los siguientes fragmentos es un argumento acerca de tortugas:",
+          answers: [
+            "Si los huevos de tortugas laúd son expuestos a temperaturas menores a 30°C, entonces las crías nacen machos.",
+            "Todos los reptiles respiran a través de pulmones. La tortuga laúd es un reptil. Por lo tanto, respira a través de pulmones.",
+            "La boa chaqueña mata a sus presas con veneno o constricción. Debe aletargar luego para digerirlas.",
+            "Los sapos y las ranas son anfibios carnívoros cazadores. Las salamandras también."
+          ],
+          correctAnswer: "Todos los reptiles respiran a través de pulmones. La tortuga laúd es un reptil. Por lo tanto, respira a través de pulmones."
+        }
 
       ]
     },
